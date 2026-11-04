@@ -1,0 +1,66 @@
+{
+  "site": "https://ademkinatas.github.io",
+  "developer": "Adem Kınataş",
+  "email": "ademkinatas@gmail.com",
+  "admobPublisherId": "pub-8413287910438806",
+  "games": [
+    {
+      "slug": "bzzt",
+      "name": "Bzzt!",
+      "tagline": { "tr": "Yasaklı kelimeler parti oyunu", "en": "The forbidden words party game" },
+      "project": "Taboo",
+      "build": "node docs/bzzt-src/build.mjs",
+      "out": "docs/bzzt",
+      "links": { "privacy": "privacy/", "support": "support/", "terms": "terms/" }
+    },
+    {
+      "slug": "uc-alem",
+      "name": "Üç Âlem",
+      "tagline": { "tr": "Mitolojik satranç", "en": "Mythological chess" },
+      "project": "Mitolojik-Satranc",
+      "build": "python3 site/build.py",
+      "out": "site/public",
+      "domain": "ucalem.com",
+      "links": { "privacy": "privacy.html", "support": "support.html", "terms": "terms.html" }
+    },
+    {
+      "slug": "takama",
+      "name": "Takama",
+      "tagline": { "tr": "Taş, kâğıt, makas", "en": "Rock, paper, scissors" },
+      "project": "tas-kagit-makas",
+      "build": "node site/build.mjs",
+      "out": "site/dist",
+      "domain": "playtakama.com",
+      "links": { "privacy": "privacy/", "support": "support/", "deleteAccount": "delete-account/" }
+    },
+    {
+      "slug": "selfie-dice",
+      "name": "Selfie Dice",
+      "tagline": { "tr": "Zar atma", "en": "Dice roller" },
+      "project": "zar-atma",
+      "build": "node website/build.mjs",
+      "out": "website/public",
+      "domain": "selfiedice.com",
+      "links": { "privacy": "privacy/", "support": "", "terms": "terms/" }
+    },
+    {
+      "slug": "dayak-defteri",
+      "name": "Dayak Defteri",
+      "tagline": { "tr": "Dövüş oyunu", "en": "Fighting game" },
+      "project": "cop-adam-fight",
+      "build": "node tools/site/build.mjs",
+      "out": "site/dist",
+      "domain": "dayakdefteri.com",
+      "links": { "privacy": "en/privacy/", "support": "en/support/", "deleteAccount": "en/delete-account/" }
+    },
+    {
+      "slug": "gece-baskisi",
+      "name": "Gece Baskısı",
+      "tagline": { "tr": "Vampir köylü", "en": "Vampires and villagers" },
+      "project": "Vampir-Koylu",
+      "legalModule": "client/src/lib/legal.ts",
+      "domain": "gecebaskisi.app",
+      "links": { "privacy": "privacy/", "support": "", "terms": "terms/" }
+    }
+  ]
+}

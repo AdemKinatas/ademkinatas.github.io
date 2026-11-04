@@ -1,0 +1,17 @@
+:root{--ink:#1f1530;--muted:#5d5470;--paper:#fbf9ff;--card:#fff;--line:#e4def0;--link:#5b21b6}
+@media (prefers-color-scheme:dark){:root{--ink:#f3effa;--muted:#b7aecb;--paper:#15101f;--card:#1f1830;--line:#33294a;--link:#c4b5fd}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 16px 56px}
+h1{font-size:34px;line-height:1.15;margin:0 0 4px}
+h2{font-size:21px;line-height:1.3;margin:28px 0 6px}
+a{color:var(--link)}
+.meta{color:var(--muted);margin:0 0 24px}
+.games{display:grid;gap:14px}
+article{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px 16px}
+article h2{margin:0 0 2px}
+article p{margin:0 0 12px;color:var(--muted)}
+article nav{display:flex;flex-wrap:wrap;gap:8px 16px}
+article nav a{min-height:32px;display:inline-flex;align-items:center}
+.soon{color:var(--muted);font-style:italic}
+footer{margin-top:32px;color:var(--muted)}
