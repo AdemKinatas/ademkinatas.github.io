@@ -24,8 +24,8 @@
       "links": { "privacy": "privacy.html", "support": "support.html", "terms": "terms.html" }
     },
     {
-      "slug": "takama",
-      "name": "Takama",
+      "slug": "tas-kagit-makas",
+      "name": "Taş Kağıt Makas",
       "tagline": { "tr": "Taş, kâğıt, makas", "en": "Rock, paper, scissors" },
       "project": "tas-kagit-makas",
       "build": "node site/build.mjs",

@@ -6,7 +6,7 @@ Mobil oyunların ortak, ücretsiz sayfaları: gizlilik politikası, kullanım ş
 |---|---|---|
 | Bzzt! | `/bzzt/` | `Taboo/docs/bzzt-src` |
 | Üç Âlem | `/uc-alem/` | `Mitolojik-Satranc/site` |
-| Takama | `/takama/` | `tas-kagit-makas/site` |
+| Taş Kağıt Makas | `/tas-kagit-makas/` | `tas-kagit-makas/site` |
 | Selfie Dice | `/selfie-dice/` | `zar-atma/website` |
 | Dayak Defteri | `/dayak-defteri/` | `cop-adam-fight/tools/site` |
 | Gece Baskısı | `/gece-baskisi/` | `Vampir-Koylu/client/src/lib/legal.ts` |
