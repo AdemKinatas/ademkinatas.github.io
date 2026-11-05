@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Takama – じゃんけん</title>
+<title>じゃんけんビンタ – 3秒のじゃんけん対戦</title>
 <meta name="description" content="3秒カウントダウンのじゃんけん。間に合わなければ燃えちゃう。勝ったら相手にビンタ、しかもキャラの顔はキミ自身。">
 <link rel="canonical" href="https://ademkinatas.github.io/tas-kagit-makas/ja/">
 <link rel="alternate" hreflang="tr" href="https://ademkinatas.github.io/tas-kagit-makas/tr/">
@@ -18,17 +18,17 @@
 <link rel="alternate" hreflang="ja" href="https://ademkinatas.github.io/tas-kagit-makas/ja/">
 <link rel="alternate" hreflang="x-default" href="https://ademkinatas.github.io/tas-kagit-makas/en/">
 <link rel="icon" href="/tas-kagit-makas/icon.png">
-<meta property="og:title" content="Takama – じゃんけん">
+<meta property="og:title" content="じゃんけんビンタ – 3秒のじゃんけん対戦">
 <meta property="og:description" content="3秒カウントダウンのじゃんけん。間に合わなければ燃えちゃう。勝ったら相手にビンタ、しかもキャラの顔はキミ自身。">
 <meta property="og:image" content="https://ademkinatas.github.io/tas-kagit-makas/icon.png">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ademkinatas.github.io/tas-kagit-makas/ja/">
-<meta property="og:site_name" content="Takama">
+<meta property="og:site_name" content="じゃんけんビンタ">
 <meta property="og:locale" content="ja_JP">
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#FFD84D">
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Takama","alternateName":"じゃんけん","description":"3秒カウントダウンのじゃんけん。間に合わなければ燃えちゃう。勝ったら相手にビンタ、しかもキャラの顔はキミ自身。","inLanguage":"ja","applicationCategory":"GameApplication","operatingSystem":"iOS, Android","url":"https://ademkinatas.github.io/tas-kagit-makas/ja/","image":"https://ademkinatas.github.io/tas-kagit-makas/icon.png","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Adem Kınataş","email":"ademkinatas@gmail.com"},"sameAs":[]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"じゃんけんビンタ","alternateName":"じゃんけんビンタ – 3秒のじゃんけん対戦","description":"3秒カウントダウンのじゃんけん。間に合わなければ燃えちゃう。勝ったら相手にビンタ、しかもキャラの顔はキミ自身。","inLanguage":"ja","applicationCategory":"GameApplication","operatingSystem":"iOS, Android","url":"https://ademkinatas.github.io/tas-kagit-makas/ja/","image":"https://ademkinatas.github.io/tas-kagit-makas/icon.png","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Adem Kınataş","email":"ademkinatas@gmail.com"},"sameAs":[]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
@@ -42,7 +42,7 @@ a { color: var(--ink); font-weight: 700; }
 .wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
 header { padding: 18px 0 8px; }
 .bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 26px; letter-spacing: 2px; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 22px; line-height: 1.1; }
 .brand img { width: 44px; height: 44px; border-radius: 12px; border: 3px solid var(--ink); }
 nav { display: flex; gap: 6px; flex-wrap: wrap; margin-left: auto; }
 nav a { text-decoration: none; font-size: 15px; padding: 4px 12px; border-radius: 12px; border: 2px solid var(--ink); background: var(--white); }
@@ -70,20 +70,20 @@ footer { padding: 24px 0 40px; font-size: 14px; }
 <div class="wrap">
 <header>
   <div class="bar">
-    <a class="brand" href="/tas-kagit-makas/ja/"><img src="/tas-kagit-makas/icon.png" alt="">TAKAMA</a>
+    <a class="brand" href="/tas-kagit-makas/ja/"><img src="/tas-kagit-makas/icon.png" alt="">じゃんけんビンタ</a>
     <nav><a href="/tas-kagit-makas/ja/" aria-current="page">ホーム</a><a href="/tas-kagit-makas/ja/support/">サポート</a><a href="/tas-kagit-makas/ja/privacy/">プライバシーポリシー</a><a href="/tas-kagit-makas/ja/delete-account/">アカウント削除</a></nav>
   </div>
   <div class="lang"><label>言語: <select onchange="location.href=this.value"><option value="/tr/">Türkçe</option><option value="/en/">English</option><option value="/de/">Deutsch</option><option value="/es/">Español</option><option value="/fr/">Français</option><option value="/it/">Italiano</option><option value="/pt/">Português</option><option value="/ru/">Русский</option><option value="/zh/">简体中文</option><option value="/ja/" selected>日本語</option></select></label></div>
 </header>
 <main>
 <section class="card hero">
-  <img src="/tas-kagit-makas/icon.png" alt="Takama">
-  <div><h1>Takama – じゃんけん</h1><span class="sticker">3秒。出さなきゃ燃える！</span></div>
+  <img src="/tas-kagit-makas/icon.png" alt="じゃんけんビンタ">
+  <div><h1>じゃんけんビンタ – 3秒のじゃんけん対戦</h1><span class="sticker">3秒。出さなきゃ燃える！</span></div>
 </section>
-<section class="card"><p>Takama は、じゃんけんをアニメ風の対決にしたゲーム。毎回3秒のカウントダウンがあり、間に合わなければその回は負け。勝った方はビンタ、あっかんべー、おしりダンスなどで負けた相手を挑発します。</p><ul><li>オフラインでボットと対戦、または1台のスマホで2人対戦</li><li>オンライン：本物のプレイヤーとランク戦、またはルームコードで友だちと対戦</li><li>キャラに自分の顔をのせられる</li><li>世界ランキング</li><li>10言語対応、登録不要</li></ul>
+<section class="card"><p>じゃんけんビンタは、じゃんけんをアニメ風の対決にしたゲーム。毎回3秒のカウントダウンがあり、間に合わなければその回は負け。勝った方はビンタ、あっかんべー、おしりダンスなどで負けた相手を挑発します。</p><ul><li>オフラインでボットと対戦、または1台のスマホで2人対戦</li><li>オンライン：本物のプレイヤーとランク戦、またはルームコードで友だちと対戦</li><li>キャラに自分の顔をのせられる</li><li>世界ランキング</li><li>10言語対応、登録不要</li></ul>
 <p class="muted">App Store と Google Play で近日公開。</p></section>
 </main>
-<footer>© 2026 Adem Kınataş · Takama · <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a></footer>
+<footer>© 2026 Adem Kınataş · じゃんけんビンタ · <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a></footer>
 </div>
 </body>
 </html>

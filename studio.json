@@ -25,8 +25,8 @@
     },
     {
       "slug": "tas-kagit-makas",
-      "name": "Taş Kağıt Makas",
-      "tagline": { "tr": "Taş, kâğıt, makas", "en": "Rock, paper, scissors" },
+      "name": "Taş Kağıt Tokat",
+      "tagline": { "tr": "Taş, kağıt, tokat!", "en": "Rock, paper, slap!" },
       "project": "tas-kagit-makas",
       "build": "node site/build.mjs",
       "out": "site/dist",
