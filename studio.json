@@ -14,9 +14,9 @@
       "links": { "privacy": "privacy/", "support": "support/", "terms": "terms/" }
     },
     {
-      "slug": "uc-alem",
-      "name": "Üç Âlem",
-      "tagline": { "tr": "Mitolojik satranç", "en": "Mythological chess" },
+      "slug": "mythmate",
+      "name": "Mythmate",
+      "tagline": { "tr": "Tanrılar satrancı", "en": "Mythology chess" },
       "project": "Mitolojik-Satranc",
       "build": "python3 site/build.py",
       "out": "site/public",
