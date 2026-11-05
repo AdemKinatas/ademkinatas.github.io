@@ -9,7 +9,7 @@ Mobil oyunların ortak, ücretsiz sayfaları: gizlilik politikası, kullanım ş
 | Taş Kağıt Tokat | `/tas-kagit-makas/` | `tas-kagit-makas/site` |
 | Zar Atma | `/zar-atma/` | `zar-atma/website` |
 | Dayak Defteri | `/dayak-defteri/` | `cop-adam-fight/tools/site` |
-| Gece Baskısı | `/gece-baskisi/` | `Vampir-Koylu/client/src/lib/legal.ts` |
+| Sabaha Kim Kalır? | `/sabaha-kim-kalir/` | `Vampir-Koylu/client/src/lib/legal.ts` |
 
 ## Nasıl çalışır
 
@@ -35,7 +35,7 @@ Eksikleri yerinde görmek için `node scripts/sync.mjs --drafts` çalıştır. B
 
 ## Ortak ayarlar (`studio.json`)
 
-- `developer`, `email`: Ana sayfada ve Gece Baskısı'nın sayfalarında görünür.
+- `developer`, `email`: Ana sayfada ve Sabaha Kim Kalır?'ın sayfalarında görünür.
 - `admobPublisherId`: AdMob hesabındaki `pub-…` kimliği. Tek satır, bütün oyunları kapsar. AdMob'da her uygulamanın geliştirici web sitesi olarak `https://ademkinatas.github.io` girilir.
 - Yeni oyun eklemek için `games` listesine bir kayıt ekle.
 

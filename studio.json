@@ -54,9 +54,9 @@
       "links": { "privacy": "en/privacy/", "support": "en/support/", "deleteAccount": "en/delete-account/" }
     },
     {
-      "slug": "gece-baskisi",
-      "name": "Gece Baskısı",
-      "tagline": { "tr": "Vampir köylü", "en": "Vampires and villagers" },
+      "slug": "sabaha-kim-kalir",
+      "name": "Sabaha Kim Kalır?",
+      "tagline": { "tr": "Vampir köylü", "en": "Mafia & werewolf with vampires" },
       "project": "Vampir-Koylu",
       "legalModule": "client/src/lib/legal.ts",
       "domain": "gecebaskisi.app",
