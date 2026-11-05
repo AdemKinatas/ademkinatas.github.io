@@ -34,8 +34,8 @@
       "links": { "privacy": "privacy/", "support": "support/", "deleteAccount": "delete-account/" }
     },
     {
-      "slug": "selfie-dice",
-      "name": "Selfie Dice",
+      "slug": "zar-atma",
+      "name": "Zar Atma",
       "tagline": { "tr": "Zar atma", "en": "Dice roller" },
       "project": "zar-atma",
       "build": "node website/build.mjs",
