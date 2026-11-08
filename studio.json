@@ -8,7 +8,7 @@
       "slug": "bzzt",
       "name": "Bzzt!",
       "tagline": { "tr": "Yasaklı kelimeler parti oyunu", "en": "The forbidden words party game" },
-      "project": "Taboo",
+      "project": "bzzt",
       "build": "node docs/bzzt-src/build.mjs",
       "out": "docs/bzzt",
       "links": { "privacy": "privacy/", "support": "support/", "terms": "terms/" }
