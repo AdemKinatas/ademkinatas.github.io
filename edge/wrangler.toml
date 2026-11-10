@@ -1,0 +1,7 @@
+# ademkinatas.com, served from this GitHub Pages site. See src/index.js.
+# Deploy: cd edge && npx wrangler deploy
+name = "ademkinatas-site"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = false
+routes = [{ pattern = "ademkinatas.com", custom_domain = true }]
