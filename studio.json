@@ -1,5 +1,5 @@
 {
-  "site": "https://ademkinatas.github.io",
+  "site": "https://ademkinatas.com",
   "developer": "Adem Kınataş",
   "email": "ademkinatas@gmail.com",
   "admobPublisherId": "pub-8413287910438806",
@@ -38,14 +38,13 @@
       "name": "Zar Atma",
       "tagline": { "tr": "Zar atma", "en": "Dice roller" },
       "project": "zar-atma",
-      "build": "node website/build.mjs",
-      "out": "website/public",
-      "domain": "selfiedice.com",
+      "build": "node site/build.mjs",
+      "out": "site/dist",
       "links": { "privacy": "privacy/", "support": "", "terms": "terms/" }
     },
     {
-      "slug": "dayak-defteri",
-      "name": "Dayak Defteri",
+      "slug": "doodle-knockout",
+      "name": "Doodle KO",
       "tagline": { "tr": "Dövüş oyunu", "en": "Fighting game" },
       "project": "cop-adam-fight",
       "build": "node tools/site/build.mjs",

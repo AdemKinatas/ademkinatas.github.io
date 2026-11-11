@@ -1,14 +1,14 @@
 # ademkinatas.github.io
 
-Mobil oyunların ortak, ücretsiz sayfaları: gizlilik politikası, kullanım şartları, destek, hesap silme ve tek `app-ads.txt`. GitHub Pages ile `https://ademkinatas.github.io` adresinde yayınlanır.
+Mobil oyunların ortak, ücretsiz sayfaları: gizlilik politikası, kullanım şartları, destek, hesap silme ve tek `app-ads.txt`. Herkese açık adres `https://ademkinatas.com`; GitHub Pages (`https://ademkinatas.github.io`) yalnızca kaynak (origin), `ademkinatas.com` ona bir Cloudflare Worker (`edge/`) üzerinden bağlanır.
 
 | Oyun | Adres | Sayfaların kaynağı |
 |---|---|---|
-| Bzzt! | `/bzzt/` | `Taboo/docs/bzzt-src` |
+| Bzzt! | `/bzzt/` | `bzzt/docs/bzzt-src` |
 | Mythmate | `/mythmate/` | `Mitolojik-Satranc/site` |
 | Taş Kağıt Tokat | `/tas-kagit-makas/` | `tas-kagit-makas/site` |
-| Zar Atma | `/zar-atma/` | `zar-atma/website` |
-| Dayak Defteri | `/dayak-defteri/` | `cop-adam-fight/tools/site` |
+| Zar Atma | `/zar-atma/` | `zar-atma/site` |
+| Doodle KO | `/doodle-knockout/` | `cop-adam-fight/tools/site` |
 | Sabaha Kim Kalır? | `/sabaha-kim-kalir/` | `Vampir-Koylu/client/src/lib/legal.ts` |
 
 ## Nasıl çalışır
@@ -35,14 +35,15 @@ Eksikleri yerinde görmek için `node scripts/sync.mjs --drafts` çalıştır. B
 
 ## Ortak ayarlar (`studio.json`)
 
+- `site`: herkese açık adres (`https://ademkinatas.com`). Bir oyunun `domain` alanındaki adresler `<site>/<oyun>` adresine çevrilir; 404 sayfası da ana sayfaya buradan bağlanır. GitHub Pages kaynağı (`edge/src/index.js` içindeki `ORIGIN`) bundan bağımsızdır.
 - `developer`, `email`: Ana sayfada ve Sabaha Kim Kalır?'ın sayfalarında görünür.
-- `admobPublisherId`: AdMob hesabındaki `pub-…` kimliği. Tek satır, bütün oyunları kapsar. AdMob'da her uygulamanın geliştirici web sitesi olarak `https://ademkinatas.github.io` girilir.
+- `admobPublisherId`: AdMob hesabındaki `pub-…` kimliği. Tek satır, bütün oyunları kapsar. AdMob'da her uygulamanın geliştirici web sitesi olarak `https://ademkinatas.com` girilir.
 - Yeni oyun eklemek için `games` listesine bir kayıt ekle.
 
 ## Mağazalara girilecek adresler
 
 | Alan | Değer |
 |---|---|
-| Gizlilik politikası | `https://ademkinatas.github.io/<oyun>/` + `links.privacy` |
-| Destek | `https://ademkinatas.github.io/<oyun>/` + `links.support` |
-| Geliştirici web sitesi (AdMob, Play) | `https://ademkinatas.github.io` |
+| Gizlilik politikası | `https://ademkinatas.com/<oyun>/` + `links.privacy` |
+| Destek | `https://ademkinatas.com/<oyun>/` + `links.support` |
+| Geliştirici web sitesi (AdMob, Play) | `https://ademkinatas.com` |

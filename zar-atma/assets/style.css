@@ -37,3 +37,5 @@ footer{font-size:14px;color:var(--muted)}
 footer nav{display:flex;flex-wrap:wrap;gap:6px 14px;margin:8px 0}
 footer a{color:var(--muted)}
 footer a[aria-current]{color:var(--ink);font-weight:600;text-decoration:none}
+/* Rubik has no glyphs for these scripts or Vietnamese stacked accents: use the system font */
+html:lang(ko) body,html:lang(hi) body,html:lang(ar) body,html:lang(th) body,html:lang(vi) body{font-family:system-ui,-apple-system,"Segoe UI","Noto Sans",sans-serif}
