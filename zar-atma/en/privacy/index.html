@@ -29,23 +29,45 @@
 </head>
 <body>
 <div class="wrap">
-<header><a href="/zar-atma/en/"><img src="/zar-atma/assets/icon.png" alt=""></a><a href="/zar-atma/en/" class="brand">Dice<small>Dice Roller: Face Dice &amp; Duel</small></a></header>
+<header><a href="/zar-atma/en/"><img src="/zar-atma/assets/icon.png" alt=""></a><a href="/zar-atma/en/" class="brand">Dice<small>Dice Game: Hold or Roll</small></a></header>
 <main>
 <article class="card">
 <h1>Privacy Policy — Dice (Zar)</h1>
-<p>Last updated: November 6, 2026</p>
+<p>Last updated: November 11, 2026</p>
 <p>This policy explains what happens to your data when you use the Dice app (&quot;the app&quot;) on iOS or Android. The app is made by Adem Kınataş (&quot;we&quot;, &quot;us&quot;). If you have any question, write to <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>.</p>
-<p>The short version: we don't have accounts, we don't run our own servers and we don't use analytics. Your photos and settings stay on your phone. The app shows ads from Google AdMob and sells an optional &quot;Premium&quot; purchase through RevenueCat; those two services process some data, described below.</p>
+<p>The short version: there are no accounts and no sign-up, and we don't use analytics. Your photos, the names you type and your settings stay on your phone. Daily Dice and online duels run on our game server, which keeps an anonymous player: a random ID, a generated name, a drawn avatar, your country and your Daily Dice results. The app shows ads from Google AdMob and sells optional Premium purchases and subscriptions through Apple, with RevenueCat checking them. Each of these is described below.</p>
 <h2>1. Data that stays on your device</h2>
 <p>The following is stored only on your phone, in the app's local storage. We never receive it.</p>
 <ul>
-<li><strong>Your photos.</strong> If you take a selfie or pick a photo for the dice, the app crops it to a small square (about 256 × 256 pixels) and stores that copy locally. The original photo is not kept or modified. In Duel mode each player can have a photo, and in Party and Pick modes you can add photos and names for the people you play with; all of them are stored the same way. Photos and names are never uploaded or used for anything other than being shown in the game. If you add someone else's photo, please make sure they're happy with it.</li>
-<li><strong>Your settings and lists.</strong> Language, dice style, number of dice, sound, vibration, shake sensitivity, the options you write for the Pick die, and whether Premium is active on this device.</li>
+<li><strong>Your photos.</strong> If you take a selfie or pick a photo for the dice, the app crops it to a small square (about 256 × 256 pixels) and stores that copy locally. The original photo is not kept or modified. In Duel mode each player can have a photo, and in Party and Pick modes you can add photos and names for the people you play with; all of them are stored the same way. Photos and the names you type are never uploaded, never sent to our server and never shown to other players online. If you add someone else's photo, please make sure they're happy with it.</li>
+<li><strong>Your settings and lists.</strong> Language, dice style, number of dice, sound, vibration, shake sensitivity, the options you write for the Pick die, game settings, how many matches you have finished (for ad pacing and the rating request), and whether Premium is active on this device.</li>
+<li><strong>Your online key.</strong> When you first open Daily Dice or online play, the app stores the anonymous player token our server gave it (see section 2) and a copy of your latest Daily Dice result for the home screen.</li>
 </ul>
-<p><strong>Sharing.</strong> When you tap Share, the app draws a result picture on your phone and opens your phone's share sheet. The picture goes only to the app or person you choose there; we never receive it.</p>
+<p><strong>Sharing.</strong> When you tap Share (a result picture or a room invite), the app opens your phone's share sheet. What you share goes only to the app or person you choose there; we never receive it.</p>
 <p><strong>Device backups.</strong> If your phone backs up app data (iCloud Backup on iOS, Google backup on Android), this data is included in that backup. The backup is kept in your own iCloud or Google account under Apple's or Google's terms; we have no access to it.</p>
-<p>You can remove a photo or a person at any time in the app (Settings → Profile photo → Remove photo, or the × next to a person). Deleting the app deletes all of this data.</p>
-<h2>2. Permissions</h2>
+<p>You can remove a photo or a person at any time in the app (Settings → Profile photo → Remove photo, or the × next to a person). Deleting the app deletes all of this data from the phone.</p>
+<h2>2. Daily Dice and online duels (our game server)</h2>
+<p>Daily Dice and online duels are played on our server at zar.ademkinatas.com, which runs on Cloudflare (Cloudflare, Inc. hosts it for us). The rest of the app works without it. The app first contacts it when you open Daily Dice or online play, never before; once you have an online player, the Daily Dice card on the home screen also asks it for today's status.</p>
+<p><strong>What the server stores about you (your &quot;online player&quot;):</strong></p>
+<ul>
+<li>a random player ID and a signed token for it, created when you first open Daily Dice or online play. It is not linked to your name, email, phone number, Apple or Google account or any device identifier;</li>
+<li>a generated name and a drawn avatar, stored as two numbers that point into fixed lists in the app (for example &quot;Brave Otter&quot; with drawing no. 4). You can pick another generated name or drawing; you can't type a name;</li>
+<li>your country as a two-letter code (for example &quot;TR&quot;). Cloudflare works it out from the internet connection of the request when you are created and when you start a Daily Dice run; the code is stored, the IP address is not;</li>
+<li>your day streak and the last day you played Daily Dice, and the last day you used an online feature (for clean-up);</li>
+<li>your Daily Dice runs: the day, the state of the run (turns, dice, points), your score and whether you finished;</li>
+<li>while an online room is open: the room code, the two players' IDs, generated names, avatars and country codes, the match state (scores, turns, dice) and who asked for a rematch. Reactions (the fixed emotes) are passed to the other player and not stored.</li>
+</ul>
+<p><strong>What other players see:</strong> in a room, your generated name, drawing, country flag, score and reactions. On the Daily Dice boards, the world top 50 and the country ranking show generated names, drawings, country flags and scores. Your player ID, token and IP address are never shown. There is no chat and nothing you type is sent.</p>
+<p><strong>IP address.</strong> Like any server, ours sees your IP address when the app connects. It is used in the moment to work out the country code and to limit how many requests one connection can make (so the boards can't be flooded with throwaway players). It is not stored in our database and not written to our logs.</p>
+<p><strong>How long it is kept:</strong></p>
+<ul>
+<li>Daily Dice runs: until the day after the run's day ends (only today's and yesterday's boards exist), then deleted by a daily clean-up.</li>
+<li>Online rooms: deleted when the room closes, at the latest 30 minutes after the last move, 5 minutes after both players have gone, or 6 hours after the room was made.</li>
+<li>Your online player (ID, name, avatar, country, streak): until you delete it, or deleted automatically after 365 days without Daily Dice or online play.</li>
+<li>Copies of a day's board (generated names, avatars, countries, scores, no IDs) are cached by Cloudflare for up to 2 minutes for today's board and up to 6 hours for yesterday's.</li>
+</ul>
+<p><strong>Deleting it:</strong> Settings → Online → Delete my online data removes your online player and all your Daily Dice runs from our server at once, and the app forgets its token. A room you are in at that moment keeps its copy of your generated name until it closes (at most 6 hours), and a cached board can show your row until its cache time runs out. If you play online again, you start as a new player. Deleting the app removes the token from the phone but not the data on our server; use the Settings row first, or write to <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>.</p>
+<h2>3. Permissions</h2>
 <ul>
 <li><strong>Camera</strong> — only to take a selfie for the dice, and only when you tap &quot;Take a selfie&quot;.</li>
 <li><strong>Photos / gallery</strong> — only to pick a photo for the dice, and only when you tap &quot;From gallery&quot;.</li>
@@ -53,8 +75,8 @@
 <li><strong>Tracking (iOS only, App Tracking Transparency)</strong> — asks whether Google AdMob may use your device's advertising identifier (IDFA) to show more relevant ads. The app works the same whether you allow it or not.</li>
 </ul>
 <p>You can withdraw any of these permissions in your phone's settings at any time.</p>
-<h2>3. Advertising (Google AdMob)</h2>
-<p>Unless you buy &quot;Premium&quot;, the app shows a banner ad on the free roll screen and a full-screen ad after every second finished duel or party game. Ads are provided by Google AdMob (Google Ireland Limited / Google LLC).</p>
+<h2>4. Advertising (Google AdMob)</h2>
+<p>Unless you have Premium, the app shows a banner ad on the free roll screen and a full-screen ad after every second finished match (duel, party, solo, Daily Dice or online), when you leave the result. Ads are never shown during a turn or a Daily Dice run. Ads are provided by Google AdMob (Google Ireland Limited / Google LLC). Our server only tells the app how often full-screen ads may show; it shares nothing with Google.</p>
 <p>To deliver ads, measure them and prevent fraud, Google's SDK may collect:</p>
 <ul>
 <li>device identifiers: the advertising ID (IDFA on iOS, if you allow tracking; Android advertising ID), and the app set ID on Android;</li>
@@ -70,7 +92,8 @@
 </ul>
 <h3>Consent</h3>
 <ul>
-<li><strong>EEA, UK and Switzerland (and other regions where required):</strong> when you first open the app, a consent form from Google's User Messaging Platform asks whether you agree to personalised ads and related data processing. If you don't agree, you may still see non-personalised or limited ads.</li>
+<li><strong>When you are asked:</strong> not at the first launch. The questions come after your first roll has landed, once you are back on the free roll screen, never during a match or over a result. Later launches start ads right away. If you have Premium, the app never asks and never starts the ads SDK.</li>
+<li><strong>EEA, UK and Switzerland (and other regions where required):</strong> a consent form from Google's User Messaging Platform asks whether you agree to personalised ads and related data processing. If you don't agree, you may still see non-personalised or limited ads.</li>
 <li><strong>iOS:</strong> after the consent step, iOS asks whether the app may track you. If you choose &quot;Ask App Not to Track&quot;, the IDFA is not shared.</li>
 </ul>
 <h3>Changing your choices</h3>
@@ -78,39 +101,40 @@
 <li><strong>Consent form:</strong> in the app, go to Settings → Privacy choices (shown where the consent rules apply). Deleting and reinstalling the app also brings the form back.</li>
 <li><strong>iOS tracking:</strong> Settings → Privacy &amp; Security → Tracking.</li>
 <li><strong>Android advertising ID:</strong> Settings → Google → Ads (or Settings → Privacy → Ads), where you can delete or reset your advertising ID.</li>
-<li><strong>Stop ads altogether:</strong> buy &quot;Premium&quot;. After the purchase the app no longer loads ads or starts the ads SDK on later launches.</li>
+<li><strong>Stop ads altogether:</strong> get Premium. While Premium is active the app loads no ads and does not start the ads SDK on later launches.</li>
 </ul>
-<h2>4. In-app purchase (RevenueCat)</h2>
-<p>&quot;Premium&quot; is a one-time purchase handled by the App Store or Google Play. We use RevenueCat (RevenueCat, Inc.) to check the purchase and restore it on another device.</p>
+<h2>5. Purchases and subscriptions (Apple and RevenueCat)</h2>
+<p>Premium is sold three ways: a weekly or a monthly auto-renewing subscription, or a one-time Lifetime purchase. Payment, renewal and cancellation are handled by Apple (or Google on Android). We use RevenueCat (RevenueCat, Inc.) to check purchases and subscription status and to restore them on another device.</p>
 <ul>
-<li>Payment is processed by Apple or Google. We and RevenueCat never see your card or payment details.</li>
-<li>RevenueCat receives: an anonymous app user ID it creates (not linked to your name or email), purchase and transaction information (product, price, currency, store, date, receipt/token), and basic device information (operating system, app version, country/storefront, IP address).</li>
-<li>This is used only to confirm and restore your purchase.</li>
+<li>Payment is processed by Apple or Google. We and RevenueCat never see your card or payment details, your name or your email.</li>
+<li>RevenueCat receives: an anonymous app user ID it creates (not linked to your name, email or our game server's player ID), purchase and subscription information (product, price, currency, store, dates, renewal and expiry status, transaction identifiers and receipt), and basic device information (operating system, app version, country/storefront, IP address).</li>
+<li>This is used only to unlock Premium, keep its status up to date (renewals, expiry, billing problems) and restore it.</li>
 </ul>
 <p>RevenueCat Privacy Policy: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></p>
-<h2>5. What we don't do</h2>
+<h2>6. What we don't do</h2>
 <ul>
-<li>We don't have accounts or a sign-up.</li>
-<li>We don't run our own servers, so we hold no copy of your data.</li>
-<li>We don't use analytics, crash reporting or any other tracking tools of our own.</li>
-<li>We don't sell your data.</li>
+<li>We don't have accounts, sign-up, email or passwords.</li>
+<li>We don't upload your photos or anything you type, and there is no chat.</li>
+<li>We don't use analytics, crash reporting or other tracking tools of our own.</li>
+<li>We don't sell your data, and we don't share our server's data with advertisers.</li>
 </ul>
-<h2>6. Legal basis (EEA/UK users)</h2>
+<h2>7. Legal basis (EEA/UK users)</h2>
 <ul>
-<li>Personalised advertising and access to device identifiers: your consent (GDPR Art. 6(1)(a)), which you can withdraw as described above.</li>
+<li>Daily Dice and online duels (the online player, runs, rooms, country code): performance of the service you ask for when you open them (GDPR Art. 6(1)(b)), and our legitimate interest in fair boards and in protecting the server from abuse (Art. 6(1)(f)) for the request limits.</li>
+<li>Personalised advertising and access to device identifiers: your consent (Art. 6(1)(a)), which you can withdraw as described above.</li>
 <li>Non-personalised ads and fraud prevention: our legitimate interest in funding a free app (Art. 6(1)(f)).</li>
-<li>Purchase validation: performance of the contract you entered by buying &quot;Premium&quot; (Art. 6(1)(b)).</li>
+<li>Purchase and subscription validation: performance of the contract you entered by buying Premium (Art. 6(1)(b)).</li>
 </ul>
-<p>Google and RevenueCat may process data outside your country, including in the United States, under the safeguards described in their own policies (such as Standard Contractual Clauses or the EU–US Data Privacy Framework).</p>
-<h2>7. Retention</h2>
-<p>Data on your phone stays until you remove it or delete the app. Google and RevenueCat keep data for the periods described in their policies; purchase records may be kept as long as needed to restore your purchase and meet legal obligations.</p>
-<h2>8. Your rights</h2>
-<p>Depending on where you live, you may have the right to access, correct, delete or object to the processing of your personal data, to withdraw consent, and to complain to your data protection authority. Since we don't hold your data ourselves, most requests are best handled directly with Google (<a href="https://myadcenter.google.com">https://myadcenter.google.com</a>) or RevenueCat. If you need help, write to <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> and we will do what we can, including asking RevenueCat to delete purchase data linked to your anonymous ID.</p>
-<h2>9. Children</h2>
-<p>The app is not directed at children under 13 (or the minimum age in your country), and we don't knowingly collect personal data from them. If you believe a child has used the app and data was collected through the ad or purchase services, contact us at <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> and we will help have it removed.</p>
-<h2>10. Changes</h2>
+<p>Cloudflare, Google and RevenueCat may process data outside your country, including in the United States, under the safeguards described in their own policies (such as Standard Contractual Clauses or the EU–US Data Privacy Framework).</p>
+<h2>8. Retention</h2>
+<p>Data on your phone stays until you remove it or delete the app. Data on our game server is kept as described in section 2. Google and RevenueCat keep data for the periods described in their policies; purchase records may be kept as long as needed to restore your purchase and meet legal obligations.</p>
+<h2>9. Your rights</h2>
+<p>Depending on where you live, you may have the right to access, correct, delete or object to the processing of your personal data, to withdraw consent, and to complain to your data protection authority. You can delete your online data yourself in Settings → Online → Delete my online data. Because the online player is anonymous, we can only find it from the app on your phone; for other requests write to <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>. Requests about ads are best handled directly with Google (<a href="https://myadcenter.google.com">https://myadcenter.google.com</a>); we can ask RevenueCat to delete purchase data linked to your anonymous ID.</p>
+<h2>10. Children</h2>
+<p>The app is not directed at children under 13 (or the minimum age in your country), and we don't knowingly collect personal data from them. If you believe a child has used the app and data was collected, contact us at <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> and we will help have it removed.</p>
+<h2>11. Changes</h2>
 <p>If this policy changes, we will update the date at the top and publish the new version at the same address. Significant changes will also be mentioned in the app's release notes.</p>
-<h2>11. Contact</h2>
+<h2>12. Contact</h2>
 <p>Adem Kınataş <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a></p>
 </article>
 </main>
