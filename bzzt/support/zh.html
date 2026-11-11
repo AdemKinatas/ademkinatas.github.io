@@ -7,7 +7,7 @@
 <style>
 :root{--ink:#2A0A4A;--purple:#6A0DAD;--yellow:#FFC933;--paper:#FBF7FF;--line:#E2D5F2}
 *{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Noto Sans SC",sans-serif}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans","Apple SD Gothic Neo","Noto Sans",sans-serif}
 header{background:var(--ink);color:var(--paper);padding:28px 16px 32px}
 header>div,main,footer>div{max-width:720px;margin:0 auto}
 .brand{color:var(--yellow);font-size:30px;font-weight:800;text-decoration:none}
@@ -22,7 +22,7 @@ p,ul{margin:8px 0}
 li{margin:6px 0}
 a{color:var(--purple)}
 footer{border-top:1px solid var(--line);padding:20px 16px;font-size:15px}
-footer a{margin-right:16px}
+footer a{margin-inline-end:16px}
 </style>
 </head>
 <body>
@@ -30,54 +30,84 @@ footer a{margin-right:16px}
   <a class="brand" href="../index.html">Bzzt!</a>
   <h1>支持</h1>
   
-  <nav aria-label="选择语言"><a href="tr.html" lang="tr">Türkçe</a><a href="en.html" lang="en">English</a><a href="de.html" lang="de">Deutsch</a><a href="fr.html" lang="fr">Français</a><a href="es.html" lang="es">Español</a><a href="it.html" lang="it">Italiano</a><a href="pt.html" lang="pt">Português</a><a href="zh.html" lang="zh" aria-current="page">中文</a></nav>
+  <nav aria-label="选择语言"><a href="tr.html" lang="tr">Türkçe</a><a href="en.html" lang="en">English</a><a href="de.html" lang="de">Deutsch</a><a href="fr.html" lang="fr">Français</a><a href="es.html" lang="es">Español</a><a href="it.html" lang="it">Italiano</a><a href="pt.html" lang="pt">Português</a><a href="zh.html" lang="zh" aria-current="page">中文</a><a href="ru.html" lang="ru">Русский</a><a href="ja.html" lang="ja">日本語</a><a href="ko.html" lang="ko">한국어</a><a href="id.html" lang="id">Bahasa Indonesia</a><a href="hi.html" lang="hi">हिन्दी</a><a href="ar.html" lang="ar">العربية</a><a href="pl.html" lang="pl">Polski</a><a href="nl.html" lang="nl">Nederlands</a><a href="vi.html" lang="vi">Tiếng Việt</a><a href="th.html" lang="th">ไทย</a></nav>
 </div></header>
 <main>
-  <p>使用 Bzzt! 时遇到问题了吗？这里有最常见问题的解答。如果找不到解决办法，请发送邮件至 <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>。</p>
+  <p>使用 Bzzt! 遇到问题了吗？以下是最常见问题的解答。如果没有找到你要的答案，请发送邮件至 <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>。</p>
     <section>
-      <h2>如何游玩？</h2>
-      <p>先分好队伍。解说者向队友解释卡片上的词语，但不能说出下方列出的禁词。猜对得 1 分，说出禁词扣 1 分。达到目标分数的队伍在回合结束时赢得游戏。</p>
+      <h2>怎么玩？</h2>
+      <p>大家分成两队。一名玩家向自己的队友描述卡牌上的词，但不能说出卡牌下方的任何一个禁词。猜对得一分，说出禁词扣一分。“跳过”可以跳过一张卡牌，次数不超过跳过上限。开局前，你可以选择模式、回合时长、跳过次数、目标分数、难度和类别。</p>
       
     </section>
     <section>
-      <h2>如何与朋友在线游玩？</h2>
+      <h2>游戏什么时候结束？</h2>
+      <p>有队伍达到目标分数后，本轮会继续打完，保证两队的回合数相同。然后分数高的一方获胜。如果两队都达到或超过目标分数且分数相同，就再加一轮。</p>
       
-      <ul><li>在主屏幕点按“在线游玩”，然后选择“创建房间”。</li><li>通过“分享链接”发送邀请，或把 7 位房间码告诉朋友。</li><li>朋友点按链接，或在“加入房间”栏中输入房间码即可加入。</li><li>所有人选好队伍后，由创建房间的人开始游戏。</li></ul>
+    </section>
+    <section>
+      <h2>怎么和朋友在线玩？</h2>
+      
+      <ul><li>在主页点按“在线游玩”，第一次需要接受在线规则，然后点按“创建房间”。</li><li>用“分享链接”发送邀请，或者把 7 位房间码告诉朋友。</li><li>朋友点按链接或输入房间码即可加入。</li><li>所有人都选好队伍并准备就绪后，由创建房间的人开始游戏。</li></ul>
+    </section>
+    <section>
+      <h2>可以一个人先试试在线游戏吗？</h2>
+      <p>可以。在“在线游玩”中点按“和机器人在线试玩”，就会打开一个有三个机器人的练习房间，机器人会自动准备并完成自己的回合。其他人无法加入这个房间，你离开后它就会关闭。</p>
+      
     </section>
     <section>
       <h2>邀请链接打不开</h2>
-      <p>请确认应用已安装并更新到最新版本。如果链接无法打开应用，请在应用的“加入房间”栏中输入所打开网页上的房间码。如果房间已关闭，房间码将失效，你们需要创建新房间。</p>
+      <p>请确认应用已安装并更新到最新版本。如果链接打开的是网页，请把网页上显示的房间码输入到应用中。如果房间已经关闭，房间码将不再有效，请创建一个新房间。</p>
       
     </section>
     <section>
-      <h2>我的连接断开了</h2>
-      <p>请重新打开应用；如果游戏仍在进行，你会回到离开时的位置。解说者断开连接时，游戏会短暂等待。</p>
+      <h2>我掉线了</h2>
+      <p>重新打开应用；如果游戏还在进行，你会回到游戏中。如果正在描述的玩家掉线，该回合会暂停 30 秒，然后游戏继续。</p>
       
     </section>
     <section>
-      <h2>恢复我的购买</h2>
-      <p>在“升级高级版”页面点按“恢复购买”。你必须登录购买时使用的 Apple 或 Google 账户。</p>
+      <h2>继续未完成的游戏</h2>
+      <p>在一部手机上进行、中途离开的游戏会在主页等你：点按“继续”接着玩，或点按“放弃”丢弃这局。统计和成就只计算完整打完的游戏。</p>
+      
+    </section>
+    <section>
+      <h2>词包和 Premium</h2>
+      <p>除了基础牌组，还有派对词包和家庭词包，各 150 张卡牌。在主页打开“词包”，点按“查看示例卡牌”，购买前就能先看看。Premium 会解锁所有词包并去除所有广告，可选周订阅、月订阅或一次性购买的终身版，权益完全相同。词包下载一次后即可离线游玩。</p>
+      
+    </section>
+    <section>
+      <h2>恢复购买</h2>
+      <p>在 Premium 页面（从“词包”或“设置”进入“Bzzt! Premium”），用当初购买时的 Apple 账户登录，然后点按“恢复购买”。换新手机后，或使用“删除我的数据”之后，都需要这样做。</p>
+      
+    </section>
+    <section>
+      <h2>取消订阅</h2>
+      <p>订阅由 Apple 扣费，并会自动续期，直到你取消为止。请在当前订阅期结束前至少 24 小时取消，以免下一次扣费：在 Premium 页面点按“管理订阅”，或打开 iPhone 的“设置”，点按你的名字，再点按“订阅”。删除应用或删除你的数据都不会取消订阅。</p>
       
     </section>
     <section>
       <h2>退款</h2>
-      <p>去广告是一次性购买，不是订阅，因此无需取消。付款和退款由 Apple 或 Google 处理。请向你购买时所用的商店申请退款。</p>
+      <p>付款由 Apple 收取，因此退款需通过 Apple 按其政策处理：请在 reportaproblem.apple.com 申请。我们无法自行退款。</p>
+      
+    </section>
+    <section>
+      <h2>广告和广告选择</h2>
+      <p>免费版会显示一个小横幅广告（回合进行时会隐藏），以及从不打断回合、也从不出现在两个回合之间的全屏广告。回合之间，你可以自愿观看一段广告，换一次额外的跳过机会。你的广告选择会在你第一次完整打完一局游戏后询问，之后可在“设置 &gt; 广告偏好”中更改。Premium 会去除所有广告。</p>
       
     </section>
     <section>
       <h2>举报或屏蔽玩家</h2>
-      <p>在房间或聊天中点按玩家的名字，然后选择“屏蔽”或“举报”。创建房间的人还可以将该玩家移出房间。如遇紧急危险，请联系当地有关部门。</p>
+      <p>在房间或聊天中点按该玩家，然后选择“屏蔽”或“举报”。每一条举报都会通过电子邮件发送给开发者并进行审核。创建房间的人还可以将玩家移出房间并锁定房间。如果有人处于紧迫危险之中，请联系当地有关部门。</p>
       
     </section>
     <section>
-      <h2>我想删除我的数据</h2>
-      <p>要删除设备上的数据，只需卸载应用。对于服务器上的数据，请将应用设置中显示的玩家 ID 发送至 <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>。</p>
+      <h2>删除我的数据</h2>
+      <p>“设置 &gt; 你的数据 &gt; 删除我的数据”会从我们的服务器上删除你的玩家 ID 和你设置的屏蔽，并从你提交过的举报中移除你的 ID。统计数据和设置会保留在你的手机上，直到你删除应用；购买记录保留在你的 Apple 账户中。详情请参阅隐私政策。</p>
       
     </section>
     <section>
       <h2>联系我们</h2>
-      <p>发送邮件至 <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> 时，如果附上以下信息，我们能更快地帮到你：</p>
-      <ul><li>设备型号和操作系统版本</li><li>应用版本</li><li>你的玩家 ID</li><li>问题是什么时候发生的？当时你在做什么？</li></ul>
+      <p>给 <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> 写信时，附上以下信息能帮我们更快地解决问题：</p>
+      <ul><li>手机型号和 iOS 版本</li><li>应用版本（显示在“设置”底部）</li><li>你的玩家 ID（在“设置”中）</li><li>问题发生的时间，以及当时你在做什么</li></ul>
     </section>
 </main>
 <footer><div>

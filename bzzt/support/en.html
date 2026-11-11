@@ -7,7 +7,7 @@
 <style>
 :root{--ink:#2A0A4A;--purple:#6A0DAD;--yellow:#FFC933;--paper:#FBF7FF;--line:#E2D5F2}
 *{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Noto Sans SC",sans-serif}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans","Apple SD Gothic Neo","Noto Sans",sans-serif}
 header{background:var(--ink);color:var(--paper);padding:28px 16px 32px}
 header>div,main,footer>div{max-width:720px;margin:0 auto}
 .brand{color:var(--yellow);font-size:30px;font-weight:800;text-decoration:none}
@@ -22,7 +22,7 @@ p,ul{margin:8px 0}
 li{margin:6px 0}
 a{color:var(--purple)}
 footer{border-top:1px solid var(--line);padding:20px 16px;font-size:15px}
-footer a{margin-right:16px}
+footer a{margin-inline-end:16px}
 </style>
 </head>
 <body>
@@ -30,54 +30,84 @@ footer a{margin-right:16px}
   <a class="brand" href="../index.html">Bzzt!</a>
   <h1>Support</h1>
   
-  <nav aria-label="Choose language"><a href="tr.html" lang="tr">Türkçe</a><a href="en.html" lang="en" aria-current="page">English</a><a href="de.html" lang="de">Deutsch</a><a href="fr.html" lang="fr">Français</a><a href="es.html" lang="es">Español</a><a href="it.html" lang="it">Italiano</a><a href="pt.html" lang="pt">Português</a><a href="zh.html" lang="zh">中文</a></nav>
+  <nav aria-label="Choose language"><a href="tr.html" lang="tr">Türkçe</a><a href="en.html" lang="en" aria-current="page">English</a><a href="de.html" lang="de">Deutsch</a><a href="fr.html" lang="fr">Français</a><a href="es.html" lang="es">Español</a><a href="it.html" lang="it">Italiano</a><a href="pt.html" lang="pt">Português</a><a href="zh.html" lang="zh">中文</a><a href="ru.html" lang="ru">Русский</a><a href="ja.html" lang="ja">日本語</a><a href="ko.html" lang="ko">한국어</a><a href="id.html" lang="id">Bahasa Indonesia</a><a href="hi.html" lang="hi">हिन्दी</a><a href="ar.html" lang="ar">العربية</a><a href="pl.html" lang="pl">Polski</a><a href="nl.html" lang="nl">Nederlands</a><a href="vi.html" lang="vi">Tiếng Việt</a><a href="th.html" lang="th">ไทย</a></nav>
 </div></header>
 <main>
-  <p>Having a problem with Bzzt!? Here are the answers to the most common questions. If you can't find a solution, write to <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>.</p>
+  <p>Having a problem with Bzzt!? Here are answers to the most common questions. If you can't find yours, write to <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>.</p>
     <section>
-      <h2>How to play?</h2>
-      <p>Split into teams. The narrator describes the word on the card to their teammates without saying the forbidden words listed below it. A correct guess earns 1 point; saying a forbidden word loses 1 point. The team that reaches the target score wins the game at the end of the round.</p>
+      <h2>How do I play?</h2>
+      <p>Split into two teams. One player describes the word on the card to their team without saying any of the forbidden words below it. A correct guess earns a point; saying a forbidden word costs one. Pass skips a card, up to the pass limit. Before a game you pick the mode, the round time, the passes, the target score, the difficulty and the categories.</p>
+      
+    </section>
+    <section>
+      <h2>When does a game end?</h2>
+      <p>When a team reaches the target score, the round is played out so both teams have had the same number of turns. Then the higher score wins. If both teams are at or over the target with the same score, another round is played.</p>
       
     </section>
     <section>
       <h2>How do I play online with friends?</h2>
       
-      <ul><li>On the home screen, tap Play Online and choose Create Lobby.</li><li>Send the invite with Share Link, or tell your friends the 7-character lobby code.</li><li>Your friends join by tapping the link or by typing the code in the Join Lobby field.</li><li>Once everyone has picked a team, the person who created the lobby starts the game.</li></ul>
+      <ul><li>On the home screen tap Play Online, accept the online rules the first time, then tap Create Lobby.</li><li>Send the invite with Share Link, or tell your friends the 7-character lobby code.</li><li>Friends join by tapping the link or typing the code.</li><li>Once everyone has a team and is ready, the person who created the lobby starts the game.</li></ul>
+    </section>
+    <section>
+      <h2>Can I try online play alone?</h2>
+      <p>Yes. Under Play Online, tap "Try online with bots". A practice lobby opens with three bots that get ready and play their turns by themselves. Nobody else can join it, and it closes when you leave.</p>
+      
     </section>
     <section>
       <h2>The invite link won't open</h2>
-      <p>Make sure the app is installed and up to date. If the link doesn't open the app, type the code from the web page that opens into the Join Lobby field in the app. If the lobby has closed, the code won't work; you'll need to create a new lobby.</p>
+      <p>Make sure the app is installed and up to date. If the link opens a web page instead, type the code shown there into the app. If the lobby has closed, the code no longer works; create a new lobby.</p>
       
     </section>
     <section>
       <h2>I got disconnected</h2>
-      <p>Reopen the app; if the game is still going, you'll return to where you left off. If the narrator gets disconnected, the game waits for a short time.</p>
+      <p>Open the app again; if the game is still running you return to it. If the player who is describing drops out, the turn pauses for 30 seconds before play moves on.</p>
       
     </section>
     <section>
-      <h2>Restoring my purchase</h2>
-      <p>On the Go Premium screen, tap Restore Purchases. You must be signed in with the Apple or Google account you used for the purchase.</p>
+      <h2>Continuing an unfinished game</h2>
+      <p>A game on one phone that you leave before the end waits on the home screen: tap Continue, or Discard to throw it away. Statistics and achievements count only games played to the end.</p>
+      
+    </section>
+    <section>
+      <h2>Card packs and Premium</h2>
+      <p>Besides the base deck, there are the Party and Family packs, 150 cards each. Open Packs on the home screen and tap See sample cards to look before you buy. Premium unlocks every pack and removes every ad. It comes as a weekly or monthly subscription or a one-time Lifetime purchase, all with the same access. Download a pack once and it plays offline.</p>
+      
+    </section>
+    <section>
+      <h2>Restoring a purchase</h2>
+      <p>On the Premium screen (Packs or Settings, then Bzzt! Premium), tap Restore Purchases while signed in with the Apple Account you bought with. You need this on a new phone and after Delete my data.</p>
+      
+    </section>
+    <section>
+      <h2>Cancelling a subscription</h2>
+      <p>Subscriptions are billed by Apple and renew automatically until you cancel. Cancel at least 24 hours before the current period ends to avoid the next charge: tap Manage subscription on the Premium screen, or open your iPhone's Settings, tap your name, then Subscriptions. Deleting the app or your data does not cancel a subscription.</p>
       
     </section>
     <section>
       <h2>Refunds</h2>
-      <p>The ad-free purchase is a one-time payment, not a subscription, so there is nothing to cancel. Payments and refunds are handled by Apple or Google. Send your refund request to the store where you bought it.</p>
+      <p>Apple takes the payment, so refunds go through Apple under its policies: request one at reportaproblem.apple.com. We cannot issue refunds ourselves.</p>
+      
+    </section>
+    <section>
+      <h2>Ads and ad choices</h2>
+      <p>The free version shows a small banner, hidden while a turn runs, and full-screen ads that never interrupt a turn or come between turns. Between turns you can choose to watch an ad for one extra pass. Your ad choices are asked after your first finished game; change them under Settings &gt; Ad Preferences. Premium removes all ads.</p>
       
     </section>
     <section>
       <h2>Reporting or blocking a player</h2>
-      <p>In the lobby or chat, tap the player's name and choose Block or Report. The person who created the lobby can also remove the player from the lobby. If there is immediate danger, contact your local authorities.</p>
+      <p>In a lobby or in the chat, tap the player and choose Block or Report. Every report is emailed to the developer and reviewed. The person who created the lobby can also remove a player and lock the lobby. If anyone is in immediate danger, contact your local authorities.</p>
       
     </section>
     <section>
-      <h2>I want to delete my data</h2>
-      <p>To delete the data on your device, just uninstall the app. For your data on our servers, send the player ID shown in the app settings to <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>.</p>
+      <h2>Deleting my data</h2>
+      <p>Settings &gt; Your data &gt; Delete my data removes your player ID and the blocks you made from our server and takes your ID off reports you filed. Statistics and settings stay on your phone until you delete the app, and purchases stay with your Apple Account. The privacy policy has the details.</p>
       
     </section>
     <section>
       <h2>Contact us</h2>
-      <p>When you write to <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>, we can help faster if you include the following:</p>
-      <ul><li>Device model and operating system version</li><li>App version</li><li>Your player ID</li><li>When did the problem happen, and what were you doing?</li></ul>
+      <p>When you write to <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>, we can help faster if you include:</p>
+      <ul><li>Phone model and iOS version</li><li>App version (shown at the bottom of Settings)</li><li>Your player ID (in Settings)</li><li>When the problem happened and what you were doing</li></ul>
     </section>
 </main>
 <footer><div>

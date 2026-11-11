@@ -7,7 +7,7 @@
 <style>
 :root{--ink:#2A0A4A;--purple:#6A0DAD;--yellow:#FFC933;--paper:#FBF7FF;--line:#E2D5F2}
 *{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Noto Sans SC",sans-serif}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans","Apple SD Gothic Neo","Noto Sans",sans-serif}
 header{background:var(--ink);color:var(--paper);padding:28px 16px 32px}
 header>div,main,footer>div{max-width:720px;margin:0 auto}
 .brand{color:var(--yellow);font-size:30px;font-weight:800;text-decoration:none}
@@ -22,7 +22,7 @@ p,ul{margin:8px 0}
 li{margin:6px 0}
 a{color:var(--purple)}
 footer{border-top:1px solid var(--line);padding:20px 16px;font-size:15px}
-footer a{margin-right:16px}
+footer a{margin-inline-end:16px}
 </style>
 </head>
 <body>
@@ -30,54 +30,84 @@ footer a{margin-right:16px}
   <a class="brand" href="../index.html">Bzzt!</a>
   <h1>Assistenza</h1>
   
-  <nav aria-label="Scelta della lingua"><a href="tr.html" lang="tr">Türkçe</a><a href="en.html" lang="en">English</a><a href="de.html" lang="de">Deutsch</a><a href="fr.html" lang="fr">Français</a><a href="es.html" lang="es">Español</a><a href="it.html" lang="it" aria-current="page">Italiano</a><a href="pt.html" lang="pt">Português</a><a href="zh.html" lang="zh">中文</a></nav>
+  <nav aria-label="Scegli la lingua"><a href="tr.html" lang="tr">Türkçe</a><a href="en.html" lang="en">English</a><a href="de.html" lang="de">Deutsch</a><a href="fr.html" lang="fr">Français</a><a href="es.html" lang="es">Español</a><a href="it.html" lang="it" aria-current="page">Italiano</a><a href="pt.html" lang="pt">Português</a><a href="zh.html" lang="zh">中文</a><a href="ru.html" lang="ru">Русский</a><a href="ja.html" lang="ja">日本語</a><a href="ko.html" lang="ko">한국어</a><a href="id.html" lang="id">Bahasa Indonesia</a><a href="hi.html" lang="hi">हिन्दी</a><a href="ar.html" lang="ar">العربية</a><a href="pl.html" lang="pl">Polski</a><a href="nl.html" lang="nl">Nederlands</a><a href="vi.html" lang="vi">Tiếng Việt</a><a href="th.html" lang="th">ไทย</a></nav>
 </div></header>
 <main>
-  <p>Hai un problema con Bzzt!? Qui trovi le risposte alle domande più frequenti. Se non trovi una soluzione, scrivi a <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>.</p>
+  <p>Hai un problema con Bzzt!? Qui trovi le risposte alle domande più frequenti. Se non trovi la tua, scrivi a <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>.</p>
     <section>
       <h2>Come si gioca?</h2>
-      <p>Dividetevi in squadre. Il narratore spiega ai compagni di squadra la parola sulla carta senza dire le parole proibite riportate sotto. Una risposta esatta fa guadagnare 1 punto, dire una parola proibita fa perdere 1 punto. La squadra che raggiunge il punteggio obiettivo vince la partita alla fine del turno.</p>
+      <p>Dividetevi in due squadre. Un giocatore descrive alla sua squadra la parola sulla carta senza dire nessuna delle parole proibite scritte sotto. Ogni risposta giusta vale un punto; dire una parola proibita ne fa perdere uno. Passa salta una carta, fino al limite di passi. Prima della partita scegli modalità, durata del turno, passi, punteggio obiettivo, difficoltà e categorie.</p>
+      
+    </section>
+    <section>
+      <h2>Quando finisce una partita?</h2>
+      <p>Quando una squadra raggiunge il punteggio obiettivo, il giro viene completato, così entrambe le squadre giocano lo stesso numero di turni. Poi vince chi ha più punti. Se entrambe le squadre sono all'obiettivo o oltre con lo stesso punteggio, si gioca un altro giro.</p>
       
     </section>
     <section>
       <h2>Come gioco online con gli amici?</h2>
       
-      <ul><li>Nella schermata principale, tocca «Gioca Online» e scegli «Crea Lobby».</li><li>Invia l’invito con «Condividi Link» o comunica ai tuoi amici il codice lobby di 7 caratteri.</li><li>I tuoi amici entrano toccando il link oppure scrivendo il codice nel campo «Unisciti alla Lobby».</li><li>Quando tutti hanno scelto la squadra, la persona che ha creato la lobby avvia la partita.</li></ul>
+      <ul><li>Nella schermata iniziale tocca Gioca Online, accetta le regole online la prima volta e poi tocca Crea Lobby.</li><li>Manda l'invito con Condividi Link oppure comunica ai tuoi amici il codice della lobby di 7 caratteri.</li><li>Gli amici entrano toccando il link o inserendo il codice.</li><li>Quando tutti hanno una squadra e sono pronti, chi ha creato la lobby avvia la partita.</li></ul>
+    </section>
+    <section>
+      <h2>Posso provare il gioco online da solo?</h2>
+      <p>Sì. In Gioca Online, tocca «Prova online con i bot». Si apre una lobby di allenamento con tre bot che si preparano e giocano i loro turni da soli. Nessun altro può entrare, e si chiude quando esci.</p>
+      
     </section>
     <section>
       <h2>Il link di invito non si apre</h2>
-      <p>Assicurati che l’app sia installata e aggiornata. Se il link non apre l’app, scrivi il codice mostrato nella pagina web che si apre nel campo «Unisciti alla Lobby» dell’app. Se la lobby è stata chiusa, il codice non funziona; dovete creare una nuova lobby.</p>
+      <p>Controlla che l'app sia installata e aggiornata. Se il link apre una pagina web, inserisci nell'app il codice che compare lì. Se la lobby è stata chiusa, il codice non funziona più; crea una nuova lobby.</p>
       
     </section>
     <section>
-      <h2>La connessione si è interrotta</h2>
-      <p>Riapri l’app; se la partita è ancora in corso, tornerai al punto in cui eri rimasto. Quando si interrompe la connessione del narratore, la partita attende per un breve periodo.</p>
+      <h2>Mi sono disconnesso</h2>
+      <p>Riapri l'app; se la partita è ancora in corso, ci ritorni. Se si disconnette il giocatore che sta descrivendo, il turno si ferma per 30 secondi prima che il gioco vada avanti.</p>
       
     </section>
     <section>
-      <h2>Ripristinare il mio acquisto</h2>
-      <p>Nella schermata «Passa al Premium», tocca «Ripristina Acquisti». Devi aver effettuato l’accesso con l’account Apple o Google che hai usato per l’acquisto.</p>
+      <h2>Riprendere una partita non finita</h2>
+      <p>Una partita su un solo telefono che lasci prima della fine ti aspetta nella schermata iniziale: tocca Continua, oppure Elimina per scartarla. Statistiche e obiettivi contano solo le partite giocate fino alla fine.</p>
+      
+    </section>
+    <section>
+      <h2>Pacchetti di carte e Premium</h2>
+      <p>Oltre al mazzo base ci sono i pacchetti Festa e Famiglia, da 150 carte ciascuno. Apri Pacchetti nella schermata iniziale e tocca Vedi carte di esempio per dare un'occhiata prima di acquistare. Premium sblocca tutti i pacchetti e toglie tutta la pubblicità. Puoi averlo con un abbonamento settimanale o mensile oppure con l'acquisto unico a vita, tutti con lo stesso accesso. Un pacchetto scaricato una volta si gioca anche offline.</p>
+      
+    </section>
+    <section>
+      <h2>Ripristinare un acquisto</h2>
+      <p>Nella schermata Premium (Pacchetti o Impostazioni, poi Bzzt! Premium), tocca Ripristina Acquisti dopo aver effettuato l'accesso con l'Account Apple usato per l'acquisto. Ti serve su un nuovo telefono e dopo aver usato Elimina i miei dati.</p>
+      
+    </section>
+    <section>
+      <h2>Disdire un abbonamento</h2>
+      <p>Gli abbonamenti sono addebitati da Apple e si rinnovano automaticamente finché non li disdici. Per evitare il prossimo addebito, disdici almeno 24 ore prima della fine del periodo in corso: tocca Gestisci abbonamento nella schermata Premium, oppure apri Impostazioni sul tuo iPhone, tocca il tuo nome e poi Abbonamenti. Eliminare l'app o i tuoi dati non disdice un abbonamento.</p>
       
     </section>
     <section>
       <h2>Rimborsi</h2>
-      <p>L’acquisto senza pubblicità è un pagamento unico, non un abbonamento, quindi non c’è nulla da annullare. Pagamenti e rimborsi sono gestiti da Apple o Google. Invia la richiesta di rimborso allo store in cui hai acquistato.</p>
+      <p>Il pagamento lo riceve Apple, quindi i rimborsi passano da Apple secondo le sue politiche: puoi richiederne uno su reportaproblem.apple.com. Noi non possiamo emettere rimborsi.</p>
+      
+    </section>
+    <section>
+      <h2>Pubblicità e preferenze sulla pubblicità</h2>
+      <p>La versione gratuita mostra un piccolo banner, nascosto mentre un turno è in corso, e annunci a schermo intero che non interrompono mai un turno né compaiono tra un turno e l'altro. Tra i turni puoi scegliere di guardare un annuncio per avere un passo in più. Le tue preferenze sulla pubblicità ti vengono chieste dopo la tua prima partita finita; puoi cambiarle in Impostazioni &gt; Preferenze Pubblicità. Premium toglie tutta la pubblicità.</p>
       
     </section>
     <section>
       <h2>Segnalare o bloccare un giocatore</h2>
-      <p>Nella lobby o nella chat, tocca il nome del giocatore e scegli «Blocca» o «Segnala». La persona che ha creato la lobby può anche rimuovere il giocatore dalla lobby. In caso di pericolo immediato, rivolgiti alle autorità locali.</p>
+      <p>In una lobby o nella chat, tocca il giocatore e scegli Blocca o Segnala. Ogni segnalazione viene inviata via email allo sviluppatore ed esaminata. Chi ha creato la lobby può anche rimuovere un giocatore e chiudere la lobby ai nuovi giocatori. Se qualcuno è in pericolo immediato, contatta le autorità locali.</p>
       
     </section>
     <section>
-      <h2>Voglio eliminare i miei dati</h2>
-      <p>Per eliminare i dati sul tuo dispositivo basta disinstallare l’app. Per i tuoi dati sul server, invia a <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> l’ID giocatore visibile nelle impostazioni dell’app.</p>
+      <h2>Eliminare i miei dati</h2>
+      <p>Impostazioni &gt; I tuoi dati &gt; Elimina i miei dati cancella dal nostro server il tuo ID giocatore e i blocchi che hai fatto, e toglie il tuo ID dalle segnalazioni che hai inviato. Statistiche e impostazioni restano sul tuo telefono finché non elimini l'app, e gli acquisti restano legati al tuo Account Apple. I dettagli sono nell'informativa sulla privacy.</p>
       
     </section>
     <section>
       <h2>Contattaci</h2>
-      <p>Quando scrivi a <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>, possiamo aiutarti più in fretta se aggiungi queste informazioni:</p>
-      <ul><li>Modello del dispositivo e versione del sistema operativo</li><li>Versione dell’app</li><li>Il tuo ID giocatore</li><li>Quando si è verificato il problema e cosa stavi facendo?</li></ul>
+      <p>Quando scrivi a <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>, possiamo aiutarti più in fretta se indichi:</p>
+      <ul><li>Modello del telefono e versione di iOS</li><li>Versione dell'app (in fondo alle Impostazioni)</li><li>Il tuo ID giocatore (nelle Impostazioni)</li><li>Quando si è verificato il problema e cosa stavi facendo</li></ul>
     </section>
 </main>
 <footer><div>

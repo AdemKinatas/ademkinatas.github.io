@@ -7,7 +7,7 @@
 <style>
 :root{--ink:#2A0A4A;--purple:#6A0DAD;--yellow:#FFC933;--paper:#FBF7FF;--line:#E2D5F2}
 *{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Noto Sans SC",sans-serif}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans","Apple SD Gothic Neo","Noto Sans",sans-serif}
 header{background:var(--ink);color:var(--paper);padding:28px 16px 32px}
 header>div,main,footer>div{max-width:720px;margin:0 auto}
 .brand{color:var(--yellow);font-size:30px;font-weight:800;text-decoration:none}
@@ -22,7 +22,7 @@ p,ul{margin:8px 0}
 li{margin:6px 0}
 a{color:var(--purple)}
 footer{border-top:1px solid var(--line);padding:20px 16px;font-size:15px}
-footer a{margin-right:16px}
+footer a{margin-inline-end:16px}
 </style>
 </head>
 <body>
@@ -30,54 +30,84 @@ footer a{margin-right:16px}
   <a class="brand" href="../index.html">Bzzt!</a>
   <h1>Soporte</h1>
   
-  <nav aria-label="Selección de idioma"><a href="tr.html" lang="tr">Türkçe</a><a href="en.html" lang="en">English</a><a href="de.html" lang="de">Deutsch</a><a href="fr.html" lang="fr">Français</a><a href="es.html" lang="es" aria-current="page">Español</a><a href="it.html" lang="it">Italiano</a><a href="pt.html" lang="pt">Português</a><a href="zh.html" lang="zh">中文</a></nav>
+  <nav aria-label="Elegir idioma"><a href="tr.html" lang="tr">Türkçe</a><a href="en.html" lang="en">English</a><a href="de.html" lang="de">Deutsch</a><a href="fr.html" lang="fr">Français</a><a href="es.html" lang="es" aria-current="page">Español</a><a href="it.html" lang="it">Italiano</a><a href="pt.html" lang="pt">Português</a><a href="zh.html" lang="zh">中文</a><a href="ru.html" lang="ru">Русский</a><a href="ja.html" lang="ja">日本語</a><a href="ko.html" lang="ko">한국어</a><a href="id.html" lang="id">Bahasa Indonesia</a><a href="hi.html" lang="hi">हिन्दी</a><a href="ar.html" lang="ar">العربية</a><a href="pl.html" lang="pl">Polski</a><a href="nl.html" lang="nl">Nederlands</a><a href="vi.html" lang="vi">Tiếng Việt</a><a href="th.html" lang="th">ไทย</a></nav>
 </div></header>
 <main>
-  <p>¿Tienes algún problema con Bzzt!? Aquí están las respuestas a las preguntas más frecuentes. Si no encuentras una solución, escribe a <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>.</p>
+  <p>¿Tienes algún problema con Bzzt!? Aquí tienes las respuestas a las preguntas más frecuentes. Si no encuentras la tuya, escribe a <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>.</p>
     <section>
-      <h2>¿Cómo jugar?</h2>
-      <p>Hay que dividirse en equipos. El narrador explica a sus compañeros la palabra de la carta sin decir las palabras prohibidas que aparecen debajo. Cada acierto suma 1 punto y decir una palabra prohibida resta 1 punto. El equipo que alcanza la puntuación objetivo gana la partida al final de la ronda.</p>
+      <h2>¿Cómo se juega?</h2>
+      <p>Se juega en dos equipos. Un jugador describe a su equipo la palabra de la carta sin decir ninguna de las palabras prohibidas que aparecen debajo. Cada acierto suma un punto y decir una palabra prohibida resta uno. Pasar salta una carta, hasta el límite de pases. Antes de la partida eliges el modo, el tiempo por turno, los pases, la puntuación objetivo, la dificultad y las categorías.</p>
+      
+    </section>
+    <section>
+      <h2>¿Cuándo termina una partida?</h2>
+      <p>Cuando un equipo llega a la puntuación objetivo, se completa la ronda para que los dos equipos hayan jugado los mismos turnos. Después gana quien tenga más puntos. Si los dos equipos están en el objetivo o por encima con la misma puntuación, se juega otra ronda.</p>
       
     </section>
     <section>
       <h2>¿Cómo juego online con mis amigos?</h2>
       
-      <ul><li>En la pantalla de inicio, toca «Jugar Online» y elige «Crear Sala».</li><li>Envía la invitación con «Compartir Enlace» o dile a tus amigos el código de sala de 7 caracteres.</li><li>Tus amigos entran tocando el enlace o escribiendo el código en el campo «Unirse a la Sala».</li><li>Cuando todos hayan elegido equipo, la persona que creó la sala inicia la partida.</li></ul>
+      <ul><li>En la pantalla de inicio, toca Jugar Online, acepta las normas online la primera vez y luego toca Crear Sala.</li><li>Envía la invitación con Compartir Enlace o diles a tus amigos el código de sala de 7 caracteres.</li><li>Tus amigos se unen tocando el enlace o escribiendo el código.</li><li>Cuando todos tienen equipo y están listos, quien creó la sala inicia la partida.</li></ul>
+    </section>
+    <section>
+      <h2>¿Puedo probar el juego online yo solo?</h2>
+      <p>Sí. En Jugar Online, toca «Prueba online con bots». Se abre una sala de práctica con tres bots que se preparan y juegan sus turnos solos. Nadie más puede unirse, y se cierra cuando sales.</p>
+      
     </section>
     <section>
       <h2>El enlace de invitación no se abre</h2>
-      <p>Asegúrate de que la app esté instalada y actualizada. Si el enlace no abre la app, escribe en el campo «Unirse a la Sala» de la app el código que aparece en la página web que se abre. Si la sala se ha cerrado, el código no funciona; hay que crear una sala nueva.</p>
+      <p>Comprueba que la app esté instalada y actualizada. Si el enlace abre una página web, escribe en la app el código que aparece en ella. Si la sala se ha cerrado, el código ya no funciona; crea una sala nueva.</p>
       
     </section>
     <section>
-      <h2>Se ha cortado mi conexión</h2>
-      <p>Vuelve a abrir la app; si la partida sigue en curso, volverás al punto donde estabas. Si se corta la conexión del narrador, la partida espera un momento.</p>
+      <h2>Se me ha cortado la conexión</h2>
+      <p>Vuelve a abrir la app; si la partida sigue en curso, vuelves a ella. Si se desconecta el jugador que está describiendo, el turno se detiene 30 segundos antes de que siga el juego.</p>
       
     </section>
     <section>
-      <h2>Restaurar mi compra</h2>
-      <p>En la pantalla «Hazte Premium», toca «Restaurar Compras». Debes haber iniciado sesión con la cuenta de Apple o Google que usaste para la compra.</p>
+      <h2>Continuar una partida sin terminar</h2>
+      <p>Una partida en un solo móvil que dejas antes del final te espera en la pantalla de inicio: toca Continuar, o Descartar para tirarla. Las estadísticas y los logros solo cuentan las partidas jugadas hasta el final.</p>
+      
+    </section>
+    <section>
+      <h2>Paquetes de cartas y Premium</h2>
+      <p>Además de la baraja básica están los paquetes Fiesta y Familiar, de 150 cartas cada uno. Abre Paquetes en la pantalla de inicio y toca Ver cartas de ejemplo para echar un vistazo antes de comprar. Premium desbloquea todos los paquetes y quita todos los anuncios. Puedes tenerlo con una suscripción semanal o mensual, o con la compra única de por vida, y las tres opciones dan el mismo acceso. Un paquete se descarga una vez y luego se juega sin conexión.</p>
+      
+    </section>
+    <section>
+      <h2>Restaurar una compra</h2>
+      <p>En la pantalla Premium (Paquetes o Ajustes y luego Bzzt! Premium), toca Restaurar Compras con la sesión iniciada en la Cuenta de Apple con la que compraste. Lo necesitas en un móvil nuevo y después de usar Eliminar mis datos.</p>
+      
+    </section>
+    <section>
+      <h2>Cancelar una suscripción</h2>
+      <p>Apple cobra las suscripciones y estas se renuevan automáticamente hasta que las canceles. Para evitar el siguiente cargo, cancela al menos 24 horas antes de que termine el periodo en curso: toca Gestionar suscripción en la pantalla Premium, o abre Ajustes en tu iPhone, toca tu nombre y luego Suscripciones. Eliminar la app o tus datos no cancela una suscripción.</p>
       
     </section>
     <section>
       <h2>Reembolsos</h2>
-      <p>La compra sin anuncios es un pago único, no una suscripción, así que no hay nada que cancelar. Apple o Google gestionan los pagos y los reembolsos. Envía tu solicitud de reembolso a la tienda donde compraste.</p>
+      <p>Apple cobra el pago, así que los reembolsos se tramitan a través de Apple según sus políticas: solicítalo en reportaproblem.apple.com. Nosotros no podemos hacer reembolsos.</p>
+      
+    </section>
+    <section>
+      <h2>Anuncios y preferencias de anuncios</h2>
+      <p>La versión gratuita muestra un pequeño banner, que se oculta mientras dura un turno, y anuncios a pantalla completa que nunca interrumpen un turno ni aparecen entre turnos. Entre turnos, si quieres, puedes ver un anuncio y ganar un pase extra. Tus preferencias de anuncios se te piden después de tu primera partida terminada; puedes cambiarlas en Ajustes &gt; Preferencias de Anuncios. Premium quita todos los anuncios.</p>
       
     </section>
     <section>
       <h2>Denunciar o bloquear a un jugador</h2>
-      <p>En la sala o en el chat, toca el nombre del jugador y elige «Bloquear» o «Denunciar». La persona que creó la sala también puede expulsar al jugador de la sala. Si hay un peligro inmediato, acude a las autoridades locales.</p>
+      <p>En una sala o en el chat, toca al jugador y elige Bloquear o Denunciar. Cada denuncia se envía por correo electrónico al desarrollador y se revisa. Quien creó la sala también puede expulsar a un jugador y cerrar la sala a jugadores nuevos. Si alguien corre un peligro inmediato, avisa a las autoridades locales.</p>
       
     </section>
     <section>
-      <h2>Quiero eliminar mis datos</h2>
-      <p>Para eliminar los datos de tu dispositivo, basta con desinstalar la app. Para tus datos en el servidor, envía a <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> el ID de jugador que aparece en los ajustes de la app.</p>
+      <h2>Eliminar mis datos</h2>
+      <p>Ajustes &gt; Tus datos &gt; Eliminar mis datos borra de nuestro servidor tu ID de jugador y los bloqueos que hiciste, y quita tu ID de las denuncias que presentaste. Las estadísticas y los ajustes se quedan en tu móvil hasta que eliminas la app, y las compras siguen en tu Cuenta de Apple. Encontrarás los detalles en la política de privacidad.</p>
       
     </section>
     <section>
       <h2>Contacta con nosotros</h2>
-      <p>Cuando escribas a <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>, podremos ayudarte más rápido si incluyes estos datos:</p>
-      <ul><li>Modelo del dispositivo y versión del sistema operativo</li><li>Versión de la app</li><li>Tu ID de jugador</li><li>¿Cuándo ocurrió el problema y qué estabas haciendo?</li></ul>
+      <p>Cuando escribas a <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>, podremos ayudarte antes si incluyes:</p>
+      <ul><li>El modelo de tu móvil y la versión de iOS</li><li>La versión de la app (aparece al final de Ajustes)</li><li>Tu ID de jugador (en Ajustes)</li><li>Cuándo ocurrió el problema y qué estabas haciendo</li></ul>
     </section>
 </main>
 <footer><div>

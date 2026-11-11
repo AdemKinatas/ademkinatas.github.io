@@ -7,7 +7,7 @@
 <style>
 :root{--ink:#2A0A4A;--purple:#6A0DAD;--yellow:#FFC933;--paper:#FBF7FF;--line:#E2D5F2}
 *{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Noto Sans SC",sans-serif}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans","Apple SD Gothic Neo","Noto Sans",sans-serif}
 header{background:var(--ink);color:var(--paper);padding:28px 16px 32px}
 header>div,main,footer>div{max-width:720px;margin:0 auto}
 .brand{color:var(--yellow);font-size:30px;font-weight:800;text-decoration:none}
@@ -22,7 +22,7 @@ p,ul{margin:8px 0}
 li{margin:6px 0}
 a{color:var(--purple)}
 footer{border-top:1px solid var(--line);padding:20px 16px;font-size:15px}
-footer a{margin-right:16px}
+footer a{margin-inline-end:16px}
 </style>
 </head>
 <body>
@@ -30,59 +30,89 @@ footer a{margin-right:16px}
   <a class="brand" href="../index.html">Bzzt!</a>
   <h1>Assistance</h1>
   
-  <nav aria-label="Choix de la langue"><a href="tr.html" lang="tr">Türkçe</a><a href="en.html" lang="en">English</a><a href="de.html" lang="de">Deutsch</a><a href="fr.html" lang="fr" aria-current="page">Français</a><a href="es.html" lang="es">Español</a><a href="it.html" lang="it">Italiano</a><a href="pt.html" lang="pt">Português</a><a href="zh.html" lang="zh">中文</a></nav>
+  <nav aria-label="Choix de la langue"><a href="tr.html" lang="tr">Türkçe</a><a href="en.html" lang="en">English</a><a href="de.html" lang="de">Deutsch</a><a href="fr.html" lang="fr" aria-current="page">Français</a><a href="es.html" lang="es">Español</a><a href="it.html" lang="it">Italiano</a><a href="pt.html" lang="pt">Português</a><a href="zh.html" lang="zh">中文</a><a href="ru.html" lang="ru">Русский</a><a href="ja.html" lang="ja">日本語</a><a href="ko.html" lang="ko">한국어</a><a href="id.html" lang="id">Bahasa Indonesia</a><a href="hi.html" lang="hi">हिन्दी</a><a href="ar.html" lang="ar">العربية</a><a href="pl.html" lang="pl">Polski</a><a href="nl.html" lang="nl">Nederlands</a><a href="vi.html" lang="vi">Tiếng Việt</a><a href="th.html" lang="th">ไทย</a></nav>
 </div></header>
 <main>
-  <p>Tu rencontres un problème avec Bzzt! ? Voici les réponses aux questions les plus fréquentes. Si tu ne trouves pas de solution, écris à <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>.</p>
+  <p>Un souci avec le jeu ? Voici les réponses aux questions les plus fréquentes. Si tu ne trouves pas la tienne, écris à <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>.</p>
     <section>
       <h2>Comment jouer ?</h2>
-      <p>Formez des équipes. Le narrateur fait deviner le mot de la carte à ses coéquipiers sans prononcer les mots interdits indiqués en dessous. Une bonne réponse rapporte 1 point, prononcer un mot interdit fait perdre 1 point. L’équipe qui atteint le score cible remporte la partie à la fin du tour.</p>
+      <p>Formez deux équipes. Un joueur fait deviner à son équipe le mot de la carte sans prononcer aucun des mots interdits écrits en dessous. Une bonne réponse rapporte un point ; dire un mot interdit en coûte un. « Passer » permet de sauter une carte, dans la limite des passes. Avant la partie, tu choisis le mode, la durée du tour, les passes, le score cible, la difficulté et les catégories.</p>
+      
+    </section>
+    <section>
+      <h2>Quand une partie se termine-t-elle ?</h2>
+      <p>Quand une équipe atteint le score cible, la manche va jusqu’au bout pour que les deux équipes aient joué le même nombre de tours. Le score le plus élevé l’emporte alors. Si les deux équipes sont à égalité au score cible ou au-delà, on joue une manche de plus.</p>
       
     </section>
     <section>
       <h2>Comment jouer en ligne avec mes amis ?</h2>
       
-      <ul><li>Sur l’écran d’accueil, appuie sur « Jouer en Ligne », puis choisis « Créer un Salon ».</li><li>Envoie l’invitation avec « Partager le Lien » ou donne à tes amis le code de salon à 7 caractères.</li><li>Tes amis arrivent en appuyant sur le lien ou en saisissant le code dans le champ « Rejoindre le Salon ».</li><li>Quand tout le monde a choisi son équipe, la personne qui a créé le salon lance la partie.</li></ul>
+      <ul><li>Sur l’écran d’accueil, appuie sur « Jouer en Ligne », accepte les règles du jeu en ligne la première fois, puis appuie sur « Créer un Salon ».</li><li>Envoie l’invitation avec « Partager le Lien » ou donne à tes amis le code de salon à 7 caractères.</li><li>Tes amis rejoignent le salon en appuyant sur le lien ou en saisissant le code.</li><li>Quand tout le monde a une équipe et est prêt, la personne qui a créé le salon lance la partie.</li></ul>
+    </section>
+    <section>
+      <h2>Puis-je essayer le jeu en ligne tout seul ?</h2>
+      <p>Oui. Dans « Jouer en Ligne », appuie sur « Essayer en ligne avec des bots ». Un salon d’entraînement s’ouvre avec trois bots qui se mettent prêts et jouent leurs tours tout seuls. Personne d’autre ne peut le rejoindre, et il se ferme quand tu le quittes.</p>
+      
     </section>
     <section>
       <h2>Le lien d’invitation ne s’ouvre pas</h2>
-      <p>Vérifie que l’application est installée et à jour. Si le lien n’ouvre pas l’application, saisis le code affiché sur la page web qui s’ouvre dans le champ « Rejoindre le Salon » de l’application. Si le salon est fermé, le code ne fonctionne pas ; il faudra créer un nouveau salon.</p>
+      <p>Vérifie que l’app est installée et à jour. Si le lien ouvre une page web à la place, saisis dans l’app le code affiché sur cette page. Si le salon est fermé, le code ne fonctionne plus ; crée un nouveau salon.</p>
       
     </section>
     <section>
       <h2>J’ai été déconnecté</h2>
-      <p>Rouvre l’application ; si la partie est toujours en cours, tu reprendras là où tu en étais. Si le narrateur est déconnecté, la partie attend un court instant.</p>
+      <p>Rouvre l’app ; si la partie est toujours en cours, tu la retrouves. Si le joueur qui fait deviner se déconnecte, le tour est mis en pause pendant 30 secondes avant que le jeu reprenne.</p>
       
     </section>
     <section>
-      <h2>Restaurer mon achat</h2>
-      <p>Sur l’écran « Passer au Premium », appuie sur « Restaurer les Achats ». Tu dois être connecté avec le compte Apple ou Google utilisé lors de l’achat.</p>
+      <h2>Reprendre une partie inachevée</h2>
+      <p>Une partie sur un seul téléphone que tu quittes avant la fin t’attend sur l’écran d’accueil : appuie sur « Reprendre », ou sur « Supprimer » pour l’abandonner. Les statistiques et les succès ne comptent que les parties jouées jusqu’au bout.</p>
+      
+    </section>
+    <section>
+      <h2>Packs de cartes et Premium</h2>
+      <p>En plus du paquet de base, il existe les packs Soirée et Famille, de 150 cartes chacun. Ouvre « Packs » sur l’écran d’accueil et appuie sur « Voir des exemples de cartes » pour jeter un œil avant d’acheter. Premium débloque tous les packs et supprime toutes les publicités. Il existe en abonnement hebdomadaire ou mensuel, ou en achat unique À vie, tous avec le même accès. Une fois téléchargé, un pack se joue hors ligne.</p>
+      
+    </section>
+    <section>
+      <h2>Restaurer un achat</h2>
+      <p>Sur l’écran Premium (« Packs » ou « Réglages », puis « Bzzt! Premium »), appuie sur « Restaurer les Achats » en étant connecté avec le compte Apple utilisé pour l’achat. C’est nécessaire sur un nouveau téléphone et après « Supprimer mes données ».</p>
+      
+    </section>
+    <section>
+      <h2>Résilier un abonnement</h2>
+      <p>Les abonnements sont facturés par Apple et se renouvellent automatiquement jusqu’à leur résiliation. Résilie au moins 24 heures avant la fin de la période en cours pour éviter le prélèvement suivant : appuie sur « Gérer l’abonnement » sur l’écran Premium, ou ouvre les Réglages de ton iPhone, touche ton nom, puis Abonnements. Supprimer l’app ou tes données ne résilie pas un abonnement.</p>
       
     </section>
     <section>
       <h2>Remboursements</h2>
-      <p>L’achat sans publicité est un paiement unique, pas un abonnement : il n’y a donc rien à résilier. Les paiements et les remboursements sont gérés par Apple ou Google. Adresse ta demande de remboursement à la boutique où tu as effectué l’achat.</p>
+      <p>C’est Apple qui encaisse le paiement : les remboursements passent donc par Apple, selon ses conditions. Fais ta demande sur reportaproblem.apple.com. Nous ne pouvons pas effectuer de remboursement nous-mêmes.</p>
+      
+    </section>
+    <section>
+      <h2>Publicités et choix publicitaires</h2>
+      <p>La version gratuite affiche une petite bannière, masquée pendant un tour, et des publicités plein écran qui n’interrompent jamais un tour et ne s’affichent jamais entre deux tours. Entre les tours, tu peux choisir de regarder une pub pour gagner une passe de plus. Tes choix publicitaires te sont demandés après ta première partie terminée ; modifie-les dans Réglages &gt; Préférences Publicitaires. Premium supprime toutes les publicités.</p>
       
     </section>
     <section>
       <h2>Signaler ou bloquer un joueur</h2>
-      <p>Dans le salon ou le chat, appuie sur le nom du joueur, puis choisis « Bloquer » ou « Signaler ». La personne qui a créé le salon peut aussi exclure le joueur du salon. En cas de danger immédiat, contacte les autorités locales.</p>
+      <p>Dans un salon ou dans le chat, appuie sur le joueur et choisis « Bloquer » ou « Signaler ». Chaque signalement est envoyé par e-mail au développeur et examiné. La personne qui a créé le salon peut aussi exclure un joueur et verrouiller le salon. Si quelqu’un est en danger immédiat, contacte les autorités locales.</p>
       
     </section>
     <section>
-      <h2>Je veux supprimer mes données</h2>
-      <p>Pour supprimer les données sur ton appareil, il suffit de désinstaller l’application. Pour tes données sur le serveur, envoie à <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> l’identifiant de joueur affiché dans les réglages de l’application.</p>
+      <h2>Supprimer mes données</h2>
+      <p>Réglages &gt; Tes données &gt; Supprimer mes données efface de notre serveur ton identifiant de joueur et les blocages que tu as faits, et retire ton identifiant des signalements que tu as envoyés. Les statistiques et les réglages restent sur ton téléphone jusqu’à ce que tu supprimes l’app, et les achats restent liés à ton compte Apple. La politique de confidentialité donne tous les détails.</p>
       
     </section>
     <section>
       <h2>Nous contacter</h2>
-      <p>Quand tu écris à <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>, nous pouvons t’aider plus vite si tu ajoutes ces informations :</p>
-      <ul><li>Modèle de l’appareil et version du système d’exploitation</li><li>Version de l’application</li><li>Ton identifiant de joueur</li><li>Quand le problème est-il survenu et que faisais-tu ?</li></ul>
+      <p>Quand tu écris à <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>, nous pouvons t’aider plus vite si tu indiques :</p>
+      <ul><li>Le modèle de ton téléphone et la version d’iOS</li><li>La version de l’app (en bas des Réglages)</li><li>Ton identifiant de joueur (dans les Réglages)</li><li>Quand le problème est survenu et ce que tu faisais</li></ul>
     </section>
 </main>
 <footer><div>
   <a href="../privacy/fr.html">Politique de confidentialité</a>
-  <a href="../terms/fr.html">Conditions d'utilisation</a>
+  <a href="../terms/fr.html">Conditions d’utilisation</a>
   <a href="mailto:ademkinatas@gmail.com">Contact</a>
 </div></footer>
 </body>
