@@ -218,6 +218,12 @@ const main = async () => {
 
   console.log(report.join('\n'));
   console.log(`\n${published.size}/${studio.games.length} games published${DRAFTS ? ' (drafts copied too: do not push)' : ''}`);
+  if (!DRAFTS) {
+    console.log('\nNext: review `git diff`, then publish to Cloudflare (ademkinatas.com) with');
+    console.log('  npm run deploy');
+    console.log('and keep GitHub as the source backup with');
+    console.log('  git add -A && git commit && git push origin main');
+  }
 };
 
 await main();

@@ -1,0 +1,15 @@
+# Wrangler uploads the repository root as the site (edge/wrangler.toml, [assets]). Everything that is not a page goes here.
+.assetsignore
+.git
+.gitignore
+.nojekyll
+.DS_Store
+.wrangler
+node_modules
+edge
+scripts
+README.md
+LICENSE
+studio.json
+package.json
+package-lock.json

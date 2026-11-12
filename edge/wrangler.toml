@@ -1,7 +1,17 @@
-# ademkinatas.com, served from this GitHub Pages site. See src/index.js.
-# Deploy: cd edge && npx wrangler deploy
+# ademkinatas.com, served straight from Cloudflare (Workers Static Assets). See src/index.js.
+# Deploy: cd edge && npx wrangler deploy   (or `npm run deploy` at the repo root after node scripts/sync.mjs)
 name = "ademkinatas-site"
 main = "src/index.js"
 compatibility_date = "2026-10-01"
 workers_dev = false
 routes = [{ pattern = "ademkinatas.com", custom_domain = true }]
+
+[assets]
+# The site is the repository root; ../.assetsignore keeps edge/, scripts/ and the other non-site files out.
+directory = ".."
+binding = "ASSETS"
+# URL rules are GitHub Pages' rules, written out in src/index.js, so the Worker runs first and the
+# built-in HTML handling is off (it would answer with 307 and drop .html, which GitHub Pages does not).
+run_worker_first = true
+html_handling = "none"
+not_found_handling = "none"

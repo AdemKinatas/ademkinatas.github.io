@@ -1,0 +1,10 @@
+{
+  "name": "ademkinatas-site",
+  "private": true,
+  "description": "ademkinatas.com: legal and support pages of the games. No dependencies; wrangler runs through npx.",
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "deploy": "cd edge && npx wrangler deploy",
+    "release": "node scripts/sync.mjs && npm run deploy"
+  }
+}
