@@ -2,101 +2,153 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gizlilik politikası – Taş Kağıt Tokat</title>
-<meta name="description" content="Taş Kağıt Tokat hangi verileri, neden topluyor, kimlerle paylaşıyor ve bunları nasıl silebilirsin.">
-<link rel="canonical" href="https://ademkinatas.github.io/tas-kagit-makas/tr/privacy/">
-<link rel="alternate" hreflang="tr" href="https://ademkinatas.github.io/tas-kagit-makas/tr/privacy/">
-<link rel="alternate" hreflang="en" href="https://ademkinatas.github.io/tas-kagit-makas/en/privacy/">
-<link rel="alternate" hreflang="de" href="https://ademkinatas.github.io/tas-kagit-makas/de/privacy/">
-<link rel="alternate" hreflang="es" href="https://ademkinatas.github.io/tas-kagit-makas/es/privacy/">
-<link rel="alternate" hreflang="fr" href="https://ademkinatas.github.io/tas-kagit-makas/fr/privacy/">
-<link rel="alternate" hreflang="it" href="https://ademkinatas.github.io/tas-kagit-makas/it/privacy/">
-<link rel="alternate" hreflang="pt-BR" href="https://ademkinatas.github.io/tas-kagit-makas/pt/privacy/">
-<link rel="alternate" hreflang="ru" href="https://ademkinatas.github.io/tas-kagit-makas/ru/privacy/">
-<link rel="alternate" hreflang="zh-Hans" href="https://ademkinatas.github.io/tas-kagit-makas/zh/privacy/">
-<link rel="alternate" hreflang="ja" href="https://ademkinatas.github.io/tas-kagit-makas/ja/privacy/">
-<link rel="alternate" hreflang="x-default" href="https://ademkinatas.github.io/tas-kagit-makas/en/privacy/">
-<link rel="icon" href="/tas-kagit-makas/icon.png">
-<meta property="og:title" content="Gizlilik politikası">
-<meta property="og:description" content="Taş Kağıt Tokat hangi verileri, neden topluyor, kimlerle paylaşıyor ve bunları nasıl silebilirsin.">
-<meta property="og:image" content="https://ademkinatas.github.io/tas-kagit-makas/icon.png">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://ademkinatas.github.io/tas-kagit-makas/tr/privacy/">
-<meta property="og:site_name" content="Taş Kağıt Tokat">
-<meta property="og:locale" content="tr_TR">
-<meta name="twitter:card" content="summary">
-<meta name="theme-color" content="#FFD84D">
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
-<style>
-:root { --ground:#FFD84D; --ink:#1D1A2F; --white:#fff; --player:#FF6B3D; --bot:#4C6FFF; --tint:#FFE99A; }
-* { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--ground); color: var(--ink);
-  font: 500 17px/1.55 'Baloo 2', system-ui, -apple-system, 'Hiragino Sans', 'PingFang SC', 'Segoe UI', sans-serif; }
-a { color: var(--ink); font-weight: 700; }
-.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
-header { padding: 18px 0 8px; }
-.bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 22px; line-height: 1.1; }
-.brand img { width: 44px; height: 44px; border-radius: 12px; border: 3px solid var(--ink); }
-nav { display: flex; gap: 6px; flex-wrap: wrap; margin-left: auto; }
-nav a { text-decoration: none; font-size: 15px; padding: 4px 12px; border-radius: 12px; border: 2px solid var(--ink); background: var(--white); }
-nav a[aria-current] { background: var(--ink); color: var(--ground); }
-.lang { margin-top: 10px; font-size: 14px; }
-.lang select { font: inherit; border: 2px solid var(--ink); border-radius: 10px; padding: 2px 6px; background: var(--white); }
-main { padding: 12px 0 40px; }
-.card { background: var(--white); border: 3px solid var(--ink); border-radius: 22px; box-shadow: 0 5px 0 var(--ink); padding: 18px 20px; margin: 18px 0; }
-h1 { font-weight: 800; font-size: clamp(28px, 6vw, 40px); line-height: 1.15; margin: 14px 0 6px; }
-h2 { font-weight: 800; font-size: 22px; line-height: 1.2; margin: 0 0 8px; }
-p { margin: 0 0 10px; } p:last-child { margin-bottom: 0; }
-ul, ol { margin: 0 0 10px; padding-left: 22px; } li { margin: 4px 0; }
-.muted { opacity: .75; font-size: 15px; }
-.hero { display: grid; grid-template-columns: 140px 1fr; gap: 20px; align-items: center; }
-.hero img { width: 140px; height: 140px; border-radius: 32px; border: 4px solid var(--ink); box-shadow: 0 6px 0 var(--ink); }
-.sticker { display: inline-block; background: var(--ink); color: var(--ground); font-weight: 800; border-radius: 14px; padding: 2px 14px; transform: rotate(-2deg); }
-details { border-top: 2px dashed #E5DFC6; padding: 10px 0; } details:first-of-type { border-top: 0; }
-summary { font-weight: 800; cursor: pointer; }
-details p { margin-top: 6px; }
-footer { padding: 24px 0 40px; font-size: 14px; }
-@media (max-width: 560px) { .hero { grid-template-columns: 1fr; } .hero img { width: 110px; height: 110px; } nav { margin-left: 0; } }
-</style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Taş Kağıt Tokat — Gizlilik politikası</title>
+<meta name="description" content="Gizlilik politikası">
+<link rel="canonical" href="https://ademkinatas.com/tas-kagit-makas/tr/privacy/">
+<link rel="icon" href="/tas-kagit-makas/assets/icon.png">
+<link rel="apple-touch-icon" href="/tas-kagit-makas/assets/icon.png">
+<link rel="alternate" hreflang="tr" href="https://ademkinatas.com/tas-kagit-makas/tr/privacy/">
+<link rel="alternate" hreflang="en" href="https://ademkinatas.com/tas-kagit-makas/en/privacy/">
+<link rel="alternate" hreflang="de" href="https://ademkinatas.com/tas-kagit-makas/de/privacy/">
+<link rel="alternate" hreflang="es" href="https://ademkinatas.com/tas-kagit-makas/es/privacy/">
+<link rel="alternate" hreflang="fr" href="https://ademkinatas.com/tas-kagit-makas/fr/privacy/">
+<link rel="alternate" hreflang="it" href="https://ademkinatas.com/tas-kagit-makas/it/privacy/">
+<link rel="alternate" hreflang="pt-BR" href="https://ademkinatas.com/tas-kagit-makas/pt/privacy/">
+<link rel="alternate" hreflang="ru" href="https://ademkinatas.com/tas-kagit-makas/ru/privacy/">
+<link rel="alternate" hreflang="zh-Hans" href="https://ademkinatas.com/tas-kagit-makas/zh/privacy/">
+<link rel="alternate" hreflang="ja" href="https://ademkinatas.com/tas-kagit-makas/ja/privacy/">
+<link rel="alternate" hreflang="ko" href="https://ademkinatas.com/tas-kagit-makas/ko/privacy/">
+<link rel="alternate" hreflang="id" href="https://ademkinatas.com/tas-kagit-makas/id/privacy/">
+<link rel="alternate" hreflang="hi" href="https://ademkinatas.com/tas-kagit-makas/hi/privacy/">
+<link rel="alternate" hreflang="ar" href="https://ademkinatas.com/tas-kagit-makas/ar/privacy/">
+<link rel="alternate" hreflang="pl" href="https://ademkinatas.com/tas-kagit-makas/pl/privacy/">
+<link rel="alternate" hreflang="nl" href="https://ademkinatas.com/tas-kagit-makas/nl/privacy/">
+<link rel="alternate" hreflang="vi" href="https://ademkinatas.com/tas-kagit-makas/vi/privacy/">
+<link rel="alternate" hreflang="th" href="https://ademkinatas.com/tas-kagit-makas/th/privacy/">
+<link rel="alternate" hreflang="x-default" href="https://ademkinatas.com/tas-kagit-makas/en/privacy/">
+<link rel="stylesheet" href="/tas-kagit-makas/assets/style.css">
 </head>
 <body>
 <div class="wrap">
-<header>
-  <div class="bar">
-    <a class="brand" href="/tas-kagit-makas/tr/"><img src="/tas-kagit-makas/icon.png" alt="">Taş Kağıt Tokat</a>
-    <nav><a href="/tas-kagit-makas/tr/">Ana sayfa</a><a href="/tas-kagit-makas/tr/support/">Destek</a><a href="/tas-kagit-makas/tr/privacy/" aria-current="page">Gizlilik politikası</a><a href="/tas-kagit-makas/tr/delete-account/">Hesabı sil</a></nav>
-  </div>
-  <div class="lang"><label>Dil: <select onchange="location.href=this.value"><option value="/tr/privacy/" selected>Türkçe</option><option value="/en/privacy/">English</option><option value="/de/privacy/">Deutsch</option><option value="/es/privacy/">Español</option><option value="/fr/privacy/">Français</option><option value="/it/privacy/">Italiano</option><option value="/pt/privacy/">Português</option><option value="/ru/privacy/">Русский</option><option value="/zh/privacy/">简体中文</option><option value="/ja/privacy/">日本語</option></select></label></div>
-</header>
+<header><a href="/tas-kagit-makas/tr/"><img src="/tas-kagit-makas/assets/icon.png" alt=""></a><a href="/tas-kagit-makas/tr/" class="brand">Taş Kağıt Tokat<small>Taş Kağıt Tokat: Makas Oyunu</small></a></header>
 <main>
-<h1>Gizlilik politikası</h1><p class="muted">Son güncelleme: 2026-10-30</p>
-<section class="card"><h2>Biz kimiz</h2><p>Taş Kağıt Tokat (“uygulama”, “biz”), Adem Kınataş (Türkiye) tarafından geliştirilmektedir. Burada anlatılan kişisel verilerin veri sorumlusu: Adem Kınataş. İletişim: <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>.</p>
-<p>Bu politika, uygulamanın hangi verileri topladığını, neden topladığını, bu verilerin kimlere aktarıldığını ve bu konuda neler yapabileceğini açıklar. iPhone ve Android için Taş Kağıt Tokat uygulamalarını ve bu web sitesini kapsar.</p></section>
-<section class="card"><h2>Kısaca</h2><ul><li>Üye olmadan oynayabilirsin. Online oyun ve sıralama çalışsın diye senin için anonim bir misafir hesabı oluştururuz.</li><li>E-posta adresin yalnızca hesabını kaydetmeyi seçersen alınır.</li><li>“Fotoğrafımı rakiplere göster”i açmadığın sürece fotoğrafın telefonunda kalır.</li><li>Google AdMob üzerinden reklam gösteriyoruz ve Apple ile Google üzerinden reklamsız paket satıyoruz.</li><li>Kişisel verilerini satmıyoruz ve oyunu çalıştırmak dışında hiçbir amaçla kullanmıyoruz.</li></ul></section>
-<section class="card"><h2>Neleri, neden topluyoruz</h2><ul><li>Hesap kimliği: uygulama ilk açıldığında oluşturulan rastgele bir tanımlayıcı. Online maçları, sıralamayı ve senkronizasyonu çalıştırmak için kullanılır. Hukuki sebep: hizmetimizi sana sunmamız.</li><li>Takma ad: uygulama tarafından bir kelime listesinden oluşturulur (örneğin “Huysuz Tilki 26”). Diğer oyunculara gösterilir.</li><li>Oyun verileri: online maçlardaki seçimler ve sonuçlar, puanlar, galibiyetler ve yenilgiler ile ayarların (dil, titreşim, rekor, seri, gizlenen fotoğraflar). Oyunu çalıştırmak ve ilerlemeni saklamak için kullanılır.</li><li>E-posta adresi (isteğe bağlı): yalnızca hesabını kaydedersen ya da başka bir telefonda giriş yaparsan. Tek kullanımlık giriş kodları göndermek için kullanılır. Pazarlama e-postası göndermeyiz.</li><li>Fotoğraf (isteğe bağlı): yalnızca “Fotoğrafımı rakiplere göster”i açarsan. Görsel sunucularımızda saklanır, online rakiplerine ve sıralamada gösterilir. Görselin bağlantısına sahip olan herkes onu açabilir. Bu ayarı kapatmak fotoğrafı siler.</li><li>Şikâyetler: bir oyuncunun fotoğrafını şikâyet ettiğinde, birkaç oyuncunun şikâyet ettiği fotoğrafları kaldırabilmek için kimin kimi şikâyet ettiğini saklarız.</li><li>Satın alma durumu: reklamsız pakete sahip olup olmadığın. Ödeme tamamen Apple veya Google tarafından yapılır; kart bilgilerini asla görmeyiz.</li><li>Teknik veriler: uygulama bağlandığında sunucularımız ve hizmet sağlayıcılarımız IP adresini ve cihaz bilgilerini alır. Bunlar güvenlik ve hizmetin sunulması için kullanılır ve yalnızca kısa bir süre saklanır.</li></ul>
-<p>Kamera ve fotoğraf arşivi erişimi yalnızca fotoğrafını seçmek ya da çekmek için kullanılır. Seçmediğin fotoğraflar hiçbir zaman okunmaz. Konumunu, rehberini ya da mikrofonunu toplamayız.</p></section>
-<section class="card"><h2>Reklamlar</h2><p>Ücretsiz sürümde maçlardan sonra ve sonuç ekranında banner olarak Google AdMob reklamları gösterilir. AdMob; reklamları göstermek, ölçmek ve dolandırıcılığı önlemek için cihaz tanımlayıcılarını (reklam kimliği gibi), IP adresini, bundan çıkarılan yaklaşık konumu ve reklam etkileşim verilerini toplayabilir.</p>
-<p>Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de kişiselleştirilmiş reklamlar gösterilmeden önce Google'ın izin formu aracılığıyla açık rızanı isteriz; tercihini istediğin zaman Ayarlar › Gizlilik ve reklam izinleri bölümünden değiştirebilirsin. iPhone'da uygulama izleme izni istemez, bu yüzden reklam tanımlayıcısı kullanılmaz. Reklam kişiselleştirmeyi telefonunun ayarlarından da sınırlayabilirsin.</p>
-<p>Reklamsız paketi satın almak tüm reklamları kapatır. Google'ın gizlilik politikası: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p></section>
-<section class="card"><h2>Verileri kimlerle paylaşıyoruz</h2><p>Verileri yalnızca bizim adımıza işleyen şu hizmet sağlayıcılarla (veri işleyenler) çalışıyoruz:</p>
-<ul><li>Supabase Inc. – veritabanı, hesaplar ve fotoğraf depolama.</li><li>Google LLC (AdMob) – yukarıda anlatıldığı şekilde reklamlar.</li><li>RevenueCat Inc. – satın alma durumunu hesap kimliğinle ilişkili olarak Apple ve Google üzerinden doğrular.</li><li>Apple ve Google – kendi gizlilik politikaları kapsamında uygulama dağıtımı ve ödemeler.</li><li>Supabase Inc. – giriş kodu e-postalarının gönderimi.</li></ul>
-<p>Diğer oyuncular takma adını, puanlarını, galibiyet ve yenilgilerini görür; fotoğrafını ise yalnızca paylaşırsan görür. Verileri yetkili makamlara yalnızca kanunen zorunlu olduğunda açıklarız. Kişisel verileri satmaz veya kiralamayız.</p></section>
-<section class="card"><h2>Yurt dışına aktarım</h2><p>Bazı hizmet sağlayıcılar Amerika Birleşik Devletleri'nde bulunur ya da verileri senin ülkenin dışında işler. Gerekli olduğu durumlarda bu aktarımlar, Avrupa Komisyonu'nun Standart Sözleşme Hükümleri veya bu şirketlerin sağladığı eşdeğer güvencelerle korunur.</p></section>
-<section class="card"><h2>Verileri ne kadar süre saklıyoruz</h2><p>Hesap, oyun verileri, e-posta ve fotoğraf: hesabını silene kadar (fotoğraf için: paylaşımı kapatana kadar). Sunucu kayıtları: hizmet sağlayıcılarımız tarafından güvenlik amacıyla kısa süre saklanır. Satın alma kayıtları: muhasebe ve vergi mevzuatının gerektirdiği şekilde Apple, Google ve RevenueCat tarafından saklanır.</p></section>
-<section class="card"><h2>Hesabını silme</h2><p>Uygulamada: Ayarlar › Hesap ve online › Hesabımı sil. Bu işlem hesabını, e-postanı, takma adını, puanlarını, maç geçmişini, senkronize edilen ayarlarını, şikâyetlerini ve yüklediğin fotoğrafı anında siler. Bunu bizden e-postayla da isteyebilirsin; hesap silme sayfasına göz at. Yalnızca telefonunda saklanan veriler, uygulamayı kaldırdığında silinir.</p></section>
-<section class="card"><h2>Hakların</h2><p>Yaşadığın yere bağlı olarak (örneğin GDPR, Birleşik Krallık GDPR'ı, Türkiye'de KVKK ya da Kaliforniya mevzuatı kapsamında) verilerine erişim, verilerinin bir kopyasını alma, düzeltme, silme ve işlemenin kısıtlanmasını talep etme ya da işlenmesine itiraz etme haklarına sahipsin; verdiğin açık rızayı da istediğin zaman geri alabilirsin. Taleplerin için <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> adresine yaz; 30 gün içinde yanıt veririz. Ayrıca veri koruma otoritesine şikâyette bulunma hakkın da var (Türkiye'de: Kişisel Verileri Koruma Kurumu, KVKK).</p></section>
-<section class="card"><h2>Çocuklar</h2><p>Taş Kağıt Tokat genel kitleye yönelik bir oyundur ve 13 yaşından küçük çocuklara yönelik değildir. 13 yaşından (veya ülkendeki asgari yaştan) küçük çocuklardan bilerek kişisel veri toplamayız. Bir çocuğun bize e-postasını veya fotoğrafını verdiğini düşünüyorsan bizimle iletişime geç; bu verileri sileriz.</p></section>
-<section class="card"><h2>Güvenlik</h2><p>Veriler şifreli bağlantılar (HTTPS) üzerinden gönderilir. Veritabanına erişim kısıtlıdır; oyuncular yalnızca oyunun ihtiyaç duyduğu verileri okuyabilir, rakibin seçimi tur bitene kadar gizli kalır. Hiçbir sistem kusursuz derecede güvenli değildir, ancak verilerini korumak için çalışıyoruz.</p></section>
-<section class="card"><h2>Değişiklikler</h2><p>Uygulamanın verileri kullanma şekli değiştiğinde bu sayfayı güncelleyecek ve en üstteki tarihi değiştireceğiz. Önemli değişiklikleri ayrıca uygulama içinde de duyuracağız.</p></section>
+<article class="card">
+<h1>Gizlilik Politikası — Taş Kağıt Tokat</h1>
+<p>Son güncelleme: 12 Kasım 2026</p>
+<p>Bu politika, iPhone'daki Taş Kağıt Tokat uygulamasını (&quot;uygulama&quot;) kullandığınızda verilerinize ne olduğunu açıklar. Uygulama, Adem Kınataş (&quot;biz&quot;) tarafından geliştirilmiştir; merkezi Türkiye ülkesindedir. Burada anlatılan kişisel verilerin veri sorumlusu Adem Kınataş'dir. Herhangi bir sorunuz olursa <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> adresine yazabilirsiniz.</p>
+<p>Kısaca: üyelik, e-posta adresi, şifre ve sohbet yoktur. Uygulama, online oyun ve sıralama çalışsın diye, otomatik oluşturulmuş bir takma adla anonim bir misafir hesabı açar. Selfie'niz telefonunuzda kalır ve hiçbir zaman yüklenmez. Uygulama Google AdMob reklamları gösterir (onayınızdan sonra ve Premium'da asla) ve isteğe bağlı Premium satın alımlarını Apple üzerinden satar; bu satın alımları RevenueCat doğrular. Her bölüm aşağıda anlatılmıştır.</p>
+<h2>1. Cihazınızda kalan veriler</h2>
+<p>Aşağıdakiler yalnızca telefonunuzda, uygulamanın yerel depolama alanında tutulur. Bunları biz hiçbir zaman almayız.</p>
+<ul>
+<li><strong>Selfie'niz.</strong> Karakteriniz için bir selfie çekerseniz ya da bir fotoğraf seçerseniz uygulama bunu küçük bir kareye (384 × 384 piksel) kırpar ve bu JPEG kopyasını yerel olarak saklar. Online dahil her modda yalnızca kendi karakterinizin üzerinde gösterilir. Hiçbir zaman yüklenmez, sunucularımıza gönderilmez, diğer oyunculara gösterilmez ve telefonlar arasında eşitlenmez. Online oynarken rakibiniz yüzünüzü değil, çizilmiş bir kafa görür.</li>
+<li><strong>Ayarlarınız.</strong> Dil, titreşim, ses, en iyi ve mevcut galibiyet seriniz, Premium'un bu cihazda en son etkin olup olmadığı, reklamların aralıklı gösterilmesi için kullanılan sayaçlar (son tam ekran reklamdan beri kaç maç bitirdiğiniz ve reklamın ne zaman gösterildiği) ve reklam onayı konusunda size daha önce sorulup sorulmadığı.</li>
+<li><strong>Giriş anahtarınız.</strong> Uygulama, anonim misafir hesabınızın anahtarını (bkz. bölüm 2) yerel depolama alanında tutar.</li>
+</ul>
+<p><strong>Paylaşma.</strong> Bir arkadaş odası için &quot;Kodu paylaş&quot;a dokunduğunuzda uygulama, telefonunuzun paylaşım ekranını kısa bir mesaj ve oda koduyla açar. Paylaştığınız içerik yalnızca orada seçtiğiniz uygulamaya ya da kişiye gider.</p>
+<p><strong>Cihaz yedekleri.</strong> Telefonunuz uygulama verilerini yedekliyorsa (örneğin iCloud Yedekleme) bu veriler de yedeğe dahil olabilir. Yedek, Apple'ın koşulları uyarınca kendi iCloud hesabınızda tutulur; ona erişimimiz yoktur.</p>
+<p>Selfie'nizi uygulamada istediğiniz zaman kaldırabilirsiniz (Ayarlar → Profil fotoğrafı → Fotoğrafı kaldır). Uygulamayı silmek, bu verilerin tümünü telefondan kaldırır.</p>
+<h2>2. Misafir hesabınız ve online oyun (Supabase)</h2>
+<p>Uygulamayı ilk açtığınızda, Supabase (Supabase Inc.) üzerinde çalışan arka ucumuzda anonim bir misafir hesabı oluşturur. Yalnızca çevrimdışı oynasanız bile bu işlem yapılır; böylece online oynamak istediğinizde her şey hazırdır. Hesapta e-posta adresi, telefon numarası, şifre ve ad yoktur. Hesap, Apple Hesabınıza ya da herhangi bir cihaz tanımlayıcısına bağlı değildir.</p>
+<p><strong>Sunucunun sizinle ilgili sakladıkları:</strong></p>
+<ul>
+<li>rastgele bir hesap kimliği ile hesabın ne zaman oluşturulduğu ve en son ne zaman kullanıldığı;</li>
+<li>uygulamadaki sabit kelime listelerine işaret eden üç sayı olarak saklanan, otomatik oluşturulmuş bir takma ad (örneğin &quot;Huysuz Tilki 26&quot;); yeni bir tane çektirebilirsiniz ama hiçbir zaman ad yazamazsınız;</li>
+<li>puanlı online maçlardaki puanlarınız (derecelendirme), galibiyet ve yenilgileriniz;</li>
+<li>eşitlenen ayarlarınızın küçük bir kopyası (dil, titreşim, en iyi ve mevcut galibiyet seriniz); yalnızca hesabınız tarafından görülebilir, böylece uygulama aynı hesaba yeniden bağlandığında geri gelirler;</li>
+<li>her online maç için (rastgele rakip, arkadaş odası veya botla antrenman): maç modu (puanlı, arkadaş odası, bot), tur sayısı, oyuncuların hesap kimlikleri, skor, maçın durumu ve zamanları; her tur için de iki oyuncunun seçimleri (taş, kağıt, makas ya da hiçbiri), tur sonucu ve kazanana gösterilen alay hareketi (sunucu tarafından sabit bir listeden rastgele seçilir). Bir tur açıkken seçiminiz sunucuda tutulur ve tur bitmeden rakibiniz dahil hiç kimse onu okuyamaz. Bota karşı maçlar, botun rastgele seçimiyle birlikte aynı şekilde saklanır;</li>
+<li>bir arkadaş odası için: oda açıkken 4 harfli oda kodu;</li>
+<li>rakip beklerken, telefonunuzun hâlâ bağlı olduğunu gösteren bir işaret (&quot;son görülme&quot; zamanı, birkaç saniyede bir güncellenir);</li>
+<li>girdiğiniz yanlış oda kodları: tahmin yoluyla denemeyi sınırlamak için denemenin zamanıyla birlikte bir kaydı bir saat boyunca tutulur (10 dakikada on yanlış kod girişi duraklatır).</li>
+</ul>
+<p><strong>Diğer oyuncuların gördükleri.</strong> Rakibiniz, otomatik oluşturulmuş takma adınızı, takma adınıza bağlı bir renkle boyanmış çizilmiş bir kafayı ve puanınızı görür. Sıralama; ilk 50 oyuncuyu ve sizin kendi sıranızı, takma ad, çizilmiş kafa, puan, galibiyet ve yenilgilerle birlikte gösterir. Profilinizi (takma ad, puanlar, galibiyetler ve yenilgiler) oyunun arka uç arayüzü üzerinden yalnızca siz ve rakipleriniz (eşleştirildiğiniz oyuncular) okuyabilir; diğer oyuncular bunları yalnızca yukarıda anlatılan sıralama üzerinden görür ve hesabınızın ne zaman oluşturulduğunu kimse okuyamaz. Selfie'niz ve ayarlarınız diğer oyunculara hiçbir zaman gönderilmez. Uygulamada sohbet yoktur ve yazdığınız hiçbir şey diğer oyunculara gönderilmez.</p>
+<p><strong>Puanlı maçlar ve adil oyun.</strong> Sıralamanın adil kalması için bir sonucun puana işleyip işlemeyeceğine sunucu karar verir. Bunun için hesapların yaşı, bir hesabın kaç farklı rakibe karşı kaç maç bitirdiği, aynı iki hesabın son 24 saatte birbiriyle ne sıklıkta oynadığı ve galibin son 24 saatte kaç puan kazandığı kullanılır. Bota karşı maçlar ve arkadaş odaları puanı hiçbir zaman değiştirmez.</p>
+<p><strong>IP adresi.</strong> Her çevrimiçi hizmette olduğu gibi Supabase, uygulama bağlandığında IP adresinizi görür. Supabase Auth bunu, tek bir bağlantının oluşturabileceği misafir hesabı sayısını sınırlamak için kullanır (saatte on). Bunu kendi oyun tablolarımıza kopyalamayız. Supabase, kendi gizlilik politikası uyarınca standart teknik kayıtlar tutabilir.</p>
+<p><strong>Ne kadar süre saklanır:</strong></p>
+<ul>
+<li>Hesabınız, takma adınız, puanlarınız, galibiyet ve yenilgileriniz, eşitlenen ayarlarınız ve maç kayıtlarınız, siz hesabınızı silene kadar sunucuda kalır. 365 gün boyunca kullanılmayan bir hesap (online maç ya da antrenman yok), siz kendiniz sildiğinizdeki gibi otomatik olarak silinir. Bunun için son online maçınızın ya da antrenmanınızın tarihini saklarız.</li>
+<li>Yanlış oda kodu kayıtları: bir saat.</li>
+<li>Kimsenin katılmadığı arkadaş odaları 15 dakika sonra, sessizleşen bir telefondan gelen hızlı eşleşme girişleri 30 saniye sonra, iki oyuncunun da terk ettiği maçlar ise son turdan birkaç dakika sonra iptal edilir; hiç tur oynanmamış iptal edilmiş bir maç, iptalden bir saat sonra silinir; en az bir turu oynanmış iptal edilmiş bir maçın kaydı ise hesap silininceye kadar hesapla birlikte kalır.</li>
+<li>Botla oynanan maçlar (antrenman ya da bota dönüşen hızlı eşleşme): bittikten 30 gün sonra silinir.</li>
+<li>Puanlı bir sonuç (iki hesap kimliği, el değiştiren puan ve zaman), yukarıdaki adillik sınırlarının çalışabilmesi için 48 saat saklanır, sonra silinir. Kazananın hesabıyla birlikte silinir; kaybeden hesabını silerse kayıt, kaybedenin kimliği olmadan 48 saat boyunca kalır.</li>
+<li>Supabase Auth'un IP adresini de içeren etkinlik kaydı: en çok 30 gün saklanır.</li>
+</ul>
+<p><strong>Silme.</strong> Uygulamada Ayarlar → Hesap ve online → Hesabımı sil yolunu izleyin. Bu işlem misafir hesabınızı, takma adınızı, puanlarınızı, galibiyet ve yenilgilerinizi, eşitlenen ayarlarınızı ve içinde yer aldığınız tüm maç kayıtlarını, seçimler dahil, hemen siler. O anda içinde bulunduğunuz maç önce sonlandırılır (ayrılmak sizin için yenilgi sayılır). Bir maç kaydı iki oyuncuya da ait olduğundan, eski rakiplerinizin geçmişinden de kaybolur; onların kazandığı ya da kaybettiği puanlar toplamlarında kalır. Silme işleminden sonra uygulama, yeni bir takma adla yeni ve boş bir misafir hesabı açar. Bu sitenin hesap silme sayfası aynı adımları anlatır. Telefonunuzdaki selfie ve ayarlar sunucumuzda bulunmaz; bunlar uygulama tarafından (Fotoğrafı kaldır) ya da uygulamanın silinmesiyle kaldırılır.</p>
+<h2>3. İzinler</h2>
+<ul>
+<li><strong>Kamera</strong>: yalnızca karakteriniz için selfie çekmek amacıyla ve yalnızca &quot;Selfie çek&quot;e dokunduğunuzda kullanılır.</li>
+<li><strong>Fotoğraflar / galeri</strong>: yalnızca karakteriniz için bir fotoğraf seçmek amacıyla ve yalnızca &quot;Galeriden&quot;e dokunduğunuzda kullanılır. Uygulama yalnızca seçtiğiniz fotoğrafı alır.</li>
+<li><strong>İzleme (Uygulama İzleme Şeffaflığı)</strong>: Google AdMob'un daha ilgili reklamlar göstermek için cihazınızın reklam tanımlayıcısını (IDFA) kullanıp kullanamayacağını sorar. İzin verseniz de vermeseniz de uygulama aynı şekilde çalışır.</li>
+</ul>
+<p>Uygulama konum, rehber, mikrofon ya da hareket verisi kullanmaz. Bu izinlerden herhangi birini telefonunuzun ayarlarından istediğiniz zaman geri alabilirsiniz.</p>
+<h2>4. Reklamlar (Google AdMob)</h2>
+<p>Premium'unuz yoksa uygulama, bir maçtan sonra sonuç ekranında banner reklam ve bir sonuç ekranından çıkarken tam ekran reklam gösterir; tam ekran reklam, bitirilen her üç maçta en fazla bir kez ve bir öncekinden en az üç dakika sonra çıkar. Tur sırasında reklam yoktur. Reklamlar Google AdMob (Google Ireland Limited / Google LLC) tarafından sağlanır. Sunucularımızdan Google'a hiçbir şey göndermeyiz.</p>
+<p>Google'ın SDK'sı reklamları göstermek, ölçmek ve dolandırıcılığı önlemek için şunları toplayabilir:</p>
+<ul>
+<li>cihaz tanımlayıcıları: reklam kimliği (iOS'ta, izleme iznini verirseniz IDFA);</li>
+<li>IP adresi ve bundan çıkarılan yaklaşık konum;</li>
+<li>cihaz ve uygulama bilgileri (model, işletim sistemi, dil, uygulama sürümü);</li>
+<li>reklam etkileşimleri (hangi reklamların gösterildiği ya da dokunulduğu);</li>
+<li>reklamlarla ilgili tanılama ve performans verileri.</li>
+</ul>
+<p>Tercihlerinize bağlı olarak Google bu verileri kişiselleştirilmiş reklamlar göstermek için kullanabilir. Google, bu işlemenin bir kısmında bağımsız veri sorumlusu olarak hareket eder. Ayrıntılar için:</p>
+<ul>
+<li>Google'ın, hizmetlerini kullanan uygulamalardan gelen bilgileri nasıl kullandığı: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></li>
+<li>Google Gizlilik Politikası: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+</ul>
+<p><strong>Size ne zaman sorulur.</strong> İlk açılışta değil. Sorular, ilk maçınızı bitirip ana ekrana döndükten sonra gelir; bir maç sırasında ve bir sonucun üzerinde asla gelmez. Sonraki açılışlarda reklamlar hemen başlar. Premium'unuz varsa uygulama hiç sormaz ve reklam SDK'sını hiç başlatmaz.</p>
+<ul>
+<li><strong>AEA, Birleşik Krallık ve İsviçre (ile gerekli olan diğer bölgeler):</strong> Google'ın Kullanıcı Mesajlaşma Platformu'ndan (User Messaging Platform) gelen bir onay formu, kişiselleştirilmiş reklamları ve ilgili veri işlemeyi kabul edip etmediğinizi sorar. Kabul etmezseniz yine de kişiselleştirilmemiş ya da sınırlı reklamlar görebilirsiniz.</li>
+<li><strong>iPhone:</strong> onay adımından sonra, reklamlara izin veriliyorsa iOS, uygulamanın sizi izleyip izleyemeyeceğini sorar. &quot;Uygulamadan İzlememesini İste&quot;yi seçerseniz IDFA paylaşılmaz.</li>
+</ul>
+<p><strong>Tercihlerinizi değiştirme.</strong></p>
+<ul>
+<li><strong>Onay formu:</strong> uygulamada Ayarlar → Gizlilik ve reklam izinleri bölümüne gidin (onay kurallarının geçerli olduğu ve Premium'unuzun bulunmadığı yerlerde görünür). Uygulamayı silip yeniden yüklemek de formu geri getirir.</li>
+<li><strong>iPhone izleme:</strong> Ayarlar → Gizlilik ve Güvenlik → İzleme.</li>
+<li><strong>Reklamları tamamen kapatma:</strong> Premium alın. Premium etkin olduğu sürece uygulama reklam yüklemez, onay ya da izleme istemi göstermez ve reklam SDK'sını başlatmaz.</li>
+</ul>
+<h2>5. Satın alımlar ve abonelikler (Apple ve RevenueCat)</h2>
+<p>Premium üç şekilde satılır: haftalık ya da aylık otomatik yenilenen bir abonelik veya tek seferlik bir Ömür boyu satın alım. Premium yalnızca reklamları kaldırır; maçlarda ya da sıralamada hiçbir avantaj sağlamaz. Ödeme, yenileme ve iptal işlemlerini Apple yürütür. Satın alımları ve abonelik durumunu doğrulamak ve başka bir cihazda geri yüklemek için RevenueCat (RevenueCat, Inc.) kullanıyoruz.</p>
+<ul>
+<li>Ödemeyi Apple işler. Kart veya ödeme bilgilerinizi, adınızı ya da e-postanızı ne biz ne de RevenueCat görür.</li>
+<li>RevenueCat'e şunlar iletilir: RevenueCat'in oluşturduğu anonim bir uygulama kullanıcı kimliği (adınızla, e-postanızla ya da oyun arka ucumuzdaki hesap kimliğinizle bağlantılı değildir), satın alım ve abonelik bilgileri (ürün, fiyat, para birimi, mağaza, tarihler, yenileme ve sona erme durumu, işlem kimlikleri ve makbuz) ve temel cihaz bilgileri (işletim sistemi, uygulama sürümü, mağaza ülkesi, IP adresi).</li>
+<li>Bu veriler yalnızca Premium'u açmak, durumunu güncel tutmak (yenilemeler, sona erme, ödeme sorunları) ve geri yüklemek için kullanılır.</li>
+</ul>
+<p>RevenueCat Gizlilik Politikası: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></p>
+<h2>6. Hata ve kullanım verileri</h2>
+<p>Kendimize ait analitik, hata raporlama ya da başka izleme araçları kullanmıyoruz. iPhone'unuzun Ayarlar bölümünde izin verdiyseniz (Gizlilik ve Güvenlik → Analiz ve İyileştirmeler → Uygulama Geliştiricileriyle Paylaş) Apple, App Store Connect üzerinden bize anonim çökme ve kullanım raporları verebilir. Reklam SDK'sı, bölüm 4'te anlatıldığı gibi reklamlarla ilgili tanılama verileri toplayabilir.</p>
+<h2>7. Yapmadıklarımız</h2>
+<ul>
+<li>Sizden adınızı, e-posta adresinizi ya da telefon numaranızı istemeyiz.</li>
+<li>Selfie'nizi ya da yazdığınız herhangi bir şeyi yüklemeyiz; sohbet de yoktur.</li>
+<li>Verilerinizi satmayız ve arka ucumuzdaki verileri reklam verenlerle paylaşmayız.</li>
+<li>Premium oyunculara reklam göstermeyiz, onlara reklam onayını ya da izlemeyi sormayız.</li>
+</ul>
+<h2>8. Hukuki dayanak (AEA/Birleşik Krallık kullanıcıları)</h2>
+<ul>
+<li>Misafir hesabınız, online oyun, sıralama ve ayar eşitleme: online oynadığınızda talep ettiğiniz hizmetin sunulması (GDPR md. 6(1)(b)) ile adil sıralamalarda ve hizmeti kötüye kullanıma karşı korumada meşru menfaatimiz (md. 6(1)(f)); buna oturum açma sınırları ve puanlı sonuç kontrolleri de dahildir.</li>
+<li>Kişiselleştirilmiş reklam ve cihaz tanımlayıcılarına erişim: yukarıda anlatıldığı şekilde geri alabileceğiniz açık rızanız (md. 6(1)(a)).</li>
+<li>Kişiselleştirilmemiş reklamlar ve dolandırıcılığın önlenmesi: ücretsiz bir uygulamayı finanse etmedeki meşru menfaatimiz (md. 6(1)(f)).</li>
+<li>Satın alım ve abonelik doğrulaması: Premium'u satın alarak kurduğunuz sözleşmenin ifası (md. 6(1)(b)).</li>
+</ul>
+<p>Supabase, Google ve RevenueCat verileri, ABD dahil ülkenizin dışında, kendi politikalarında anlatılan güvenceler (Standart Sözleşme Maddeleri veya AB–ABD Veri Gizliliği Çerçevesi gibi) kapsamında işleyebilir.</p>
+<h2>9. Saklama süresi</h2>
+<p>Telefonunuzdaki veriler, siz kaldırana ya da uygulamayı silene kadar kalır. Arka ucumuzdaki veriler bölüm 2'de anlatıldığı gibi saklanır. Google ve RevenueCat verileri kendi politikalarında belirtilen sürelerle saklar; satın alım kayıtları, satın alımınızı geri yükleyebilmek ve yasal yükümlülükleri yerine getirmek için gerektiği sürece tutulabilir.</p>
+<h2>10. Haklarınız</h2>
+<p>Yaşadığınız yere bağlı olarak (örneğin GDPR, Birleşik Krallık GDPR'ı, Türkiye'de KVKK ya da Kaliforniya hukuku kapsamında) kişisel verilerinize erişme, bunları düzeltme, silme veya işlenmesine itiraz etme, rızanızı geri alma ve veri koruma otoritenize şikâyette bulunma haklarına sahip olabilirsiniz (Türkiye'de: Kişisel Verileri Koruma Kurumu, KVKK). Hesabınızı uygulamada kendiniz silebilirsiniz (Ayarlar → Hesap ve online → Hesabımı sil). Misafir hesabı anonim olduğundan, onu ancak telefonunuzdaki uygulamadan bulabiliriz; diğer talepler için <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> adresine yazın. Reklamlarla ilgili talepler en iyi doğrudan Google ile çözülür (<a href="https://myadcenter.google.com">https://myadcenter.google.com</a>); anonim kimliğinize bağlı satın alım verilerinin silinmesini RevenueCat'ten isteyebiliriz.</p>
+<h2>11. Çocuklar</h2>
+<p>Uygulama genel kitleye yönelik bir oyundur; 13 yaşından (veya ülkenizdeki asgari yaştan) küçük çocuklara yönelik değildir. Çocuk Kategorisinde yer almaz. Uygulamada sohbet, kullanıcı tarafından oluşturulan içerik ve oyuncuların birbirleriyle iletişim kurmasını sağlayan bir yol yoktur; ayrıca ad, e-posta ya da telefon numarası istenmez. 13 yaşından küçük çocuklardan bilerek kişisel veri toplamıyoruz. Bir çocuğun uygulamayı kullandığını ve veri toplandığını düşünüyorsanız <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> adresinden bize ulaşın; verilerin kaldırılması için yardımcı oluruz.</p>
+<h2>12. Değişiklikler</h2>
+<p>Bu politika değişirse üstteki tarihi güncelleyip yeni sürümü aynı adreste yayımlarız. Önemli değişiklikleri uygulamanın sürüm notlarında da belirtiriz.</p>
+<h2>13. İletişim</h2>
+<p>Adem Kınataş&lt;br&gt;ademkinatas@gmail.com</p>
+</article>
 </main>
-<footer>© 2026 Adem Kınataş · Taş Kağıt Tokat · <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a></footer>
+<footer>
+<nav><a href="/tas-kagit-makas/tr/support/">Yardım ve destek</a><a href="/tas-kagit-makas/tr/privacy/" aria-current="page">Gizlilik politikası</a><a href="/tas-kagit-makas/tr/terms/">Kullanım koşulları</a><a href="/tas-kagit-makas/tr/delete-account/">Hesabı sil</a></nav>
+<nav aria-label="Dil"><a href="/tas-kagit-makas/tr/privacy/" hreflang="tr" lang="tr" aria-current="page">Türkçe</a><a href="/tas-kagit-makas/en/privacy/" hreflang="en" lang="en">English</a><a href="/tas-kagit-makas/de/privacy/" hreflang="de" lang="de">Deutsch</a><a href="/tas-kagit-makas/es/privacy/" hreflang="es" lang="es">Español</a><a href="/tas-kagit-makas/fr/privacy/" hreflang="fr" lang="fr">Français</a><a href="/tas-kagit-makas/it/privacy/" hreflang="it" lang="it">Italiano</a><a href="/tas-kagit-makas/pt/privacy/" hreflang="pt-BR" lang="pt-BR">Português</a><a href="/tas-kagit-makas/ru/privacy/" hreflang="ru" lang="ru">Русский</a><a href="/tas-kagit-makas/zh/privacy/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="/tas-kagit-makas/ja/privacy/" hreflang="ja" lang="ja">日本語</a><a href="/tas-kagit-makas/ko/privacy/" hreflang="ko" lang="ko">한국어</a><a href="/tas-kagit-makas/id/privacy/" hreflang="id" lang="id">Bahasa Indonesia</a><a href="/tas-kagit-makas/hi/privacy/" hreflang="hi" lang="hi">हिन्दी</a><a href="/tas-kagit-makas/ar/privacy/" hreflang="ar" lang="ar">العربية</a><a href="/tas-kagit-makas/pl/privacy/" hreflang="pl" lang="pl">Polski</a><a href="/tas-kagit-makas/nl/privacy/" hreflang="nl" lang="nl">Nederlands</a><a href="/tas-kagit-makas/vi/privacy/" hreflang="vi" lang="vi">Tiếng Việt</a><a href="/tas-kagit-makas/th/privacy/" hreflang="th" lang="th">ไทย</a></nav>
+<p>© 2026 Adem Kınataş</p>
+</footer>
 </div>
 </body>
 </html>

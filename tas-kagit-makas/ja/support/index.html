@@ -2,95 +2,73 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>サポート – じゃんけんビンタ</title>
-<meta name="description" content="じゃんけんビンタのヘルプ：遊び方、オンライン対戦、アカウント、購入、お問い合わせ。">
-<link rel="canonical" href="https://ademkinatas.github.io/tas-kagit-makas/ja/support/">
-<link rel="alternate" hreflang="tr" href="https://ademkinatas.github.io/tas-kagit-makas/tr/support/">
-<link rel="alternate" hreflang="en" href="https://ademkinatas.github.io/tas-kagit-makas/en/support/">
-<link rel="alternate" hreflang="de" href="https://ademkinatas.github.io/tas-kagit-makas/de/support/">
-<link rel="alternate" hreflang="es" href="https://ademkinatas.github.io/tas-kagit-makas/es/support/">
-<link rel="alternate" hreflang="fr" href="https://ademkinatas.github.io/tas-kagit-makas/fr/support/">
-<link rel="alternate" hreflang="it" href="https://ademkinatas.github.io/tas-kagit-makas/it/support/">
-<link rel="alternate" hreflang="pt-BR" href="https://ademkinatas.github.io/tas-kagit-makas/pt/support/">
-<link rel="alternate" hreflang="ru" href="https://ademkinatas.github.io/tas-kagit-makas/ru/support/">
-<link rel="alternate" hreflang="zh-Hans" href="https://ademkinatas.github.io/tas-kagit-makas/zh/support/">
-<link rel="alternate" hreflang="ja" href="https://ademkinatas.github.io/tas-kagit-makas/ja/support/">
-<link rel="alternate" hreflang="x-default" href="https://ademkinatas.github.io/tas-kagit-makas/en/support/">
-<link rel="icon" href="/tas-kagit-makas/icon.png">
-<meta property="og:title" content="サポート">
-<meta property="og:description" content="じゃんけんビンタのヘルプ：遊び方、オンライン対戦、アカウント、購入、お問い合わせ。">
-<meta property="og:image" content="https://ademkinatas.github.io/tas-kagit-makas/icon.png">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://ademkinatas.github.io/tas-kagit-makas/ja/support/">
-<meta property="og:site_name" content="じゃんけんビンタ">
-<meta property="og:locale" content="ja_JP">
-<meta name="twitter:card" content="summary">
-<meta name="theme-color" content="#FFD84D">
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
-<style>
-:root { --ground:#FFD84D; --ink:#1D1A2F; --white:#fff; --player:#FF6B3D; --bot:#4C6FFF; --tint:#FFE99A; }
-* { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--ground); color: var(--ink);
-  font: 500 17px/1.55 'Baloo 2', system-ui, -apple-system, 'Hiragino Sans', 'PingFang SC', 'Segoe UI', sans-serif; }
-a { color: var(--ink); font-weight: 700; }
-.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
-header { padding: 18px 0 8px; }
-.bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 22px; line-height: 1.1; }
-.brand img { width: 44px; height: 44px; border-radius: 12px; border: 3px solid var(--ink); }
-nav { display: flex; gap: 6px; flex-wrap: wrap; margin-left: auto; }
-nav a { text-decoration: none; font-size: 15px; padding: 4px 12px; border-radius: 12px; border: 2px solid var(--ink); background: var(--white); }
-nav a[aria-current] { background: var(--ink); color: var(--ground); }
-.lang { margin-top: 10px; font-size: 14px; }
-.lang select { font: inherit; border: 2px solid var(--ink); border-radius: 10px; padding: 2px 6px; background: var(--white); }
-main { padding: 12px 0 40px; }
-.card { background: var(--white); border: 3px solid var(--ink); border-radius: 22px; box-shadow: 0 5px 0 var(--ink); padding: 18px 20px; margin: 18px 0; }
-h1 { font-weight: 800; font-size: clamp(28px, 6vw, 40px); line-height: 1.15; margin: 14px 0 6px; }
-h2 { font-weight: 800; font-size: 22px; line-height: 1.2; margin: 0 0 8px; }
-p { margin: 0 0 10px; } p:last-child { margin-bottom: 0; }
-ul, ol { margin: 0 0 10px; padding-left: 22px; } li { margin: 4px 0; }
-.muted { opacity: .75; font-size: 15px; }
-.hero { display: grid; grid-template-columns: 140px 1fr; gap: 20px; align-items: center; }
-.hero img { width: 140px; height: 140px; border-radius: 32px; border: 4px solid var(--ink); box-shadow: 0 6px 0 var(--ink); }
-.sticker { display: inline-block; background: var(--ink); color: var(--ground); font-weight: 800; border-radius: 14px; padding: 2px 14px; transform: rotate(-2deg); }
-details { border-top: 2px dashed #E5DFC6; padding: 10px 0; } details:first-of-type { border-top: 0; }
-summary { font-weight: 800; cursor: pointer; }
-details p { margin-top: 6px; }
-footer { padding: 24px 0 40px; font-size: 14px; }
-@media (max-width: 560px) { .hero { grid-template-columns: 1fr; } .hero img { width: 110px; height: 110px; } nav { margin-left: 0; } }
-</style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>じゃんけんビンタ — ヘルプとサポート</title>
+<meta name="description" content="3 秒のカウントダウンで勝負するじゃんけん。ラウンドに勝つと、キャラクターが相手にビンタします。スマホ相手でも、同じスマホで友だちとでも、オンラインで世界中の人とでも遊べます。顔は、あなた自身の自撮り写真です。">
+<link rel="canonical" href="https://ademkinatas.com/tas-kagit-makas/ja/support/">
+<link rel="icon" href="/tas-kagit-makas/assets/icon.png">
+<link rel="apple-touch-icon" href="/tas-kagit-makas/assets/icon.png">
+<link rel="alternate" hreflang="tr" href="https://ademkinatas.com/tas-kagit-makas/tr/support/">
+<link rel="alternate" hreflang="en" href="https://ademkinatas.com/tas-kagit-makas/en/support/">
+<link rel="alternate" hreflang="de" href="https://ademkinatas.com/tas-kagit-makas/de/support/">
+<link rel="alternate" hreflang="es" href="https://ademkinatas.com/tas-kagit-makas/es/support/">
+<link rel="alternate" hreflang="fr" href="https://ademkinatas.com/tas-kagit-makas/fr/support/">
+<link rel="alternate" hreflang="it" href="https://ademkinatas.com/tas-kagit-makas/it/support/">
+<link rel="alternate" hreflang="pt-BR" href="https://ademkinatas.com/tas-kagit-makas/pt/support/">
+<link rel="alternate" hreflang="ru" href="https://ademkinatas.com/tas-kagit-makas/ru/support/">
+<link rel="alternate" hreflang="zh-Hans" href="https://ademkinatas.com/tas-kagit-makas/zh/support/">
+<link rel="alternate" hreflang="ja" href="https://ademkinatas.com/tas-kagit-makas/ja/support/">
+<link rel="alternate" hreflang="ko" href="https://ademkinatas.com/tas-kagit-makas/ko/support/">
+<link rel="alternate" hreflang="id" href="https://ademkinatas.com/tas-kagit-makas/id/support/">
+<link rel="alternate" hreflang="hi" href="https://ademkinatas.com/tas-kagit-makas/hi/support/">
+<link rel="alternate" hreflang="ar" href="https://ademkinatas.com/tas-kagit-makas/ar/support/">
+<link rel="alternate" hreflang="pl" href="https://ademkinatas.com/tas-kagit-makas/pl/support/">
+<link rel="alternate" hreflang="nl" href="https://ademkinatas.com/tas-kagit-makas/nl/support/">
+<link rel="alternate" hreflang="vi" href="https://ademkinatas.com/tas-kagit-makas/vi/support/">
+<link rel="alternate" hreflang="th" href="https://ademkinatas.com/tas-kagit-makas/th/support/">
+<link rel="alternate" hreflang="x-default" href="https://ademkinatas.com/tas-kagit-makas/en/support/">
+<link rel="stylesheet" href="/tas-kagit-makas/assets/style.css">
 </head>
 <body>
 <div class="wrap">
-<header>
-  <div class="bar">
-    <a class="brand" href="/tas-kagit-makas/ja/"><img src="/tas-kagit-makas/icon.png" alt="">じゃんけんビンタ</a>
-    <nav><a href="/tas-kagit-makas/ja/">ホーム</a><a href="/tas-kagit-makas/ja/support/" aria-current="page">サポート</a><a href="/tas-kagit-makas/ja/privacy/">プライバシーポリシー</a><a href="/tas-kagit-makas/ja/delete-account/">アカウント削除</a></nav>
-  </div>
-  <div class="lang"><label>言語: <select onchange="location.href=this.value"><option value="/tr/support/">Türkçe</option><option value="/en/support/">English</option><option value="/de/support/">Deutsch</option><option value="/es/support/">Español</option><option value="/fr/support/">Français</option><option value="/it/support/">Italiano</option><option value="/pt/support/">Português</option><option value="/ru/support/">Русский</option><option value="/zh/support/">简体中文</option><option value="/ja/support/" selected>日本語</option></select></label></div>
-</header>
+<header><a href="/tas-kagit-makas/ja/"><img src="/tas-kagit-makas/assets/icon.png" alt=""></a><a href="/tas-kagit-makas/ja/" class="brand">じゃんけんビンタ<small>じゃんけんビンタ：グーチョキパー</small></a></header>
 <main>
-<h1>サポート</h1><p>よくある質問の答えは下にあります。それでも解決しない場合はご連絡ください。できるだけ早くお返事します。</p>
-<section class="card"><details><summary>1回の勝負はどう進むの？</summary><p>3秒のカウントダウンが始まります。ゼロになる前にグー・チョキ・パーをタップしてください。ゼロになるまでは何度でも変更できます。出さなかった場合は燃えてその回は負け。両方とも燃えたら、その回はやり直しです。試合前に 1・3・5・7 回戦から選べます。</p></details>
-<details><summary>友だちと遊ぶには？</summary><p>1台のスマホで：「2人で」を選び、それぞれスマホの端を持って遊びます。オンラインで：「オンライン」を開いて「ルームを作る」をタップし、4文字のコードを友だちに送ってください。友だちは「コードで参加」でそのコードを入力します。ルーム対戦ではポイントは変動しません。</p></details>
-<details><summary>ランクポイントの仕組みは？</summary><p>ランダムなオンライン相手との試合はランク戦です。獲得・減少するポイントは相手のレーティングによって変わります。試合を途中で抜けると負け扱いになります。ランキングには上位50人と自分の順位が表示されます。</p></details>
-<details><summary>自分の写真は誰に見られるの？</summary><p>写真はスマホの中だけに保存されます。「相手に自分の写真を見せる」（設定 › アカウントとオンライン）をオンにした場合のみアップロードされ、オンラインの対戦相手とランキングに表示されます。いつでもオフにでき、オフにするとアップロードした写真は削除されます。</p></details>
-<details><summary>不快な写真があったら？</summary><p>試合後の結果画面で「写真を通報」をタップしてください。その写真は二度と表示されず、複数のプレイヤーから通報された写真は自動的に削除されます。急ぎの場合は、そのプレイヤーのニックネームを添えてメールでご連絡ください。</p></details>
-<details><summary>ニックネームは変えられる？</summary><p>不快な名前がつけられないよう、ニックネームは自動で作られます。設定 › アカウントとオンラインで「名前を変える」をタップすると、新しい名前が選ばれます。</p></details>
-<details><summary>新しいスマホにデータを引き継ぐには？</summary><p>古いスマホで：設定 › アカウントとオンライン › 「メールを連携」を選び、メールで届く6桁のコードを入力します。新しいスマホで：設定 › アカウントとオンライン › 「アカウントがあるのでログイン」から同じメールアドレスでログインします。ポイント、ベスト記録、連勝、言語、広告なしパックがすべて引き継がれます。</p></details>
-<details><summary>広告なしパックを買ったのに広告が出る。</summary><p>設定を開いて「購入を復元」をタップしてください。購入時と同じ Apple ID または Google アカウントでサインインしているか確認してください。パックは買い切りで、サブスクリプションではありません。</p></details>
-<details><summary>返金してほしい。</summary><p>購入は Apple と Google が管理しています。reportaproblem.apple.com（iPhone）または Google Play の注文履歴（Android）から返金をリクエストしてください。</p></details>
-<details><summary>アカウントを削除するには？</summary><p>アプリ内で：設定 › アカウントとオンライン › アカウントを削除。ほかの方法はアカウント削除ページをご覧ください。</p></details>
-<details><summary>オンライン対戦ができない。</summary><p>インターネット接続を確認し、アプリを最新版にアップデートしてください。対戦相手が見つからない場合は、ボットとの対戦が提案されます。ボット対戦と1台のスマホでの対戦はオフラインでも遊べます。</p></details></section>
-<section class="card" id="contact"><h2>お問い合わせ</h2><p><a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> までメールでご連絡ください。お使いのスマホの機種、アプリのバージョン（ストアに表示されています）、アカウントに関するお問い合わせの場合はニックネームを添えてください。</p></section>
+<section class="card">
+<h1>ヘルプとサポート</h1>
+<p class="lead">3 秒のカウントダウンで勝負するじゃんけん。ラウンドに勝つと、キャラクターが相手にビンタします。スマホ相手でも、同じスマホで友だちとでも、オンラインで世界中の人とでも遊べます。顔は、あなた自身の自撮り写真です。</p>
+<div class="stores"><span class="btn off">App Store · 近日公開</span></div>
+</section>
+<section class="card">
+<h2 style="margin-top:0">よくある質問</h2>
+<details><summary>1 ラウンドはどのように進みますか?</summary><p>3 秒のカウントダウンが始まります。ゼロになる前に<strong>グー</strong>、<strong>パー</strong>、<strong>チョキ</strong>をタップしてください。それまでは選び直せます。間に合わなかった場合はそのラウンドは負けになり、両方のプレイヤーが間に合わなかった場合はそのラウンドをやり直します。グーはチョキに、チョキはパーに、パーはグーに勝ちます。ラウンドの勝者は、ビンタなどのコミカルな挑発をします。オフラインの試合では、始める前にラウンド数を選びます。</p></details>
+<details><summary>どこで遊べますか?</summary><p>メイン画面で<strong>ボットと対戦</strong>(オフラインで遊べます)、<strong>2人で</strong>(1 台のスマホを 2 人で、それぞれ端を持って遊びます)、または<strong>オンライン</strong>を選びます。オンライン以外は、インターネット接続なしで遊べます。</p></details>
+<details><summary>友だちとオンラインで遊ぶには?</summary><p><strong>オンライン</strong>をタップし、<strong>ルームを作る</strong>をタップして、4 文字のコードを<strong>コードを共有</strong>で送ります。友だちは<strong>オンライン</strong>を開き、<strong>コードで参加</strong>をタップしてコードを入力します。フレンドルームはランク戦になりません。ルームごとにラウンド数を選べます。</p></details>
+<details><summary>人ではなくボットが相手になったのはなぜですか?</summary><p><strong>ランダム対戦</strong>では、約 10 秒間、実在のプレイヤーを探します。その時点で誰も探していなければ、待たずに済むようボットが相手になります。ボットとの対戦には BOT のバッジが付き、ランク戦にならず、ポイントも変わりません。<strong>ボットと練習</strong>は、選んだラウンド数で、すぐにそのような対戦を始めます。</p></details>
+<details><summary>ランクポイントの仕組みを教えてください。</summary><p><strong>ランダム対戦</strong>(実在の人)での対戦はランク戦で、常に 2 勝先取です。両プレイヤーのレーティングに応じて、ポイントが増減します。ランキングを公正に保つため、一部の結果はレーティング対象外になります。たとえば、同じ 2 つのアカウントが 1 日以内に繰り返した対戦、できたばかりのアカウント、相手の時間切れだけで決まった結果などです。ボットとの対戦とフレンドルームではポイントは変わらず、対戦から退出すると負けになります。ランキングには、上位 50 名のプレイヤーとご自身の順位が表示されます。</p></details>
+<details><summary>写真は誰に見えますか?</summary><p>ご自身以外には誰にも見えません。自撮り写真は、お使いのスマホ上のご自身のキャラクターにだけ表示され、アップロードされることはありません。オンラインでは、対戦相手には描かれた頭と自動生成されたニックネームが見えるだけで、チャットもありません。</p></details>
+<details><summary>キャラクターに自分の顔を設定するには?</summary><p>メイン画面の写真ボタン(または<strong>設定 → プロフィール写真</strong>)をタップし、<strong>自撮り</strong>または<strong>アルバム</strong>を選び、顔を四角の中央に合わせて保存します。<strong>写真を削除</strong>で削除できます。</p></details>
+<details><summary>ニックネームは変更できますか?</summary><p>ニックネームは自動生成されるので、不適切な名前を入力されることはありません。<strong>設定 → アカウントとオンライン</strong>を開き、<strong>名前を変える</strong>をタップすると別のニックネームになります。</p></details>
+<details><summary>新しいスマホにポイントを引き継げますか?</summary><p>ポイントと順位は、スマホ上の匿名アカウントに属しています。メールアドレスやパスワードがないため、別のスマホに移すことはできず、アプリを削除すると新しいアカウントから始まることがあります。会員登録が不要であることの代償です。</p></details>
+<details><summary>Premium には何が含まれますか?</summary><p>広告が表示されなくなります。試合後のバナー広告も全画面広告もありません。Premium でランク戦が有利になることはなく、すべてのゲームモードは無料のままです。<strong>設定 → Premium</strong> またはメイン画面の Premium バーから開き、<strong>週間</strong>または<strong>月間</strong>(解約するまで自動的に更新されるサブスクリプション)、あるいは<strong>買い切り</strong>(1 回のお支払いで、更新されません)を選びます。お住まいの国の価格は購入前に表示されます。</p></details>
+<details><summary>サブスクリプションを解約するには?</summary><p>iPhone では、<strong>設定 → ご自身の名前 → サブスクリプション</strong>、またはアプリの Premium 画面の<strong>サブスクリプションを管理</strong>から行います。次回の請求を避けるには、現在の期間が終わる少なくとも 24 時間前までに解約してください。Premium は支払い済みの期間の終了まで有効です。アプリやゲームアカウントを削除しても、サブスクリプションは解約されません。</p></details>
+<details><summary>Premium を購入したのに、新しいスマホで広告が表示されます</summary><p>購入時と同じ Apple Account でサインインした状態で、<strong>設定 → Premium</strong> を開き、<strong>購入を復元</strong>をタップしてください。サブスクリプションが終了している場合は、更新するまで広告が再び表示されます。</p></details>
+<details><summary>返金してもらえますか?</summary><p>お支払いは Apple が処理しているため、返金も Apple の対応となり、当方からは行えません。reportaproblem.apple.com をご利用ください。</p></details>
+<details><summary>アカウントを削除するには?</summary><p>アプリ内で、<strong>設定 → アカウントとオンライン → アカウントを削除</strong> の順に進みます。ゲストアカウント、ニックネーム、ポイント、オンライン対戦の記録がすぐに削除されます。削除されるものとされないものの詳細は、このサイトの「アカウントの削除」ページに記載しています。</p></details>
+<details><summary>オンライン対戦が動作しません</summary><p>インターネット接続を確認し、アプリを最新版に更新してください。対戦中に接続が切れた場合、アプリはしばらく再接続を試みます。ボットとの対戦と 2 人対戦は、インターネットなしで動作します。それでも解決しない場合は、ご連絡ください。</p></details>
+<details><summary>広告に関するプライバシーの選択を変更するには?</summary><p>法律で必要とされる地域(たとえば EU や英国)では、アプリ内に<strong>設定 → プライバシーと広告の同意</strong>が表示されます。iPhone では、設定 → プライバシーとセキュリティ → トラッキング からトラッキングをオフにすることもできます。Premium のプレイヤーには確認が表示されず、広告も表示されません。詳細はプライバシーポリシーをご覧ください。</p></details>
+<details><summary>言語を変更するには?</summary><p><strong>設定 → 言語</strong>。初期設定では、アプリはお使いのスマホの言語を使用します。</p></details>
+</section>
+<section class="card contact">
+<h2 style="margin-top:0">お問い合わせ</h2>
+<p>動作しない点やご提案がありましたら、お知らせください。お使いのスマホの機種とアプリのバージョン(App Store に表示されています)も添えてください。</p>
+<p><a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a></p>
+</section>
 </main>
-<footer>© 2026 Adem Kınataş · じゃんけんビンタ · <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a></footer>
+<footer>
+<nav><a href="/tas-kagit-makas/ja/support/" aria-current="page">ヘルプとサポート</a><a href="/tas-kagit-makas/ja/privacy/">プライバシーポリシー</a><a href="/tas-kagit-makas/ja/terms/">利用規約</a><a href="/tas-kagit-makas/ja/delete-account/">アカウントの削除</a></nav>
+<nav aria-label="言語"><a href="/tas-kagit-makas/tr/support/" hreflang="tr" lang="tr">Türkçe</a><a href="/tas-kagit-makas/en/support/" hreflang="en" lang="en">English</a><a href="/tas-kagit-makas/de/support/" hreflang="de" lang="de">Deutsch</a><a href="/tas-kagit-makas/es/support/" hreflang="es" lang="es">Español</a><a href="/tas-kagit-makas/fr/support/" hreflang="fr" lang="fr">Français</a><a href="/tas-kagit-makas/it/support/" hreflang="it" lang="it">Italiano</a><a href="/tas-kagit-makas/pt/support/" hreflang="pt-BR" lang="pt-BR">Português</a><a href="/tas-kagit-makas/ru/support/" hreflang="ru" lang="ru">Русский</a><a href="/tas-kagit-makas/zh/support/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="/tas-kagit-makas/ja/support/" hreflang="ja" lang="ja" aria-current="page">日本語</a><a href="/tas-kagit-makas/ko/support/" hreflang="ko" lang="ko">한국어</a><a href="/tas-kagit-makas/id/support/" hreflang="id" lang="id">Bahasa Indonesia</a><a href="/tas-kagit-makas/hi/support/" hreflang="hi" lang="hi">हिन्दी</a><a href="/tas-kagit-makas/ar/support/" hreflang="ar" lang="ar">العربية</a><a href="/tas-kagit-makas/pl/support/" hreflang="pl" lang="pl">Polski</a><a href="/tas-kagit-makas/nl/support/" hreflang="nl" lang="nl">Nederlands</a><a href="/tas-kagit-makas/vi/support/" hreflang="vi" lang="vi">Tiếng Việt</a><a href="/tas-kagit-makas/th/support/" hreflang="th" lang="th">ไทย</a></nav>
+<p>© 2026 Adem Kınataş</p>
+</footer>
 </div>
 </body>
 </html>

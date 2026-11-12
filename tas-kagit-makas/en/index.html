@@ -2,88 +2,56 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rock Paper Slap – Rock Paper Scissors with a Slap</title>
-<meta name="description" content="Rock paper scissors with a 3-second countdown. Don't pick in time and you burn. Win the round and slap your rival, with your own face on the character.">
-<link rel="canonical" href="https://ademkinatas.github.io/tas-kagit-makas/en/">
-<link rel="alternate" hreflang="tr" href="https://ademkinatas.github.io/tas-kagit-makas/tr/">
-<link rel="alternate" hreflang="en" href="https://ademkinatas.github.io/tas-kagit-makas/en/">
-<link rel="alternate" hreflang="de" href="https://ademkinatas.github.io/tas-kagit-makas/de/">
-<link rel="alternate" hreflang="es" href="https://ademkinatas.github.io/tas-kagit-makas/es/">
-<link rel="alternate" hreflang="fr" href="https://ademkinatas.github.io/tas-kagit-makas/fr/">
-<link rel="alternate" hreflang="it" href="https://ademkinatas.github.io/tas-kagit-makas/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://ademkinatas.github.io/tas-kagit-makas/pt/">
-<link rel="alternate" hreflang="ru" href="https://ademkinatas.github.io/tas-kagit-makas/ru/">
-<link rel="alternate" hreflang="zh-Hans" href="https://ademkinatas.github.io/tas-kagit-makas/zh/">
-<link rel="alternate" hreflang="ja" href="https://ademkinatas.github.io/tas-kagit-makas/ja/">
-<link rel="alternate" hreflang="x-default" href="https://ademkinatas.github.io/tas-kagit-makas/en/">
-<link rel="icon" href="/tas-kagit-makas/icon.png">
-<meta property="og:title" content="Rock Paper Slap – Rock Paper Scissors with a Slap">
-<meta property="og:description" content="Rock paper scissors with a 3-second countdown. Don't pick in time and you burn. Win the round and slap your rival, with your own face on the character.">
-<meta property="og:image" content="https://ademkinatas.github.io/tas-kagit-makas/icon.png">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://ademkinatas.github.io/tas-kagit-makas/en/">
-<meta property="og:site_name" content="Rock Paper Slap">
-<meta property="og:locale" content="en_US">
-<meta name="twitter:card" content="summary">
-<meta name="theme-color" content="#FFD84D">
-
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Rock Paper Slap","alternateName":"Rock Paper Slap – Rock Paper Scissors with a Slap","description":"Rock paper scissors with a 3-second countdown. Don't pick in time and you burn. Win the round and slap your rival, with your own face on the character.","inLanguage":"en","applicationCategory":"GameApplication","operatingSystem":"iOS, Android","url":"https://ademkinatas.github.io/tas-kagit-makas/en/","image":"https://ademkinatas.github.io/tas-kagit-makas/icon.png","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Adem Kınataş","email":"ademkinatas@gmail.com"},"sameAs":[]}</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
-<style>
-:root { --ground:#FFD84D; --ink:#1D1A2F; --white:#fff; --player:#FF6B3D; --bot:#4C6FFF; --tint:#FFE99A; }
-* { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--ground); color: var(--ink);
-  font: 500 17px/1.55 'Baloo 2', system-ui, -apple-system, 'Hiragino Sans', 'PingFang SC', 'Segoe UI', sans-serif; }
-a { color: var(--ink); font-weight: 700; }
-.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
-header { padding: 18px 0 8px; }
-.bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 22px; line-height: 1.1; }
-.brand img { width: 44px; height: 44px; border-radius: 12px; border: 3px solid var(--ink); }
-nav { display: flex; gap: 6px; flex-wrap: wrap; margin-left: auto; }
-nav a { text-decoration: none; font-size: 15px; padding: 4px 12px; border-radius: 12px; border: 2px solid var(--ink); background: var(--white); }
-nav a[aria-current] { background: var(--ink); color: var(--ground); }
-.lang { margin-top: 10px; font-size: 14px; }
-.lang select { font: inherit; border: 2px solid var(--ink); border-radius: 10px; padding: 2px 6px; background: var(--white); }
-main { padding: 12px 0 40px; }
-.card { background: var(--white); border: 3px solid var(--ink); border-radius: 22px; box-shadow: 0 5px 0 var(--ink); padding: 18px 20px; margin: 18px 0; }
-h1 { font-weight: 800; font-size: clamp(28px, 6vw, 40px); line-height: 1.15; margin: 14px 0 6px; }
-h2 { font-weight: 800; font-size: 22px; line-height: 1.2; margin: 0 0 8px; }
-p { margin: 0 0 10px; } p:last-child { margin-bottom: 0; }
-ul, ol { margin: 0 0 10px; padding-left: 22px; } li { margin: 4px 0; }
-.muted { opacity: .75; font-size: 15px; }
-.hero { display: grid; grid-template-columns: 140px 1fr; gap: 20px; align-items: center; }
-.hero img { width: 140px; height: 140px; border-radius: 32px; border: 4px solid var(--ink); box-shadow: 0 6px 0 var(--ink); }
-.sticker { display: inline-block; background: var(--ink); color: var(--ground); font-weight: 800; border-radius: 14px; padding: 2px 14px; transform: rotate(-2deg); }
-details { border-top: 2px dashed #E5DFC6; padding: 10px 0; } details:first-of-type { border-top: 0; }
-summary { font-weight: 800; cursor: pointer; }
-details p { margin-top: 6px; }
-footer { padding: 24px 0 40px; font-size: 14px; }
-@media (max-width: 560px) { .hero { grid-template-columns: 1fr; } .hero img { width: 110px; height: 110px; } nav { margin-left: 0; } }
-</style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rock Paper Slap — Rock Paper Slap: Scissors Duel</title>
+<meta name="description" content="Rock paper scissors with a 3-second countdown. Win the round and your character slaps the other one. Play the phone, a friend on the same phone, or the world online, with your own selfie as the face.">
+<link rel="canonical" href="https://ademkinatas.com/tas-kagit-makas/en/">
+<link rel="icon" href="/tas-kagit-makas/assets/icon.png">
+<link rel="apple-touch-icon" href="/tas-kagit-makas/assets/icon.png">
+<link rel="alternate" hreflang="tr" href="https://ademkinatas.com/tas-kagit-makas/tr/">
+<link rel="alternate" hreflang="en" href="https://ademkinatas.com/tas-kagit-makas/en/">
+<link rel="alternate" hreflang="de" href="https://ademkinatas.com/tas-kagit-makas/de/">
+<link rel="alternate" hreflang="es" href="https://ademkinatas.com/tas-kagit-makas/es/">
+<link rel="alternate" hreflang="fr" href="https://ademkinatas.com/tas-kagit-makas/fr/">
+<link rel="alternate" hreflang="it" href="https://ademkinatas.com/tas-kagit-makas/it/">
+<link rel="alternate" hreflang="pt-BR" href="https://ademkinatas.com/tas-kagit-makas/pt/">
+<link rel="alternate" hreflang="ru" href="https://ademkinatas.com/tas-kagit-makas/ru/">
+<link rel="alternate" hreflang="zh-Hans" href="https://ademkinatas.com/tas-kagit-makas/zh/">
+<link rel="alternate" hreflang="ja" href="https://ademkinatas.com/tas-kagit-makas/ja/">
+<link rel="alternate" hreflang="ko" href="https://ademkinatas.com/tas-kagit-makas/ko/">
+<link rel="alternate" hreflang="id" href="https://ademkinatas.com/tas-kagit-makas/id/">
+<link rel="alternate" hreflang="hi" href="https://ademkinatas.com/tas-kagit-makas/hi/">
+<link rel="alternate" hreflang="ar" href="https://ademkinatas.com/tas-kagit-makas/ar/">
+<link rel="alternate" hreflang="pl" href="https://ademkinatas.com/tas-kagit-makas/pl/">
+<link rel="alternate" hreflang="nl" href="https://ademkinatas.com/tas-kagit-makas/nl/">
+<link rel="alternate" hreflang="vi" href="https://ademkinatas.com/tas-kagit-makas/vi/">
+<link rel="alternate" hreflang="th" href="https://ademkinatas.com/tas-kagit-makas/th/">
+<link rel="alternate" hreflang="x-default" href="https://ademkinatas.com/tas-kagit-makas/en/">
+<link rel="stylesheet" href="/tas-kagit-makas/assets/style.css">
 </head>
 <body>
 <div class="wrap">
-<header>
-  <div class="bar">
-    <a class="brand" href="/tas-kagit-makas/en/"><img src="/tas-kagit-makas/icon.png" alt="">Rock Paper Slap</a>
-    <nav><a href="/tas-kagit-makas/en/" aria-current="page">Home</a><a href="/tas-kagit-makas/en/support/">Support</a><a href="/tas-kagit-makas/en/privacy/">Privacy policy</a><a href="/tas-kagit-makas/en/delete-account/">Delete account</a></nav>
-  </div>
-  <div class="lang"><label>Language: <select onchange="location.href=this.value"><option value="/tr/">Türkçe</option><option value="/en/" selected>English</option><option value="/de/">Deutsch</option><option value="/es/">Español</option><option value="/fr/">Français</option><option value="/it/">Italiano</option><option value="/pt/">Português</option><option value="/ru/">Русский</option><option value="/zh/">简体中文</option><option value="/ja/">日本語</option></select></label></div>
-</header>
+<header><a href="/tas-kagit-makas/en/"><img src="/tas-kagit-makas/assets/icon.png" alt=""></a><a href="/tas-kagit-makas/en/" class="brand">Rock Paper Slap<small>Rock Paper Slap: Scissors Duel</small></a></header>
 <main>
-<section class="card hero">
-  <img src="/tas-kagit-makas/icon.png" alt="Rock Paper Slap">
-  <div><h1>Rock Paper Slap – Rock Paper Scissors with a Slap</h1><span class="sticker">3 seconds. Pick or you burn!</span></div>
+<section class="card">
+<h1>Rock Paper Slap</h1>
+<p class="lead">Rock paper scissors with a 3-second countdown. Win the round and your character slaps the other one. Play the phone, a friend on the same phone, or the world online, with your own selfie as the face.</p>
+<div class="stores"><span class="btn off">App Store · Coming soon</span></div>
 </section>
-<section class="card"><p>Rock Paper Slap is rock paper scissors turned into a cartoon showdown. Every round has a 3-second countdown: pick in time or lose the round. The winner taunts the loser with a slap, a tongue, a butt dance and more.</p><ul><li>Play the bot offline, or two players on one phone</li><li>Online: ranked matches against real players, or a room code for a friend</li><li>Put your own face on your character</li><li>Global leaderboard</li><li>10 languages, no sign-up</li></ul>
-<p class="muted">Coming soon to the App Store and Google Play.</p></section>
+<section class="card">
+<ul class="links">
+<li><a href="/tas-kagit-makas/en/support/">Help &amp; support</a></li>
+<li><a href="/tas-kagit-makas/en/privacy/">Privacy policy</a></li>
+<li><a href="/tas-kagit-makas/en/terms/">Terms of use</a></li>
+<li><a href="/tas-kagit-makas/en/delete-account/">Delete account</a></li>
+</ul>
+</section>
 </main>
-<footer>© 2026 Adem Kınataş · Rock Paper Slap · <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a></footer>
+<footer>
+<nav><a href="/tas-kagit-makas/en/support/">Help &amp; support</a><a href="/tas-kagit-makas/en/privacy/">Privacy policy</a><a href="/tas-kagit-makas/en/terms/">Terms of use</a><a href="/tas-kagit-makas/en/delete-account/">Delete account</a></nav>
+<nav aria-label="Language"><a href="/tas-kagit-makas/tr/" hreflang="tr" lang="tr">Türkçe</a><a href="/tas-kagit-makas/en/" hreflang="en" lang="en" aria-current="page">English</a><a href="/tas-kagit-makas/de/" hreflang="de" lang="de">Deutsch</a><a href="/tas-kagit-makas/es/" hreflang="es" lang="es">Español</a><a href="/tas-kagit-makas/fr/" hreflang="fr" lang="fr">Français</a><a href="/tas-kagit-makas/it/" hreflang="it" lang="it">Italiano</a><a href="/tas-kagit-makas/pt/" hreflang="pt-BR" lang="pt-BR">Português</a><a href="/tas-kagit-makas/ru/" hreflang="ru" lang="ru">Русский</a><a href="/tas-kagit-makas/zh/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="/tas-kagit-makas/ja/" hreflang="ja" lang="ja">日本語</a><a href="/tas-kagit-makas/ko/" hreflang="ko" lang="ko">한국어</a><a href="/tas-kagit-makas/id/" hreflang="id" lang="id">Bahasa Indonesia</a><a href="/tas-kagit-makas/hi/" hreflang="hi" lang="hi">हिन्दी</a><a href="/tas-kagit-makas/ar/" hreflang="ar" lang="ar">العربية</a><a href="/tas-kagit-makas/pl/" hreflang="pl" lang="pl">Polski</a><a href="/tas-kagit-makas/nl/" hreflang="nl" lang="nl">Nederlands</a><a href="/tas-kagit-makas/vi/" hreflang="vi" lang="vi">Tiếng Việt</a><a href="/tas-kagit-makas/th/" hreflang="th" lang="th">ไทย</a></nav>
+<p>© 2026 Adem Kınataş</p>
+</footer>
 </div>
 </body>
 </html>

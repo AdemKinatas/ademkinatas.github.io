@@ -2,87 +2,71 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>じゃんけんビンタのアカウントの削除 – じゃんけんビンタ</title>
-<meta name="description" content="じゃんけんビンタのアカウントの削除方法と、削除されるデータについて。">
-<link rel="canonical" href="https://ademkinatas.github.io/tas-kagit-makas/ja/delete-account/">
-<link rel="alternate" hreflang="tr" href="https://ademkinatas.github.io/tas-kagit-makas/tr/delete-account/">
-<link rel="alternate" hreflang="en" href="https://ademkinatas.github.io/tas-kagit-makas/en/delete-account/">
-<link rel="alternate" hreflang="de" href="https://ademkinatas.github.io/tas-kagit-makas/de/delete-account/">
-<link rel="alternate" hreflang="es" href="https://ademkinatas.github.io/tas-kagit-makas/es/delete-account/">
-<link rel="alternate" hreflang="fr" href="https://ademkinatas.github.io/tas-kagit-makas/fr/delete-account/">
-<link rel="alternate" hreflang="it" href="https://ademkinatas.github.io/tas-kagit-makas/it/delete-account/">
-<link rel="alternate" hreflang="pt-BR" href="https://ademkinatas.github.io/tas-kagit-makas/pt/delete-account/">
-<link rel="alternate" hreflang="ru" href="https://ademkinatas.github.io/tas-kagit-makas/ru/delete-account/">
-<link rel="alternate" hreflang="zh-Hans" href="https://ademkinatas.github.io/tas-kagit-makas/zh/delete-account/">
-<link rel="alternate" hreflang="ja" href="https://ademkinatas.github.io/tas-kagit-makas/ja/delete-account/">
-<link rel="alternate" hreflang="x-default" href="https://ademkinatas.github.io/tas-kagit-makas/en/delete-account/">
-<link rel="icon" href="/tas-kagit-makas/icon.png">
-<meta property="og:title" content="じゃんけんビンタのアカウントの削除">
-<meta property="og:description" content="じゃんけんビンタのアカウントの削除方法と、削除されるデータについて。">
-<meta property="og:image" content="https://ademkinatas.github.io/tas-kagit-makas/icon.png">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://ademkinatas.github.io/tas-kagit-makas/ja/delete-account/">
-<meta property="og:site_name" content="じゃんけんビンタ">
-<meta property="og:locale" content="ja_JP">
-<meta name="twitter:card" content="summary">
-<meta name="theme-color" content="#FFD84D">
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
-<style>
-:root { --ground:#FFD84D; --ink:#1D1A2F; --white:#fff; --player:#FF6B3D; --bot:#4C6FFF; --tint:#FFE99A; }
-* { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--ground); color: var(--ink);
-  font: 500 17px/1.55 'Baloo 2', system-ui, -apple-system, 'Hiragino Sans', 'PingFang SC', 'Segoe UI', sans-serif; }
-a { color: var(--ink); font-weight: 700; }
-.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
-header { padding: 18px 0 8px; }
-.bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 22px; line-height: 1.1; }
-.brand img { width: 44px; height: 44px; border-radius: 12px; border: 3px solid var(--ink); }
-nav { display: flex; gap: 6px; flex-wrap: wrap; margin-left: auto; }
-nav a { text-decoration: none; font-size: 15px; padding: 4px 12px; border-radius: 12px; border: 2px solid var(--ink); background: var(--white); }
-nav a[aria-current] { background: var(--ink); color: var(--ground); }
-.lang { margin-top: 10px; font-size: 14px; }
-.lang select { font: inherit; border: 2px solid var(--ink); border-radius: 10px; padding: 2px 6px; background: var(--white); }
-main { padding: 12px 0 40px; }
-.card { background: var(--white); border: 3px solid var(--ink); border-radius: 22px; box-shadow: 0 5px 0 var(--ink); padding: 18px 20px; margin: 18px 0; }
-h1 { font-weight: 800; font-size: clamp(28px, 6vw, 40px); line-height: 1.15; margin: 14px 0 6px; }
-h2 { font-weight: 800; font-size: 22px; line-height: 1.2; margin: 0 0 8px; }
-p { margin: 0 0 10px; } p:last-child { margin-bottom: 0; }
-ul, ol { margin: 0 0 10px; padding-left: 22px; } li { margin: 4px 0; }
-.muted { opacity: .75; font-size: 15px; }
-.hero { display: grid; grid-template-columns: 140px 1fr; gap: 20px; align-items: center; }
-.hero img { width: 140px; height: 140px; border-radius: 32px; border: 4px solid var(--ink); box-shadow: 0 6px 0 var(--ink); }
-.sticker { display: inline-block; background: var(--ink); color: var(--ground); font-weight: 800; border-radius: 14px; padding: 2px 14px; transform: rotate(-2deg); }
-details { border-top: 2px dashed #E5DFC6; padding: 10px 0; } details:first-of-type { border-top: 0; }
-summary { font-weight: 800; cursor: pointer; }
-details p { margin-top: 6px; }
-footer { padding: 24px 0 40px; font-size: 14px; }
-@media (max-width: 560px) { .hero { grid-template-columns: 1fr; } .hero img { width: 110px; height: 110px; } nav { margin-left: 0; } }
-</style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>じゃんけんビンタ — アカウントの削除</title>
+<meta name="description" content="アカウントの削除">
+<link rel="canonical" href="https://ademkinatas.com/tas-kagit-makas/ja/delete-account/">
+<link rel="icon" href="/tas-kagit-makas/assets/icon.png">
+<link rel="apple-touch-icon" href="/tas-kagit-makas/assets/icon.png">
+<link rel="alternate" hreflang="tr" href="https://ademkinatas.com/tas-kagit-makas/tr/delete-account/">
+<link rel="alternate" hreflang="en" href="https://ademkinatas.com/tas-kagit-makas/en/delete-account/">
+<link rel="alternate" hreflang="de" href="https://ademkinatas.com/tas-kagit-makas/de/delete-account/">
+<link rel="alternate" hreflang="es" href="https://ademkinatas.com/tas-kagit-makas/es/delete-account/">
+<link rel="alternate" hreflang="fr" href="https://ademkinatas.com/tas-kagit-makas/fr/delete-account/">
+<link rel="alternate" hreflang="it" href="https://ademkinatas.com/tas-kagit-makas/it/delete-account/">
+<link rel="alternate" hreflang="pt-BR" href="https://ademkinatas.com/tas-kagit-makas/pt/delete-account/">
+<link rel="alternate" hreflang="ru" href="https://ademkinatas.com/tas-kagit-makas/ru/delete-account/">
+<link rel="alternate" hreflang="zh-Hans" href="https://ademkinatas.com/tas-kagit-makas/zh/delete-account/">
+<link rel="alternate" hreflang="ja" href="https://ademkinatas.com/tas-kagit-makas/ja/delete-account/">
+<link rel="alternate" hreflang="ko" href="https://ademkinatas.com/tas-kagit-makas/ko/delete-account/">
+<link rel="alternate" hreflang="id" href="https://ademkinatas.com/tas-kagit-makas/id/delete-account/">
+<link rel="alternate" hreflang="hi" href="https://ademkinatas.com/tas-kagit-makas/hi/delete-account/">
+<link rel="alternate" hreflang="ar" href="https://ademkinatas.com/tas-kagit-makas/ar/delete-account/">
+<link rel="alternate" hreflang="pl" href="https://ademkinatas.com/tas-kagit-makas/pl/delete-account/">
+<link rel="alternate" hreflang="nl" href="https://ademkinatas.com/tas-kagit-makas/nl/delete-account/">
+<link rel="alternate" hreflang="vi" href="https://ademkinatas.com/tas-kagit-makas/vi/delete-account/">
+<link rel="alternate" hreflang="th" href="https://ademkinatas.com/tas-kagit-makas/th/delete-account/">
+<link rel="alternate" hreflang="x-default" href="https://ademkinatas.com/tas-kagit-makas/en/delete-account/">
+<link rel="stylesheet" href="/tas-kagit-makas/assets/style.css">
 </head>
 <body>
 <div class="wrap">
-<header>
-  <div class="bar">
-    <a class="brand" href="/tas-kagit-makas/ja/"><img src="/tas-kagit-makas/icon.png" alt="">じゃんけんビンタ</a>
-    <nav><a href="/tas-kagit-makas/ja/">ホーム</a><a href="/tas-kagit-makas/ja/support/">サポート</a><a href="/tas-kagit-makas/ja/privacy/">プライバシーポリシー</a><a href="/tas-kagit-makas/ja/delete-account/" aria-current="page">アカウント削除</a></nav>
-  </div>
-  <div class="lang"><label>言語: <select onchange="location.href=this.value"><option value="/tr/delete-account/">Türkçe</option><option value="/en/delete-account/">English</option><option value="/de/delete-account/">Deutsch</option><option value="/es/delete-account/">Español</option><option value="/fr/delete-account/">Français</option><option value="/it/delete-account/">Italiano</option><option value="/pt/delete-account/">Português</option><option value="/ru/delete-account/">Русский</option><option value="/zh/delete-account/">简体中文</option><option value="/ja/delete-account/" selected>日本語</option></select></label></div>
-</header>
+<header><a href="/tas-kagit-makas/ja/"><img src="/tas-kagit-makas/assets/icon.png" alt=""></a><a href="/tas-kagit-makas/ja/" class="brand">じゃんけんビンタ<small>じゃんけんビンタ：グーチョキパー</small></a></header>
 <main>
-<h1>じゃんけんビンタのアカウントの削除</h1>
-<section class="card"><h2>アプリ内で（最速）</h2><ol><li>じゃんけんビンタを開き、歯車アイコン（設定）をタップします。</li><li>「アカウントとオンライン」をタップします。</li><li>一番下の「アカウントを削除」をタップして確定します。</li></ol></section>
-<section class="card"><h2>アプリを使わずに</h2><p>件名を「アカウントを削除」として <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> にメールを送ってください。アカウントに保存したメールアドレスから送るか、ニックネームを記載してください。30日以内にアカウントを削除し、メールでお知らせします。</p></section>
-<section class="card"><h2>削除されるもの</h2><ul><li>アカウントとメールアドレス</li><li>ニックネーム、ポイント、勝敗数、対戦履歴</li><li>同期された設定（言語、ベスト記録、連勝）</li><li>アップロードした写真と、あなたが行った通報</li></ul>
-<h2>残るもの</h2><p>購入記録は、法律で定められているとおり Apple、Google、RevenueCat に残ります。広告なしパックはお使いの Apple ID または Google アカウントに紐づいたままで、復元できます。対戦相手があなたとの試合で獲得・失ったポイントは相手の合計に残りますが、試合そのものの記録は削除されます。</p></section>
+<article class="card">
+<h1>アカウントの削除 — じゃんけんビンタ</h1>
+<p>最終更新日：2026年11月12日</p>
+<p>じゃんけんビンタには会員登録がありません。本アプリは、オンライン対戦とランキングのために匿名のゲストアカウントを作成します。このアカウントは、本アプリ内でいつでもご自身で削除できます。</p>
+<h2>アプリ内で削除する(最も早い方法)</h2>
+<ul>
+<li>じゃんけんビンタを開き、歯車アイコン(設定)をタップします。</li>
+<li>「アカウントとオンライン」をタップします。</li>
+<li>下部の「アカウントを削除」をタップして、確定します。</li>
+</ul>
+<p>削除はすぐに行われます。インターネット接続が必要です。</p>
+<h2>削除されるもの</h2>
+<ul>
+<li>ニックネーム、ポイント、勝ち数、負け数を含むゲストアカウント。</li>
+<li>アカウントとともに保存されている、同期された設定のコピー(言語、バイブレーション、連勝記録)。</li>
+<li>お客様が参加したすべてのオンライン対戦の記録(すべての手と結果を含む)。その時点で対戦中の場合は、先にその対戦が終了され、退出はお客様の負けとして扱われます。</li>
+<li>入力したルームコードの記録。</li>
+</ul>
+<p>削除後、本アプリは新しいニックネームとゼロのポイントを持つ、空の新しいゲストアカウントを開始します。以前のポイントと順位を復元することはできません。</p>
+<h2>削除されないもの</h2>
+<ul>
+<li>対戦相手自身の合計：お客様との対戦で相手が獲得または失ったポイントは、相手のポイント、勝ち数、負け数に残りますが、対戦そのものは相手の履歴からも消えます。</li>
+<li>購入記録。法律の定めにより、Apple と RevenueCat が保持します。Premium はお客様の Apple Account に属しており、「購入を復元」で復元できます。ゲームアカウントを削除しても、サブスクリプションは解約されません。iPhone の 設定 → ご自身の名前 → サブスクリプション から解約してください。</li>
+<li>お使いの iPhone にのみあるデータ：自撮り写真と設定。自撮り写真は 設定 → プロフィール写真 → 写真を削除 で削除できます。すべてを消去するには、本アプリを削除してください。</li>
+</ul>
+<h2>アプリを使わずに削除する</h2>
+<p>アプリを開けなくなった場合は、件名を「アカウントを削除」として <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> までご連絡ください。ゲストアカウントにはメールアドレスも氏名もないため、当方がアカウントを探せるのは、ニックネーム、ポイント、勝敗の記録など、お客様からいただいた情報に基づく場合に限られます。確実に特定できないこともあり、その場合は削除できません。確実な方法は、アプリ内での削除です。30 日以内にご返信します。RevenueCat にある購入データの削除をご希望の場合は、同じアドレスまでご連絡ください。当方からご依頼を転送します。</p>
+</article>
 </main>
-<footer>© 2026 Adem Kınataş · じゃんけんビンタ · <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a></footer>
+<footer>
+<nav><a href="/tas-kagit-makas/ja/support/">ヘルプとサポート</a><a href="/tas-kagit-makas/ja/privacy/">プライバシーポリシー</a><a href="/tas-kagit-makas/ja/terms/">利用規約</a><a href="/tas-kagit-makas/ja/delete-account/" aria-current="page">アカウントの削除</a></nav>
+<nav aria-label="言語"><a href="/tas-kagit-makas/tr/delete-account/" hreflang="tr" lang="tr">Türkçe</a><a href="/tas-kagit-makas/en/delete-account/" hreflang="en" lang="en">English</a><a href="/tas-kagit-makas/de/delete-account/" hreflang="de" lang="de">Deutsch</a><a href="/tas-kagit-makas/es/delete-account/" hreflang="es" lang="es">Español</a><a href="/tas-kagit-makas/fr/delete-account/" hreflang="fr" lang="fr">Français</a><a href="/tas-kagit-makas/it/delete-account/" hreflang="it" lang="it">Italiano</a><a href="/tas-kagit-makas/pt/delete-account/" hreflang="pt-BR" lang="pt-BR">Português</a><a href="/tas-kagit-makas/ru/delete-account/" hreflang="ru" lang="ru">Русский</a><a href="/tas-kagit-makas/zh/delete-account/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="/tas-kagit-makas/ja/delete-account/" hreflang="ja" lang="ja" aria-current="page">日本語</a><a href="/tas-kagit-makas/ko/delete-account/" hreflang="ko" lang="ko">한국어</a><a href="/tas-kagit-makas/id/delete-account/" hreflang="id" lang="id">Bahasa Indonesia</a><a href="/tas-kagit-makas/hi/delete-account/" hreflang="hi" lang="hi">हिन्दी</a><a href="/tas-kagit-makas/ar/delete-account/" hreflang="ar" lang="ar">العربية</a><a href="/tas-kagit-makas/pl/delete-account/" hreflang="pl" lang="pl">Polski</a><a href="/tas-kagit-makas/nl/delete-account/" hreflang="nl" lang="nl">Nederlands</a><a href="/tas-kagit-makas/vi/delete-account/" hreflang="vi" lang="vi">Tiếng Việt</a><a href="/tas-kagit-makas/th/delete-account/" hreflang="th" lang="th">ไทย</a></nav>
+<p>© 2026 Adem Kınataş</p>
+</footer>
 </div>
 </body>
 </html>

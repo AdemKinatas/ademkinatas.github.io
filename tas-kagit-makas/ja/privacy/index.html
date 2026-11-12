@@ -2,101 +2,153 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>プライバシーポリシー – じゃんけんビンタ</title>
-<meta name="description" content="じゃんけんビンタが収集するデータ、その目的、共有先、削除方法について。">
-<link rel="canonical" href="https://ademkinatas.github.io/tas-kagit-makas/ja/privacy/">
-<link rel="alternate" hreflang="tr" href="https://ademkinatas.github.io/tas-kagit-makas/tr/privacy/">
-<link rel="alternate" hreflang="en" href="https://ademkinatas.github.io/tas-kagit-makas/en/privacy/">
-<link rel="alternate" hreflang="de" href="https://ademkinatas.github.io/tas-kagit-makas/de/privacy/">
-<link rel="alternate" hreflang="es" href="https://ademkinatas.github.io/tas-kagit-makas/es/privacy/">
-<link rel="alternate" hreflang="fr" href="https://ademkinatas.github.io/tas-kagit-makas/fr/privacy/">
-<link rel="alternate" hreflang="it" href="https://ademkinatas.github.io/tas-kagit-makas/it/privacy/">
-<link rel="alternate" hreflang="pt-BR" href="https://ademkinatas.github.io/tas-kagit-makas/pt/privacy/">
-<link rel="alternate" hreflang="ru" href="https://ademkinatas.github.io/tas-kagit-makas/ru/privacy/">
-<link rel="alternate" hreflang="zh-Hans" href="https://ademkinatas.github.io/tas-kagit-makas/zh/privacy/">
-<link rel="alternate" hreflang="ja" href="https://ademkinatas.github.io/tas-kagit-makas/ja/privacy/">
-<link rel="alternate" hreflang="x-default" href="https://ademkinatas.github.io/tas-kagit-makas/en/privacy/">
-<link rel="icon" href="/tas-kagit-makas/icon.png">
-<meta property="og:title" content="プライバシーポリシー">
-<meta property="og:description" content="じゃんけんビンタが収集するデータ、その目的、共有先、削除方法について。">
-<meta property="og:image" content="https://ademkinatas.github.io/tas-kagit-makas/icon.png">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://ademkinatas.github.io/tas-kagit-makas/ja/privacy/">
-<meta property="og:site_name" content="じゃんけんビンタ">
-<meta property="og:locale" content="ja_JP">
-<meta name="twitter:card" content="summary">
-<meta name="theme-color" content="#FFD84D">
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
-<style>
-:root { --ground:#FFD84D; --ink:#1D1A2F; --white:#fff; --player:#FF6B3D; --bot:#4C6FFF; --tint:#FFE99A; }
-* { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--ground); color: var(--ink);
-  font: 500 17px/1.55 'Baloo 2', system-ui, -apple-system, 'Hiragino Sans', 'PingFang SC', 'Segoe UI', sans-serif; }
-a { color: var(--ink); font-weight: 700; }
-.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
-header { padding: 18px 0 8px; }
-.bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 22px; line-height: 1.1; }
-.brand img { width: 44px; height: 44px; border-radius: 12px; border: 3px solid var(--ink); }
-nav { display: flex; gap: 6px; flex-wrap: wrap; margin-left: auto; }
-nav a { text-decoration: none; font-size: 15px; padding: 4px 12px; border-radius: 12px; border: 2px solid var(--ink); background: var(--white); }
-nav a[aria-current] { background: var(--ink); color: var(--ground); }
-.lang { margin-top: 10px; font-size: 14px; }
-.lang select { font: inherit; border: 2px solid var(--ink); border-radius: 10px; padding: 2px 6px; background: var(--white); }
-main { padding: 12px 0 40px; }
-.card { background: var(--white); border: 3px solid var(--ink); border-radius: 22px; box-shadow: 0 5px 0 var(--ink); padding: 18px 20px; margin: 18px 0; }
-h1 { font-weight: 800; font-size: clamp(28px, 6vw, 40px); line-height: 1.15; margin: 14px 0 6px; }
-h2 { font-weight: 800; font-size: 22px; line-height: 1.2; margin: 0 0 8px; }
-p { margin: 0 0 10px; } p:last-child { margin-bottom: 0; }
-ul, ol { margin: 0 0 10px; padding-left: 22px; } li { margin: 4px 0; }
-.muted { opacity: .75; font-size: 15px; }
-.hero { display: grid; grid-template-columns: 140px 1fr; gap: 20px; align-items: center; }
-.hero img { width: 140px; height: 140px; border-radius: 32px; border: 4px solid var(--ink); box-shadow: 0 6px 0 var(--ink); }
-.sticker { display: inline-block; background: var(--ink); color: var(--ground); font-weight: 800; border-radius: 14px; padding: 2px 14px; transform: rotate(-2deg); }
-details { border-top: 2px dashed #E5DFC6; padding: 10px 0; } details:first-of-type { border-top: 0; }
-summary { font-weight: 800; cursor: pointer; }
-details p { margin-top: 6px; }
-footer { padding: 24px 0 40px; font-size: 14px; }
-@media (max-width: 560px) { .hero { grid-template-columns: 1fr; } .hero img { width: 110px; height: 110px; } nav { margin-left: 0; } }
-</style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>じゃんけんビンタ — プライバシーポリシー</title>
+<meta name="description" content="プライバシーポリシー">
+<link rel="canonical" href="https://ademkinatas.com/tas-kagit-makas/ja/privacy/">
+<link rel="icon" href="/tas-kagit-makas/assets/icon.png">
+<link rel="apple-touch-icon" href="/tas-kagit-makas/assets/icon.png">
+<link rel="alternate" hreflang="tr" href="https://ademkinatas.com/tas-kagit-makas/tr/privacy/">
+<link rel="alternate" hreflang="en" href="https://ademkinatas.com/tas-kagit-makas/en/privacy/">
+<link rel="alternate" hreflang="de" href="https://ademkinatas.com/tas-kagit-makas/de/privacy/">
+<link rel="alternate" hreflang="es" href="https://ademkinatas.com/tas-kagit-makas/es/privacy/">
+<link rel="alternate" hreflang="fr" href="https://ademkinatas.com/tas-kagit-makas/fr/privacy/">
+<link rel="alternate" hreflang="it" href="https://ademkinatas.com/tas-kagit-makas/it/privacy/">
+<link rel="alternate" hreflang="pt-BR" href="https://ademkinatas.com/tas-kagit-makas/pt/privacy/">
+<link rel="alternate" hreflang="ru" href="https://ademkinatas.com/tas-kagit-makas/ru/privacy/">
+<link rel="alternate" hreflang="zh-Hans" href="https://ademkinatas.com/tas-kagit-makas/zh/privacy/">
+<link rel="alternate" hreflang="ja" href="https://ademkinatas.com/tas-kagit-makas/ja/privacy/">
+<link rel="alternate" hreflang="ko" href="https://ademkinatas.com/tas-kagit-makas/ko/privacy/">
+<link rel="alternate" hreflang="id" href="https://ademkinatas.com/tas-kagit-makas/id/privacy/">
+<link rel="alternate" hreflang="hi" href="https://ademkinatas.com/tas-kagit-makas/hi/privacy/">
+<link rel="alternate" hreflang="ar" href="https://ademkinatas.com/tas-kagit-makas/ar/privacy/">
+<link rel="alternate" hreflang="pl" href="https://ademkinatas.com/tas-kagit-makas/pl/privacy/">
+<link rel="alternate" hreflang="nl" href="https://ademkinatas.com/tas-kagit-makas/nl/privacy/">
+<link rel="alternate" hreflang="vi" href="https://ademkinatas.com/tas-kagit-makas/vi/privacy/">
+<link rel="alternate" hreflang="th" href="https://ademkinatas.com/tas-kagit-makas/th/privacy/">
+<link rel="alternate" hreflang="x-default" href="https://ademkinatas.com/tas-kagit-makas/en/privacy/">
+<link rel="stylesheet" href="/tas-kagit-makas/assets/style.css">
 </head>
 <body>
 <div class="wrap">
-<header>
-  <div class="bar">
-    <a class="brand" href="/tas-kagit-makas/ja/"><img src="/tas-kagit-makas/icon.png" alt="">じゃんけんビンタ</a>
-    <nav><a href="/tas-kagit-makas/ja/">ホーム</a><a href="/tas-kagit-makas/ja/support/">サポート</a><a href="/tas-kagit-makas/ja/privacy/" aria-current="page">プライバシーポリシー</a><a href="/tas-kagit-makas/ja/delete-account/">アカウント削除</a></nav>
-  </div>
-  <div class="lang"><label>言語: <select onchange="location.href=this.value"><option value="/tr/privacy/">Türkçe</option><option value="/en/privacy/">English</option><option value="/de/privacy/">Deutsch</option><option value="/es/privacy/">Español</option><option value="/fr/privacy/">Français</option><option value="/it/privacy/">Italiano</option><option value="/pt/privacy/">Português</option><option value="/ru/privacy/">Русский</option><option value="/zh/privacy/">简体中文</option><option value="/ja/privacy/" selected>日本語</option></select></label></div>
-</header>
+<header><a href="/tas-kagit-makas/ja/"><img src="/tas-kagit-makas/assets/icon.png" alt=""></a><a href="/tas-kagit-makas/ja/" class="brand">じゃんけんビンタ<small>じゃんけんビンタ：グーチョキパー</small></a></header>
 <main>
-<h1>プライバシーポリシー</h1><p class="muted">最終更新日：2026-10-30</p>
-<section class="card"><h2>運営者</h2><p>じゃんけんビンタ（以下「本アプリ」「当方」）は、Adem Kınataş（Türkiye）が開発しています。Adem Kınataş は、本ポリシーに記載する個人データの管理者（個人情報取扱事業者）です。連絡先：<a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a>。</p>
-<p>本ポリシーでは、本アプリが何を収集し、なぜ収集し、誰が受け取り、お客様がどのような対応をとれるかを説明します。本ポリシーは iPhone 版および Android 版の「じゃんけんビンタ」アプリと本ウェブサイトに適用されます。</p></section>
-<section class="card"><h2>概要</h2><ul><li>登録なしで遊べます。オンライン対戦とランキングを利用できるよう、匿名のゲストアカウントを作成します。</li><li>メールアドレスは、お客様がアカウントの保存を選んだ場合にのみ収集します。</li><li>「相手に自分の写真を見せる」をオンにしない限り、写真はお客様のスマホに残ります。</li><li>Google AdMob を通じて広告を表示し、Apple と Google を通じて広告なしパックを販売しています。</li><li>お客様の個人データを販売することはなく、ゲームの運営以外の目的に使用することもありません。</li></ul></section>
-<section class="card"><h2>収集するデータとその目的</h2><ul><li>アカウントID：初回起動時に作成されるランダムな識別子。オンライン対戦、ランキング、同期の運用に使用します。法的根拠：お客様へのサービスの提供。</li><li>ニックネーム：本アプリが単語リストから生成します（例：「ふきげんキツネ26」）。他のプレイヤーに表示されます。</li><li>ゲームデータ：オンライン対戦での手と結果、ポイント、勝敗数、および設定（言語、バイブ、ベスト記録、連勝、非表示にした写真）。ゲームの運営と進行状況の保存に使用します。</li><li>メールアドレス（任意）：アカウントを保存する場合、または別のスマホでログインする場合のみ。ワンタイムのログインコードの送信に使用します。宣伝メールは送りません。</li><li>写真（任意）：「相手に自分の写真を見せる」をオンにした場合のみ。画像は当方のサーバーに保存され、オンラインの対戦相手とランキングに表示されます。画像のリンクを知っている人は誰でも開くことができます。この設定をオフにすると削除されます。</li><li>通報：プレイヤーの写真を通報した場合、複数のプレイヤーから通報された写真を削除するため、誰が誰を通報したかを保存します。</li><li>購入状況：広告なしパックを所有しているかどうか。支払いはすべて Apple または Google が処理し、当方がカード情報を目にすることはありません。</li><li>技術データ：本アプリの接続時に、当方のサーバーおよびサービス提供者はお客様の IP アドレスと端末情報を受け取ります。セキュリティとサービス提供のために使用し、短期間のみ保持します。</li></ul>
-<p>カメラと写真ライブラリへのアクセスは、写真を選択または撮影するためだけに使用します。お客様が選択していない写真を読み取ることはありません。位置情報、連絡先、マイクのデータは収集しません。</p></section>
-<section class="card"><h2>広告</h2><p>無料版では、試合後に Google AdMob の広告を、結果画面にバナー広告を表示します。AdMob は、広告の表示・効果測定および不正防止のため、端末識別子（広告IDなど）、IP アドレス、そこから推定されるおおよその位置情報、広告とのやり取りに関するデータを収集する場合があります。</p>
-<p>欧州経済領域、英国、スイスでは、パーソナライズ広告を表示する前に Google の同意フォームでお客様の同意を求めます。選択は 設定 › プライバシーと広告の同意 でいつでも変更できます。iPhone では本アプリはトラッキングの許可を求めないため、広告IDは使用されません。スマホの設定で広告のパーソナライズを制限することもできます。</p>
-<p>広告なしパックを購入すると、すべての広告がオフになります。Google のプライバシーポリシー：<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p></section>
-<section class="card"><h2>データの共有先</h2><p>当方は以下のサービス提供者（委託先）を利用しており、これらの提供者は当方に代わってのみデータを取り扱います。</p>
-<ul><li>Supabase Inc. – データベース、アカウント、写真の保存。</li><li>Google LLC（AdMob）– 上記のとおり広告。</li><li>RevenueCat Inc. – お客様のアカウントIDに紐づけて、Apple および Google での購入状況を確認します。</li><li>Apple および Google – 各社のプライバシーポリシーに基づくアプリの配信と決済。</li><li>Supabase Inc. – ログインコードのメール配信。</li></ul>
-<p>他のプレイヤーには、ニックネーム、ポイント、勝敗数が表示され、写真はお客様が共有した場合のみ表示されます。法律で求められる場合に限り、当局にデータを開示します。個人データを販売または貸与することはありません。</p></section>
-<section class="card"><h2>国外へのデータ移転</h2><p>一部の提供者は米国に所在するか、お客様の国の外でデータを処理しています。必要な場合、これらの移転は欧州委員会の標準契約条項、またはこれらの企業が提供する同等の保護措置によって保護されています。</p></section>
-<section class="card"><h2>データの保存期間</h2><p>アカウント、ゲームデータ、メールアドレス、写真：アカウントを削除するまで（写真は共有をオフにするまで）。サーバーログ：セキュリティのため提供者が短期間保持します。購入記録：会計および税法上の要件に従い、Apple、Google、RevenueCat が保持します。</p></section>
-<section class="card"><h2>アカウントの削除</h2><p>アプリ内で：設定 › アカウントとオンライン › アカウントを削除。これにより、アカウント、メールアドレス、ニックネーム、ポイント、対戦履歴、同期された設定、通報、アップロードした写真が直ちに削除されます。メールで削除を依頼することもできます。アカウント削除ページをご覧ください。スマホ内にのみ保存されているデータは、アプリをアンインストールすると削除されます。</p></section>
-<section class="card"><h2>お客様の権利</h2><p>お住まいの地域（例：GDPR、英国 GDPR、トルコの KVKK、日本の個人情報保護法（APPI）、カリフォルニア州法）に応じて、お客様はご自身のデータへのアクセス、その写しの提供、訂正、削除、処理の制限を求めること、処理に異議を申し立てること、およびいつでも同意を撤回することができます。<a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> までご連絡ください。30日以内にお返事します。また、お客様にはデータ保護当局に苦情を申し立てる権利があります（トルコの場合：個人データ保護機関 KVKK）。</p></section>
-<section class="card"><h2>お子様について</h2><p>じゃんけんビンタは一般向けのゲームであり、13歳未満のお子様を対象としていません。13歳未満（またはお住まいの国で定められた最低年齢未満）のお子様の個人データを故意に収集することはありません。お子様がメールアドレスや写真を当方に提供したと思われる場合はご連絡ください。削除いたします。</p></section>
-<section class="card"><h2>セキュリティ</h2><p>データは暗号化された通信（HTTPS）で送信されます。データベースへのアクセスは制限されており、プレイヤーはゲームに必要な情報しか読み取れません。相手の手はその回が終わるまで非表示のままです。完全に安全なシステムは存在しませんが、当方はお客様のデータの保護に努めています。</p></section>
-<section class="card"><h2>変更について</h2><p>本アプリのデータの使い方が変わった場合は、このページを更新し、上部の日付を変更します。重要な変更はアプリ内でもお知らせします。</p></section>
+<article class="card">
+<h1>プライバシーポリシー — じゃんけんビンタ</h1>
+<p>最終更新日：2026年11月12日</p>
+<p>本ポリシーは、iPhone 向けアプリ「じゃんけんビンタ」(以下「本アプリ」。トルコ語では Taş Kağıt Tokat とも呼ばれます)をご利用になる際に、お客様のデータがどのように扱われるかを説明するものです。本アプリは、Adem Kınataş(以下「当方」)が提供しており、当方は Türkiye に所在しています。Adem Kınataş は、ここに記載する個人データの管理者です。ご質問は <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> までご連絡ください。</p>
+<p>要点：会員登録、メールアドレス、パスワード、チャットはありません。本アプリは、オンライン対戦とランキングが動作するように、自動生成されたニックネームを持つ匿名のゲストアカウントを作成します。自撮り写真はお使いの iPhone の中にだけ保存され、アップロードされることはありません。本アプリは Google AdMob の広告を(お客様の同意を得たうえで、Premium では一切表示せずに)表示し、任意の Premium の購入を Apple を通じて販売し、RevenueCat がその確認を行います。各項目の詳細は以下のとおりです。</p>
+<h2>1. お使いのデバイスに残るデータ</h2>
+<p>以下は、お使いの iPhone 上の本アプリのローカルストレージにのみ保存されます。当方がこれらを受け取ることはありません。</p>
+<ul>
+<li><strong>自撮り写真。</strong> キャラクター用に自撮りをするか写真を選ぶと、本アプリはそれを小さな正方形(384 × 384 ピクセル)に切り抜き、その JPEG のコピーをローカルに保存します。この写真は、オンラインを含むすべてのモードで、お客様自身のキャラクターに表示されます。アップロードされることも、当方のサーバーに送信されることも、他のプレイヤーに表示されることも、端末間で同期されることもありません。オンライン対戦では、対戦相手には顔ではなく描かれた頭が表示されます。</li>
+<li><strong>設定。</strong> 言語、バイブレーション、サウンド、最高連勝記録と現在の連勝記録、この端末で Premium が最後に有効だったかどうか、広告の表示間隔を空けるためのカウンター(前回の全画面広告以降に終了した試合数と、その広告が表示された時刻)、そして広告の同意についてすでに確認済みかどうか。</li>
+<li><strong>サインイン用キー。</strong> 本アプリは、匿名ゲストアカウントのトークン(第 2 項を参照)をローカルストレージに保持します。</li>
+</ul>
+<p><strong>共有。</strong> フレンドルームで「コードを共有」をタップすると、本アプリは短いメッセージとルームコードを添えて、お使いの iPhone の共有シートを開きます。共有した内容は、そこで選んだアプリや相手にのみ送られます。</p>
+<p><strong>デバイスのバックアップ。</strong> お使いの iPhone がアプリのデータをバックアップする場合(たとえば iCloud バックアップ)、これらのデータがそのバックアップに含まれることがあります。バックアップはお客様ご自身の iCloud アカウントに Apple の規約に従って保管され、当方はアクセスできません。</p>
+<p>自撮り写真は、本アプリでいつでも削除できます(設定 → プロフィール写真 → 写真を削除)。本アプリを削除すると、これらのデータはすべて iPhone から消去されます。</p>
+<h2>2. ゲストアカウントとオンライン対戦(Supabase)</h2>
+<p>本アプリを初めて開くと、当方のバックエンド上に匿名のゲストアカウントが作成されます。このバックエンドは Supabase(Supabase Inc.)上で動作しています。オフラインでしか遊ばない場合でも、オンライン対戦をすぐ始められるようにこの作成は行われます。このアカウントには、メールアドレス、電話番号、パスワード、氏名はありません。また、お客様の Apple Account やデバイス識別子とも紐づけられません。</p>
+<p><strong>サーバーがお客様について保存する情報：</strong></p>
+<ul>
+<li>ランダムなアカウント ID、およびアカウントの作成日時と最終利用日時;</li>
+<li>自動生成されたニックネーム。本アプリ内の固定の単語リストを指す 3 つの数字として保存されます(例：「ふきげんなキツネ 26」)。新しいニックネームに変更することはできますが、名前を自分で入力することはできません;</li>
+<li>ランク戦のオンライン対戦におけるポイント(レーティング)、勝ち数、負け数;</li>
+<li>同期される設定(言語、バイブレーション、最高連勝記録と現在の連勝記録)の小さなコピー。お客様のアカウントにのみ表示され、本アプリが同じアカウントに再びサインインしたときに設定が戻るようにするためのものです;</li>
+<li>すべてのオンライン対戦(クイックマッチ、フレンドルーム、ボット練習)について：対戦モード(ランク戦、フレンドルーム、ボット)、ラウンド数、プレイヤーのアカウント ID、スコア、対戦の状態と時刻、さらに各ラウンドの両プレイヤーの手(グー、パー、チョキ、または未選択)、ラウンドの結果、勝者に表示される挑発(サーバーが固定のリストからランダムに選びます)。ラウンドが進行している間、お客様の手はサーバーが保持し、ラウンドが終わるまで対戦相手を含め誰も読むことができません。ボットとの対戦も同じように保存され、ボットのランダムな手も記録されます;</li>
+<li>フレンドルームについて：ルームが開いている間の 4 文字のルームコード;</li>
+<li>対戦相手を待っている間、お使いの iPhone がまだ接続していることを示す信号(数秒ごとに更新される「最終確認」時刻);</li>
+<li>入力した誤ったルームコード：推測を制限するために、試行の記録を時刻とともに 1 時間保存します(10 分間に誤ったコードを 10 回入力すると、入力が一時停止されます)。</li>
+</ul>
+<p><strong>他のプレイヤーに見える情報。</strong> 対戦相手には、自動生成されたニックネーム、ニックネームに応じた色合いの描かれた頭、そしてお客様のポイントが表示されます。ランキングには、上位 50 名のプレイヤーとお客様自身の順位が、ニックネーム、描かれた頭、ポイント、勝ち数、負け数とともに表示されます。お客様のプロフィール(ニックネーム、ポイント、勝ち数、負け数)は、ゲームのバックエンドのインターフェースを通じて、お客様ご本人と対戦相手(マッチングされたプレイヤー)だけが読み取ることができます。それ以外の方には上記のランキングを通じてのみ表示され、アカウントの作成日時は他の誰にも読み取れません。自撮り写真と設定が他のプレイヤーに送信されることはありません。本アプリにはチャットがなく、入力した内容が他のプレイヤーに送られることもありません。</p>
+<p><strong>ランク戦と公正なプレイ。</strong> ランキングの公正さを保つため、結果をレーティングに反映するかどうかはサーバーが判断します。判断には、アカウントの経過期間、アカウントが何人の異なる対戦相手と何試合を終えたか、同じ 2 つのアカウントが過去 24 時間に何回対戦したか、勝者が過去 24 時間に獲得したポイント数が使われます。ボットとの対戦とフレンドルームでは、ポイントは変動しません。</p>
+<p><strong>IP アドレス。</strong> ほかのオンラインサービスと同様に、本アプリが接続すると Supabase にお客様の IP アドレスが見えます。Supabase Auth はこれを使って、1 つの接続から作成できるゲストアカウントの数を制限しています(1 時間に 10 件)。当方がこれを自社のゲーム用テーブルにコピーすることはありません。Supabase は、自社のプライバシーポリシーに従って標準的な技術ログを保持する場合があります。</p>
+<p><strong>保存期間：</strong></p>
+<ul>
+<li>アカウント、ニックネーム、ポイント、勝ち数と負け数、同期される設定、対戦記録は、お客様がアカウントを削除するまでサーバーに保存されます。365日間使われなかったアカウント（オンライン対戦も練習もなし）は、お客様ご自身が削除した場合と同じ方法で自動的に削除されます。このため、最後にオンライン対戦または練習をした日付を保存します。</li>
+<li>誤ったルームコードの記録：1 時間。</li>
+<li>誰も参加しないフレンドルームは 15 分後に、応答が途絶えた iPhone のクイックマッチの待機は 30 秒後に、両プレイヤーが離れた対戦は最後のラウンドの数分後に、それぞれ取り消されます。ラウンドが 1 回も行われなかった取り消し済みの対戦は取り消しの 1 時間後に削除され、1 ラウンド以上行われた取り消し済みの対戦の記録は、アカウントが削除されるまでアカウントとともに残ります。</li>
+<li>ボットとの対戦（練習、またはボット戦に切り替わったクイックマッチ）：終了の 30 日後に削除されます。</li>
+<li>ランキング対象の結果（2 つのアカウント ID、移動したポイント、時刻）は、上記の公平性の制限を働かせるために 48 時間保存され、その後削除されます。勝者のアカウントとともに消えます。敗者がアカウントを削除した場合は、敗者の ID なしでその 48 時間だけ残ります。</li>
+<li>IP アドレスを含む Supabase Auth のアクティビティログ：最長 30 日間保存されます。</li>
+</ul>
+<p><strong>削除について。</strong> 本アプリで、設定 → アカウントとオンライン → アカウントを削除 の順に進みます。これにより、ゲストアカウント、ニックネーム、ポイント、勝ち数と負け数、同期される設定、そしてお客様が参加したすべての対戦記録(手を含む)が直ちに削除されます。その時点で対戦中の場合は、先にその対戦が終了されます(退出はお客様の負けとして扱われます)。対戦記録は両プレイヤーに属するため、以前の対戦相手の履歴からも消えます。ただし、相手が獲得または失ったポイントは相手の合計に残ります。削除後、本アプリは新しいニックネームを持つ、空の新しいゲストアカウントを開始します。このウェブサイトのアカウント削除ページでも同じ手順を説明しています。お使いの iPhone 上の自撮り写真と設定は当方のサーバーにはないため、本アプリ(写真を削除)で、または本アプリを削除することで消去されます。</p>
+<h2>3. 権限</h2>
+<ul>
+<li><strong>カメラ</strong>：キャラクター用の自撮りを撮影するためだけに使用し、「自撮り」をタップしたときにのみ使用します。</li>
+<li><strong>写真 / アルバム</strong>：キャラクター用の写真を選ぶためだけに使用し、「アルバム」をタップしたときにのみ使用します。本アプリが受け取るのは、お客様が選んだ写真だけです。</li>
+<li><strong>トラッキング(App Tracking Transparency)</strong>：Google AdMob が、より関連性の高い広告を表示するために、お使いの端末の広告用識別子(IDFA)を使用してよいかを確認します。許可してもしなくても、本アプリの動作は変わりません。</li>
+</ul>
+<p>本アプリは、位置情報、連絡先、マイク、モーションデータを使用しません。これらの権限は、iPhone の設定でいつでも取り消すことができます。</p>
+<h2>4. 広告(Google AdMob)</h2>
+<p>Premium をご利用でない場合、本アプリは、試合後の結果画面にバナー広告を表示し、結果画面から戻るときに全画面広告を表示します。全画面広告は、終了した試合 3 回につき最大 1 回、かつ前回から少なくとも 3 分以上空けて表示されます。ラウンド中に広告が表示されることはありません。広告は Google AdMob(Google Ireland Limited / Google LLC)により提供されます。当方のサーバーから Google に送信する情報はありません。</p>
+<p>広告の配信、測定、不正の防止のため、Google の SDK は次の情報を収集することがあります：</p>
+<ul>
+<li>デバイス識別子：広告 ID(iOS では IDFA。トラッキングを許可した場合);</li>
+<li>IP アドレスと、それに基づくおおよその位置情報;</li>
+<li>デバイスとアプリの情報(機種、オペレーティングシステム、言語、アプリのバージョン);</li>
+<li>広告とのやり取り(どの広告が表示またはタップされたか);</li>
+<li>広告に関する診断データとパフォーマンスデータ。</li>
+</ul>
+<p>お客様の選択に応じて、Google はこれらのデータをパーソナライズ広告の表示に利用することがあります。この処理の一部について、Google は独立した管理者として行動します。詳細は次をご覧ください：</p>
+<ul>
+<li>Google のサービスを使用するアプリからの情報を Google がどのように使用するか：https://policies.google.com/technologies/partner-sites</li>
+<li>Google プライバシーポリシー：https://policies.google.com/privacy</li>
+</ul>
+<p><strong>確認されるタイミング。</strong> 初回起動時ではありません。最初の試合を終えてメイン画面に戻った後に確認が表示され、試合中や結果画面の上に表示されることはありません。2 回目以降の起動では、広告がすぐに開始されます。Premium をご利用の場合、本アプリが確認を行うことも、広告 SDK を起動することも一切ありません。</p>
+<ul>
+<li><strong>EEA、英国、スイス(およびその他、必要とされる地域)：</strong>Google の User Messaging Platform による同意フォームで、パーソナライズ広告および関連するデータ処理に同意するかどうかを確認します。同意しない場合でも、パーソナライズされていない広告や制限付きの広告が表示されることがあります。</li>
+<li><strong>iPhone：</strong>同意の手順の後、広告が許可されている場合は、本アプリがお客様をトラッキングしてよいかを iOS が確認します。「Appにトラッキングしないように要求」を選択すると、IDFA は共有されません。</li>
+</ul>
+<p><strong>選択の変更方法。</strong></p>
+<ul>
+<li><strong>同意フォーム：</strong>本アプリで、設定 → プライバシーと広告の同意 に進みます(同意に関するルールが適用される地域で、Premium をご利用でない場合に表示されます)。本アプリを削除して再インストールしても、フォームが再び表示されます。</li>
+<li><strong>iPhone のトラッキング：</strong>設定 → プライバシーとセキュリティ → トラッキング。</li>
+<li><strong>広告を完全に止める：</strong>Premium を購入してください。Premium が有効な間、本アプリは広告を読み込まず、同意やトラッキングの確認も表示せず、広告 SDK も起動しません。</li>
+</ul>
+<h2>5. 購入とサブスクリプション(Apple と RevenueCat)</h2>
+<p>Premium は 3 つの方法で販売されています：週ごとまたは月ごとの自動更新サブスクリプション、または 1 回限りの買い切りです。Premium は広告を非表示にするだけで、試合やランキングで有利になることはありません。支払い、更新、解約は Apple が処理します。当方は、購入とサブスクリプションの状態の確認、および別の端末での復元のために、RevenueCat(RevenueCat, Inc.)を利用しています。</p>
+<ul>
+<li>支払いは Apple が処理します。当方と RevenueCat が、お客様のカード情報や支払い情報、氏名、メールアドレスを見ることはありません。</li>
+<li>RevenueCat は次の情報を受け取ります：RevenueCat が作成する匿名のアプリユーザー ID(お客様の氏名、メールアドレス、当方のゲームバックエンドのアカウント ID とは紐づいていません)、購入およびサブスクリプションの情報(商品、価格、通貨、ストア、日付、更新と有効期限の状態、取引識別子、レシート)、基本的なデバイス情報(オペレーティングシステム、アプリのバージョン、ストアの国または地域、IP アドレス)。</li>
+<li>これらは、Premium の有効化、その状態(更新、期限切れ、請求の問題)の最新化、および復元のためだけに使用されます。</li>
+</ul>
+<p>RevenueCat プライバシーポリシー：https://www.revenuecat.com/privacy</p>
+<h2>6. クラッシュデータと利用状況データ</h2>
+<p>当方は、独自の解析、クラッシュレポート、その他のトラッキングツールを使用していません。お使いの iPhone の設定(プライバシーとセキュリティ → 解析と改善 → App 開発者と共有)で許可している場合、Apple が App Store Connect を通じて、匿名のクラッシュレポートと利用状況レポートを当方に提供することがあります。広告 SDK は、第 4 項に記載のとおり、広告に関する診断データを収集することがあります。</p>
+<h2>7. 当方が行わないこと</h2>
+<ul>
+<li>氏名、メールアドレス、電話番号をお尋ねしません。</li>
+<li>自撮り写真や入力した内容をアップロードしません。チャットもありません。</li>
+<li>お客様のデータを販売せず、当方のバックエンドのデータを広告主と共有しません。</li>
+<li>Premium のプレイヤーには広告を表示せず、広告の同意やトラッキングについて尋ねることもありません。</li>
+</ul>
+<h2>8. 法的根拠(EEA / 英国のユーザー)</h2>
+<ul>
+<li>ゲストアカウント、オンライン対戦、ランキング、設定の同期：オンラインで遊ぶ際にお客様が求めるサービスの提供(GDPR 第 6 条 1 項(b))、ならびに公正なランキングとサービスを不正利用から守ることについての当方の正当な利益(第 6 条 1 項(f))。これにはサインインの制限とランク戦の結果の確認が含まれます。</li>
+<li>パーソナライズ広告とデバイス識別子へのアクセス：お客様の同意(第 6 条 1 項(a))。上記のとおり、同意はいつでも撤回できます。</li>
+<li>パーソナライズされていない広告と不正の防止：無料アプリの運営資金を確保するという当方の正当な利益(第 6 条 1 項(f))。</li>
+<li>購入とサブスクリプションの検証：Premium を購入した際にお客様が締結した契約の履行(第 6 条 1 項(b))。</li>
+</ul>
+<p>Supabase、Google、RevenueCat は、それぞれのポリシーに記載された保護措置(標準契約条項や EU–米国データプライバシーフレームワークなど)のもとで、米国を含む、お客様の国の外でデータを処理することがあります。</p>
+<h2>9. 保存期間</h2>
+<p>お使いの iPhone 上のデータは、お客様が削除するか本アプリを削除するまで残ります。当方のバックエンド上のデータは、第 2 項に記載のとおり保存されます。Google と RevenueCat は、それぞれのポリシーに記載された期間データを保存します。購入記録は、購入の復元および法的義務の履行に必要な期間保存されることがあります。</p>
+<h2>10. お客様の権利</h2>
+<p>お住まいの地域によっては(たとえば GDPR、英国 GDPR、トルコの KVKK、カリフォルニア州法に基づき)、お客様には、個人データへのアクセス、訂正、削除、処理への異議申し立て、同意の撤回、およびデータ保護当局への苦情申し立ての権利がある場合があります(トルコでは個人データ保護機関 KVKK)。アカウントは本アプリ内でご自身で削除できます(設定 → アカウントとオンライン → アカウントを削除)。ゲストアカウントは匿名のため、当方がアカウントを特定できるのはお使いの iPhone 上の本アプリからのみです。その他のご依頼は <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a> までご連絡ください。広告に関するご依頼は、Google に直接お問い合わせいただくのが最も確実です(<a href="https://myadcenter.google.com">https://myadcenter.google.com</a>)。当方は、お客様の匿名 ID に紐づく購入データの削除を RevenueCat に依頼することができます。</p>
+<h2>11. お子様について</h2>
+<p>本アプリは一般向けのゲームであり、13 歳未満(またはお住まいの国の最低年齢未満)のお子様を対象としていません。「キッズ」カテゴリ(Kids Category)には含まれていません。本アプリにはチャット、ユーザー作成コンテンツ、プレイヤー同士が連絡を取る手段がなく、氏名、メールアドレス、電話番号も求めません。当方は、13 歳未満のお子様の個人データを意図的に収集することはありません。お子様が本アプリを使用してデータが収集されたとお考えの場合は、ademkinatas@gmail.com までご連絡ください。削除に向けて対応します。</p>
+<h2>12. 変更</h2>
+<p>本ポリシーを変更する場合は、冒頭の日付を更新し、同じアドレスで新しいバージョンを公開します。重要な変更は、本アプリのリリースノートでもお知らせします。</p>
+<h2>13. お問い合わせ</h2>
+<p>Adem Kınataş&lt;br&gt;ademkinatas@gmail.com</p>
+</article>
 </main>
-<footer>© 2026 Adem Kınataş · じゃんけんビンタ · <a href="mailto:ademkinatas@gmail.com">ademkinatas@gmail.com</a></footer>
+<footer>
+<nav><a href="/tas-kagit-makas/ja/support/">ヘルプとサポート</a><a href="/tas-kagit-makas/ja/privacy/" aria-current="page">プライバシーポリシー</a><a href="/tas-kagit-makas/ja/terms/">利用規約</a><a href="/tas-kagit-makas/ja/delete-account/">アカウントの削除</a></nav>
+<nav aria-label="言語"><a href="/tas-kagit-makas/tr/privacy/" hreflang="tr" lang="tr">Türkçe</a><a href="/tas-kagit-makas/en/privacy/" hreflang="en" lang="en">English</a><a href="/tas-kagit-makas/de/privacy/" hreflang="de" lang="de">Deutsch</a><a href="/tas-kagit-makas/es/privacy/" hreflang="es" lang="es">Español</a><a href="/tas-kagit-makas/fr/privacy/" hreflang="fr" lang="fr">Français</a><a href="/tas-kagit-makas/it/privacy/" hreflang="it" lang="it">Italiano</a><a href="/tas-kagit-makas/pt/privacy/" hreflang="pt-BR" lang="pt-BR">Português</a><a href="/tas-kagit-makas/ru/privacy/" hreflang="ru" lang="ru">Русский</a><a href="/tas-kagit-makas/zh/privacy/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="/tas-kagit-makas/ja/privacy/" hreflang="ja" lang="ja" aria-current="page">日本語</a><a href="/tas-kagit-makas/ko/privacy/" hreflang="ko" lang="ko">한국어</a><a href="/tas-kagit-makas/id/privacy/" hreflang="id" lang="id">Bahasa Indonesia</a><a href="/tas-kagit-makas/hi/privacy/" hreflang="hi" lang="hi">हिन्दी</a><a href="/tas-kagit-makas/ar/privacy/" hreflang="ar" lang="ar">العربية</a><a href="/tas-kagit-makas/pl/privacy/" hreflang="pl" lang="pl">Polski</a><a href="/tas-kagit-makas/nl/privacy/" hreflang="nl" lang="nl">Nederlands</a><a href="/tas-kagit-makas/vi/privacy/" hreflang="vi" lang="vi">Tiếng Việt</a><a href="/tas-kagit-makas/th/privacy/" hreflang="th" lang="th">ไทย</a></nav>
+<p>© 2026 Adem Kınataş</p>
+</footer>
 </div>
 </body>
 </html>

@@ -1,8 +1,18 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rock Paper Slap</title><link rel="icon" href="/tas-kagit-makas/icon.png">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rock Paper Slap</title>
+<link rel="icon" href="/tas-kagit-makas/assets/icon.png">
+<link rel="stylesheet" href="/tas-kagit-makas/assets/style.css">
 <script>
-var L=["tr","en","de","es","fr","it","pt","ru","zh","ja"],n=(navigator.languages||[navigator.language||'en']);
-for(var i=0;i<n.length;i++){var c=String(n[i]).slice(0,2).toLowerCase();if(L.indexOf(c)>=0){location.replace('/tas-kagit-makas/'+c+'/');break;}}
+(function(){var m={"tr":"tr","en":"en","de":"de","es":"es","fr":"fr","it":"it","pt-br":"pt","ru":"ru","zh-hans":"zh","ja":"ja","ko":"ko","id":"id","hi":"hi","ar":"ar","pl":"pl","nl":"nl","vi":"vi","th":"th"},l=(navigator.languages||[navigator.language||'en']);
+for(var i=0;i<l.length;i++){var c=String(l[i]).toLowerCase(),p=c.split('-')[0];
+var d=m[c]||(p==='zh'?'zh':p==='pt'?'pt':m[p]);if(d){location.replace('/tas-kagit-makas/'+d+'/');return}}
+location.replace('/tas-kagit-makas/en/')})();
 </script>
-<style>body{margin:0;background:#FFD84D;color:#1D1A2F;font:600 18px/1.6 system-ui,sans-serif;padding:32px 16px}a{color:#1D1A2F}</style></head>
-<body><h1>Rock Paper Slap</h1><ul><li><a href="/tas-kagit-makas/tr/">Türkçe</a></li><li><a href="/tas-kagit-makas/en/">English</a></li><li><a href="/tas-kagit-makas/de/">Deutsch</a></li><li><a href="/tas-kagit-makas/es/">Español</a></li><li><a href="/tas-kagit-makas/fr/">Français</a></li><li><a href="/tas-kagit-makas/it/">Italiano</a></li><li><a href="/tas-kagit-makas/pt/">Português</a></li><li><a href="/tas-kagit-makas/ru/">Русский</a></li><li><a href="/tas-kagit-makas/zh/">简体中文</a></li><li><a href="/tas-kagit-makas/ja/">日本語</a></li></ul></body></html>
+</head>
+<body><div class="wrap"><header><img src="/tas-kagit-makas/assets/icon.png" alt=""><span class="brand">Rock Paper Slap</span></header>
+<main class="card"><ul class="links"><li><a href="/tas-kagit-makas/tr/" lang="tr">Türkçe</a></li><li><a href="/tas-kagit-makas/en/" lang="en">English</a></li><li><a href="/tas-kagit-makas/de/" lang="de">Deutsch</a></li><li><a href="/tas-kagit-makas/es/" lang="es">Español</a></li><li><a href="/tas-kagit-makas/fr/" lang="fr">Français</a></li><li><a href="/tas-kagit-makas/it/" lang="it">Italiano</a></li><li><a href="/tas-kagit-makas/pt/" lang="pt-BR">Português</a></li><li><a href="/tas-kagit-makas/ru/" lang="ru">Русский</a></li><li><a href="/tas-kagit-makas/zh/" lang="zh-Hans">简体中文</a></li><li><a href="/tas-kagit-makas/ja/" lang="ja">日本語</a></li><li><a href="/tas-kagit-makas/ko/" lang="ko">한국어</a></li><li><a href="/tas-kagit-makas/id/" lang="id">Bahasa Indonesia</a></li><li><a href="/tas-kagit-makas/hi/" lang="hi">हिन्दी</a></li><li><a href="/tas-kagit-makas/ar/" lang="ar">العربية</a></li><li><a href="/tas-kagit-makas/pl/" lang="pl">Polski</a></li><li><a href="/tas-kagit-makas/nl/" lang="nl">Nederlands</a></li><li><a href="/tas-kagit-makas/vi/" lang="vi">Tiếng Việt</a></li><li><a href="/tas-kagit-makas/th/" lang="th">ไทย</a></li></ul></main></div></body>
+</html>
