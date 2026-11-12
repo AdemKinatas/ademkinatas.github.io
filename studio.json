@@ -7,59 +7,101 @@
     {
       "slug": "bzzt",
       "name": "Bzzt!",
-      "tagline": { "tr": "Yasaklı kelimeler parti oyunu", "en": "The forbidden words party game" },
+      "tagline": {
+        "tr": "Yasaklı kelimeler parti oyunu",
+        "en": "The forbidden words party game"
+      },
       "project": "bzzt",
       "build": "node docs/bzzt-src/build.mjs",
       "out": "docs/bzzt",
-      "links": { "privacy": "privacy/", "support": "support/", "terms": "terms/" }
+      "links": {
+        "privacy": "privacy/",
+        "support": "support/",
+        "terms": "terms/"
+      }
     },
     {
       "slug": "mythmate",
       "name": "Mythmate",
-      "tagline": { "tr": "Tanrılar satrancı", "en": "Mythology chess" },
+      "tagline": {
+        "tr": "Tanrılar satrancı",
+        "en": "Mythology chess"
+      },
       "project": "Mitolojik-Satranc",
       "build": "python3 site/build.py",
       "out": "site/public",
       "domain": "ucalem.com",
-      "links": { "privacy": "privacy.html", "support": "support.html", "terms": "terms.html" }
+      "links": {
+        "privacy": "privacy.html",
+        "support": "support.html",
+        "terms": "terms.html"
+      }
     },
     {
       "slug": "tas-kagit-makas",
       "name": "Taş Kağıt Tokat",
-      "tagline": { "tr": "Taş, kağıt, tokat!", "en": "Rock, paper, slap!" },
+      "tagline": {
+        "tr": "Taş, kağıt, tokat!",
+        "en": "Rock, paper, slap!"
+      },
       "project": "tas-kagit-makas",
       "build": "node site/build.mjs",
       "out": "site/dist",
-      "domain": "playtakama.com",
-      "links": { "privacy": "privacy/", "support": "support/", "deleteAccount": "delete-account/" }
+      "links": {
+        "privacy": "privacy/",
+        "support": "support/",
+        "terms": "terms/",
+        "deleteAccount": "delete-account/"
+      }
     },
     {
       "slug": "zar-atma",
       "name": "Zar Atma",
-      "tagline": { "tr": "Zar atma", "en": "Dice roller" },
+      "tagline": {
+        "tr": "Zar atma",
+        "en": "Dice roller"
+      },
       "project": "zar-atma",
       "build": "node site/build.mjs",
       "out": "site/dist",
-      "links": { "privacy": "privacy/", "support": "", "terms": "terms/" }
+      "links": {
+        "privacy": "privacy/",
+        "support": "",
+        "terms": "terms/"
+      }
     },
     {
       "slug": "doodle-knockout",
       "name": "Doodle KO",
-      "tagline": { "tr": "Dövüş oyunu", "en": "Fighting game" },
+      "tagline": {
+        "tr": "Dövüş oyunu",
+        "en": "Fighting game"
+      },
       "project": "cop-adam-fight",
       "build": "node tools/site/build.mjs",
       "out": "site/dist",
       "domain": "dayakdefteri.com",
-      "links": { "privacy": "en/privacy/", "support": "en/support/", "deleteAccount": "en/delete-account/" }
+      "links": {
+        "privacy": "en/privacy/",
+        "support": "en/support/",
+        "deleteAccount": "en/delete-account/"
+      }
     },
     {
       "slug": "sabaha-kim-kalir",
       "name": "Sabaha Kim Kalır?",
-      "tagline": { "tr": "Vampir köylü", "en": "Mafia & werewolf with vampires" },
+      "tagline": {
+        "tr": "Vampir köylü",
+        "en": "Mafia & werewolf with vampires"
+      },
       "project": "Vampir-Koylu",
       "legalModule": "client/src/lib/legal.ts",
       "domain": "gecebaskisi.app",
-      "links": { "privacy": "privacy/", "support": "", "terms": "terms/" }
+      "links": {
+        "privacy": "privacy/",
+        "support": "",
+        "terms": "terms/"
+      }
     }
   ]
 }
