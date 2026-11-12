@@ -8,7 +8,7 @@ Mobil oyunların ortak, ücretsiz sayfaları: gizlilik politikası, kullanım ş
 | Mythmate | `/mythmate/` | `Mitolojik-Satranc/site` |
 | Taş Kağıt Tokat | `/tas-kagit-makas/` | `tas-kagit-makas/site` |
 | Zar Atma | `/zar-atma/` | `zar-atma/site` |
-| Doodle KO | `/doodle-knockout/` | `cop-adam-fight/tools/site` |
+| Doodle KO | `/doodle-knockout/` | `doodle-knockout/tools/site` |
 | Sabaha Kim Kalır? | `/sabaha-kim-kalir/` | `Vampir-Koylu/client/src/lib/legal.ts` |
 
 ## Nasıl çalışır

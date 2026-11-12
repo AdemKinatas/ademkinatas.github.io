@@ -77,7 +77,7 @@
         "tr": "Dövüş oyunu",
         "en": "Fighting game"
       },
-      "project": "cop-adam-fight",
+      "project": "doodle-knockout",
       "build": "node tools/site/build.mjs",
       "out": "site/dist",
       "domain": "dayakdefteri.com",
