@@ -78,12 +78,13 @@
         "en": "Fighting game"
       },
       "project": "doodle-knockout",
-      "build": "node tools/site/build.mjs",
+      "build": "node site/build.mjs",
       "out": "site/dist",
       "links": {
-        "privacy": "en/privacy/",
-        "support": "en/support/",
-        "deleteAccount": "en/delete-account/"
+        "privacy": "privacy/",
+        "support": "support/",
+        "terms": "terms/",
+        "deleteAccount": "delete-account/"
       }
     },
     {
