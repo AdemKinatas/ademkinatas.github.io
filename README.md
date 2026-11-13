@@ -9,7 +9,7 @@ Mobil oyunların ortak, ücretsiz sayfaları: gizlilik politikası, kullanım ş
 | Taş Kağıt Tokat | `/tas-kagit-makas/` | `tas-kagit-makas/site` |
 | Zar Atma | `/zar-atma/` | `zar-atma/site` |
 | Doodle KO | `/doodle-knockout/` | `doodle-knockout/tools/site` |
-| Sabaha Kim Kalır? | `/sabaha-kim-kalir/` | `Vampir-Koylu/client/src/lib/legal.ts` |
+| Sabaha Kim Kalır? | `/sabaha-kim-kalir/` | `sabaha-kim-kalir/client/src/lib/legal.ts` |
 
 ## Nasıl çalışır
 

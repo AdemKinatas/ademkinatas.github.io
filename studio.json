@@ -94,7 +94,7 @@
         "tr": "Vampir köylü",
         "en": "Mafia & werewolf with vampires"
       },
-      "project": "Vampir-Koylu",
+      "project": "sabaha-kim-kalir",
       "legalModule": "client/src/lib/legal.ts",
       "domain": "gecebaskisi.app",
       "links": {
