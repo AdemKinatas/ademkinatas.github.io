@@ -25,7 +25,34 @@ const TYPES = {
 const MOVED =
   '<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n';
 
+// Free Supabase projects pause after 7 days without API activity, which would take a game's online
+// play down in a quiet week. The daily cron (wrangler.toml [triggers]) calls one cheap public RPC per
+// project with its publishable key (a public value, the same one the app ships). Add Mythmate here
+// when its production project exists.
+const KEEP_ALIVE = [
+  {
+    name: 'tas-kagit-makas',
+    url: 'https://odaggchmrodysdybxall.supabase.co/rest/v1/rpc/app_config',
+    key: 'sb_publishable_ZjAUXxYVtij5gibqCKHDHA_duXIRxT7',
+  },
+];
+
 export default {
+  async scheduled(_event, _env, ctx) {
+    ctx.waitUntil(
+      Promise.all(
+        KEEP_ALIVE.map(async ({ name, url, key }) => {
+          const res = await fetch(url, {
+            method: 'POST',
+            headers: { apikey: key, 'Content-Type': 'application/json' },
+            body: '{}',
+          });
+          if (!res.ok) console.error(`keep-alive ${name}: ${res.status}`);
+        }),
+      ),
+    );
+  },
+
   async fetch(request, env) {
     if (request.method !== 'GET' && request.method !== 'HEAD') {
       return new Response('Method not allowed', { status: 405, headers: { Allow: 'GET, HEAD' } });
