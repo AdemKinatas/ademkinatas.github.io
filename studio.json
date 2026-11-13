@@ -95,12 +95,13 @@
         "en": "Mafia & werewolf with vampires"
       },
       "project": "sabaha-kim-kalir",
-      "legalModule": "client/src/lib/legal.ts",
-      "domain": "gecebaskisi.app",
+      "build": "node site/build.mjs",
+      "out": "site/dist",
       "links": {
         "privacy": "privacy/",
-        "support": "",
-        "terms": "terms/"
+        "support": "support/",
+        "terms": "terms/",
+        "deleteAccount": "delete-account/"
       }
     }
   ]
